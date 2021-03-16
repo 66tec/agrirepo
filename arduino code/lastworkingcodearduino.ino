@@ -1,12 +1,7 @@
-/* Arduino example code for DHT11, DHT22/AM2302 and DHT21/AM2301 temperature and humidity sensors. More info: www.makerguides.com */
-/* WEBSITE : https://www.electronicwings.com/arduino/soil-moisture-sensor-interfacing-with-arduino-uno */
-// Include the libraries:
-
 #include "Arduino.h"
 #include "Pump.h"
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
-
 // Set DHT pin:
 #define DHTPIN 3
 
@@ -70,7 +65,7 @@ void loop() {
 
 
 
-//////////////ldr
+//////////////light intensity module code
 unsigned int AnalogValue;
 
 AnalogValue = analogRead(24);
@@ -92,7 +87,7 @@ Serial.println(AnalogValue);
 
 ///////////////////////////////////////////////
  
-  //hum
+  //humidity temperature code
  
   // Wait a few seconds between measurements:
   delay(500);
