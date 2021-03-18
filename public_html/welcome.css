@@ -1,0 +1,20 @@
+.navbar2{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+
+.ari1{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+margin-top: 50px ;
+    text-shadow: 5px 5px 8px grey ;
+
+}
+
+.container1 {
+    margin: auto;
+    /* width: 35%; */
+    padding: 5px;
+    text-align: center !important;
+}

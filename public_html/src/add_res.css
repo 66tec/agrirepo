@@ -1,0 +1,59 @@
+:root {
+    background: #314755;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #01168d, #ffe600);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #01168d, #ffe600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+    background: white;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 6px;
+    display: block;
+    color: #26a0da;
+}
+
+button {
+    background: #26a0da;
+    width: 20%;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}

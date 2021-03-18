@@ -1,0 +1,166 @@
+.navbar2{
+        background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-weight: bold;
+}
+.dropdown-menu{
+    background-color: whitesmoke !important;
+
+    
+
+}
+/* .dropdown-item{
+    color: #fff !important;
+    font-weight: bold;
+} */
+.a{
+    font-weight: bold;
+    color: #fff;
+}
+
+.fa-cart-plus{
+font-size: 25px !important;
+}
+
+.fa-truck{
+    /* color:#fff; */
+    font-size: 25px !important;
+    margin-right: 8px;
+    
+}
+.fa-headphones{
+/* color:#fff; */
+font-size: 25px !important;
+margin-right: 8px;
+}
+
+.fa-thumbs-up{
+/* color:#fff; */
+font-size: 25px !important;
+margin-right: 8px;
+}
+.card1{
+    display: flex !important;
+    margin: 10px;
+    background-image: url(./images/invest.jpg);
+    /* background-color: #d32f2f; */
+    box-shadow: 2px 4px 20px grey; 
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 170px;
+    /* color: white; */
+    
+}
+.card2{
+    display: flex !important;
+    margin: 10px;
+    background-image: url(./images/invest.jpg);
+    /* background-color: #d32f2f; */
+    box-shadow: 2px 4px 20px grey; 
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 170px;
+    /* color: white; */
+    
+}
+.card3{
+    display: flex !important;
+    margin: 10px;
+    background-image: url(./images/invest.jpg);
+    /* background-color: #d32f2f; */
+    box-shadow: 2px 4px 20px grey; 
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 170px;
+    color: white;
+    /* text-decoration: none !important; */
+    /* text-decoration: black !important; */
+
+    
+}
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.753) !important;
+    
+  }
+  /* a:hover{
+  background-color: rgba(0, 0, 0, 0.753) !important;
+
+  } */
+
+.maincard{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* text-decoration: none !important; */
+    
+}
+@media screen and (max-width: 655px) {
+    .card1,.card2,.card3 {
+width: 100%;
+    }
+  }
+  .btn-primary{
+      width: 100%;
+      background-color: #d32f2f !important;
+  }
+  .card-text{
+      font-weight: bold;
+  }
+.newArrivals{
+margin-top: 30px ;
+/* border: 5px solid #d32f2f; */
+
+
+
+  }
+  .card-img-top{
+      height: auto !important;
+      margin-top: 20px;
+  }
+  .ari{
+      text-align: center;
+      margin-bottom: 30px;
+margin-top: 50px ;
+      text-shadow: 5px 5px 8px grey ;
+      color: whitesmoke;
+  }
+  .footer{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+      height: auto;
+      color: #fff;
+      text-align: center;
+  }
+  .container1 {
+    margin: auto;
+    /* width: 35%; */
+    padding: 10px;
+    text-align: center !important;
+
+  }
+  .buttons{
+    text-align: center !important;
+    
+  }
+.signup_contain{
+      padding: 10px;
+      text-align: center !important;
+
+  
+}
+.aaa{
+     background-image: url(./images/signup.png); 
+    background-size: cover; 
+}
+.login{
+    margin-left: 10%;
+    
+}

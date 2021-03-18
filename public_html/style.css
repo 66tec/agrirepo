@@ -1,0 +1,65 @@
+.navbar1{
+    background-color: rgba(0, 0, 0, 0.753) !important;
+}
+
+.nav-link{
+    /* color: #fff !important; */
+    font-weight: bold;
+}
+
+/* .dropdown-item{
+    color: #fff !important;
+    font-weight: bold;
+} */
+.a{
+    font-weight: bold;
+    /* color: #fff; */
+}
+
+.fa-cart-plus{
+font-size: 25px !important;
+}
+
+.fa-truck,.fa-headphones,.fa-thumbs-up{
+    /* color:#fff; */
+    font-size: 25px !important;
+    margin-right: 8px;
+}
+  .ari{
+      text-align: center;
+      margin-bottom: 30px;
+margin-top: 50px ;
+      text-shadow: 5px 5px 8px grey ;
+ 
+  }
+  .footer{
+    background-color: rgba(0, 0, 0, 0.753) !important;
+      height: auto;
+      color: #fff;
+      text-align: center;
+  }
+  .container1 {
+    margin: auto;
+    /* width: 35%; */
+    padding: 10px;
+    text-align: center !important;
+
+  }
+  .buttons{
+    text-align: center !important;
+    
+  }
+.signup_contain{
+      padding: 10px;
+      text-align: center !important;
+
+  
+}
+.aaa{
+     background-image: url(./images/signup.png); 
+    background-size: cover; 
+}
+.login{
+    margin-left: 10%;
+    
+}
