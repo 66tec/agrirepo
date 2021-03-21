@@ -9,18 +9,19 @@ $filepath = realpath (dirname(__FILE__));
 require_once($filepath."/db_connect.php");
  // Connecting to database 
 $db = new DB_CONNECT();	
+$con = $db->connect();
  
  // Fire SQL query to get all data from weather
-$result = mysql_query("SELECT *FROM weather") or die(mysql_error());
+$result = mysqli_query($con,"SELECT *FROM weather") or die(mysqli_connect_error());
  
 // Check for succesfull execution of query and no results found
-if (mysql_num_rows($result) > 0) {
+if (mysqli_num_rows($result) > 0) {
     
 	// Storing the returned array in response
     $response["weather"] = array();
  
 	// While loop to store all the returned response in variable
-    while ($row = mysql_fetch_array($result)) {
+    while ($row = mysqli_fetch_array($result)) {
         // temperoary user array
         $weather = array();
         $weather["id"] = $row["id"];

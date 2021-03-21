@@ -100,7 +100,7 @@
             loaddata();
         };
 		function loaddata(){
-				var url = "https://monker.000webhostapp.com/api/weather/read_all.php";
+				var url = "https://portal.agritech.gq/read_all.php";
 				$.getJSON(url, function(data) {
                     var val= data;
                   var humid=(data['weather'][(Object.keys(data['weather']).length)-1]['hum']);

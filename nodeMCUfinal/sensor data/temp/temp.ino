@@ -2,11 +2,11 @@
 #include "DHT.h"
 
 #define DHTPIN D1
-#define DHTTYPE DHT11 
+#define DHTTYPE DHT22 
  
-const char* ssid     = "wifi username";
-const char* password = "wifi password";
-const char* host = "Your host url";
+const char* ssid     = "Rasheeda-Cottage";
+const char* password = "92466860";
+const char* host = "portal.agritech.gq";
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
@@ -52,7 +52,7 @@ void loop() {
     return;
   }
   
-  String url = "/api/weather/insert.php?temp=" + String(t) + "&hum="+ String(h);
+  String url = "/insert.php?temp=" + String(t) + "&hum="+ String(h);
   Serial.print("Requesting URL: ");
   Serial.println(url);
   
