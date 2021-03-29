@@ -30,6 +30,8 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 //setup public folder
 app.use(express.static('./public'));
+app.use('/fa', express.static(__dirname + '/node_modules/font-awesome/css'));
+app.use('/fonts', express.static(__dirname + '/node_modules/font-awesome/fonts'));
 
 app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
@@ -41,11 +43,21 @@ app.get('/',function (req, res) {
   res.render('pages/index')
 });
 
+app.get('/home',function (req, res) {
+  res.render('pages/index')
+});
+
+
 app.get('/signup',function (req, res) {
   res.render('pages/signup')
 });
 
 app.get('/login',function (req, res) {
+  res.render('pages/login')
+});
+
+app.get('/logout',function (req, res) {
+  req.session.loggedin = false;
   res.render('pages/login')
 });
 
@@ -58,7 +70,7 @@ app.post('/loginauth',function (req, res) {
 				req.session.loggedin = true;
                 req.session.username = username;
                 var username_dash = username;
-				res.render('pages/dashboard',{username_dash:username_dash});
+				res.render('pages/dashboarduser',{username_dash:username_dash});
 			} else {
 				res.send('Incorrect Username and/or Password!');
 			}			
@@ -70,8 +82,12 @@ app.post('/loginauth',function (req, res) {
 	}
 });
 
-app.get('/dashboard',function (req, res) {
-  res.render('pages/dashboard')
+app.get('/dashboarduser',function (req, res) {
+  res.render('pages/dashboarduser')
+});
+
+app.get('/dashboardadmin',function (req, res) {
+  res.render('pages/dashboardadmin')
 });
 
 
