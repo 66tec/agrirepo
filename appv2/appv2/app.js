@@ -39,7 +39,7 @@ app.use(bodyParser.json());
 ///////////////////////////////////
 
 app.get('/',function (req, res) {
-  res.render('pages/index')
+  res.render('pages/dashboard')
 });
 
 app.get('/home',function (req, res) {
