@@ -9,16 +9,16 @@ var bodyParser = require('body-parser');
 const app = express();
 const port = 7000;
 var mysql = require('mysql');
-// var con = mysql.createConnection({
-//   host: "localhost",
-//   user: "tecozk_root",
-//   password: "dbase_fc",
-//   database: "tecozk_agritech2"
-// });
-// con.connect(function(err) {
-//   if (err) throw err;
-// console.log("Connected!");
-// });  
+var con = mysql.createConnection({
+  host: "localhost",
+  user: "tecozk_root",
+  password: "dbase_fc",
+  database: "tecozk_agritech2"
+});
+con.connect(function(err) {
+  if (err) throw err;
+console.log("Connected!");
+});  
 
 app.use(session({
 	secret: 'secret',
@@ -156,81 +156,7 @@ app.post('/loginauth',function (req, res) {
     }
   });
 
-
-
-
-  //   var return_data = {};
-
-//   async.parallel([
-//      function(parallel_done) {
-//          pool.query(query1, {}, function(err, results) {
-//              if (err) return parallel_done(err);
-//              if (username && password) {
-//              if (results.length > 0) {
-//               req.session.loggedin = true;
-//                       req.session.username = username;
-//                      // var username_dash = username;
-//                       var date = new Date().toLocaleString(); // 11/16/2015, 11:18:48 PM
-//               con.query('UPDATE user_login set lastlogin = ? where username = ?',[date,username]);
-//               con.release();
-//               // });
-//             } else {
-//               res.send('Incorrect Username and/or Password!');
-//             }			
-//             res.end();
-        
-//         } else {
-//           res.send('Please enter Username and Password!');
-//           res.end();
-//         }
-//              parallel_done();
-//          });
-//      },
-//      function(parallel_done) {
-//          pool.query(query2, {}, function(err, results) {
-//              if (err) return parallel_done(err);
-//              return_data.table2 = results;
-//              parallel_done();
-//          });
-//      }
-//   ], function(err) {
-//        if (err) console.log(err);
-//        pool.end();
-//        res.render('pages/dashboarduser',{username_dash:username_dash ,stream: res});
-//   });
  
-
-
-
-
-
-
-
-
-
-// 	if (username && password) {
-// 		con.query('SELECT * FROM user_login WHERE username = ? AND password = ?', [username, password], function(error, results, fields) {
-// 			if (results.length > 0) {
-// 				req.session.loggedin = true;
-//                 req.session.username = username;
-//                 var username_dash = username;
-//                 var date = new Date().toLocaleString(); // 11/16/2015, 11:18:48 PM
-//         con.query('UPDATE user_login set lastlogin = ? where username = ?',[date,username]);
-//         //con.query('SELECT * from stream_chamber ORDER BY stream_id DESC WHERE chamberid = 1 LIMIT 5', function (err, rs) {
-//           // con.query('SELECT * from stream_chamber ORDER BY stream_id ', function (err, rs) {
-        
-//           res.render('pages/dashboarduser',{username_dash:username_dash});
-//         // });
-// 			} else {
-// 				res.send('Incorrect Username and/or Password!');
-// 			}			
-// 			res.end();
-// 		});
-// 	} else {
-// 		res.send('Please enter Username and Password!');
-// 		res.end();
-// 	}
-// });
 app.post('/insertuser' , function(req,res,next){
 
       let fname = req.body.fname;
@@ -277,10 +203,47 @@ app.get('/allchambers',function (req, res, next){
   } else {
       res.send('Please login to view this page!');
   }
-  // res.end();
+});
+
+app.get('/currentchambers',function (req, res, next){
+  if (req.session.loggedin) {
+      // res.send('Welcome back, ' + req.session.username + '!');
+       var username_dash = req.session.username;
+      con.query('SELECT * from stream_chamber ORDER BY stream_id DESC LIMIT 10', function (err, rs) {
+          res.render('pages/currentchambers', {username_dash:username_dash,stream: rs });
+      //  res.render('pages/users');
+      });
+  } else {
+      res.send('Please login to view this page!');
+  }
 });
 
 
+app.get('/buychamber',function (req, res, next){
+  if (req.session.loggedin) {
+      // res.send('Welcome back, ' + req.session.username + '!');
+       var username_dash = req.session.username;
+      //con.query('SELECT * from stream_chamber ORDER BY stream_id DESC LIMIT 10', function (err, rs) {
+          res.render('pages/buychamber', {username_dash:username_dash});
+      //});
+  } else {
+      res.send('Please login to view this page!');
+  }
+  // res.end();
+});
+
+app.get('/croptimeline',function (req, res, next){
+  if (req.session.loggedin) {
+      // res.send('Welcome back, ' + req.session.username + '!');
+       var username_dash = req.session.username;
+      //con.query('SELECT * from stream_chamber ORDER BY stream_id DESC LIMIT 10', function (err, rs) {
+          res.render('pages/croptimeline', {username_dash:username_dash });
+      //});
+  } else {
+      res.send('Please login to view this page!');
+  }
+  // res.end();
+});
 
 
 

@@ -14,3 +14,6 @@ frontend side completion 2.2.0
 chamber data v2.2.1
 video live stream v2.3.0
 completion v3.0.0
+**********************************
+changed the structure
+now starting app version 2

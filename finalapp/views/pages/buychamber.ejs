@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboad AGRITECH</title>
+    <title>Buy a chamber</title>
     <!-- Core CSS - Include with every page -->
     <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
@@ -253,113 +253,7 @@
         <!-- end navbar top -->
 
         <!-- navbar side -->
-        <nav class="navbar-default navbar-static-side" role="navigation">
-            <!-- sidebar-collapse -->
-            <div class="sidebar-collapse">
-                <!-- side-menu -->
-                <ul class="nav" id="side-menu">
-                    <li>
-                        <!-- user image section-->
-                        <div class="user-section">
-                            <div class="user-section-inner">
-                                <img src="assets/img/user.jpg" alt="">
-                            </div>
-                            <div class="user-info">
-                                <div><strong><%= username_dash  %></strong></div>
-                                <div class="user-text-online">
-                                    <span class="user-circle-online btn btn-success btn-circle "></span>&nbsp;Online
-                                </div>
-                            </div>
-                        </div>
-                        <!--end user image section-->
-                    </li>
-                    <li class="sidebar-search">
-                        <!-- search section-->
-                        <div class="input-group custom-search-form">
-                            <input type="text" class="form-control" placeholder="Search...">
-                            <span class="input-group-btn">
-                                <button class="btn btn-default" type="button">
-                                    <i class="fa fa-search"></i>
-                                </button>
-                            </span>
-                        </div>
-                        <!--end search section-->
-                    </li>
-                    <li class="selected">
-                        <a href="index.html"><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>Place an order<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li>
-                                <a href="currentchambers">New Chamber</a>
-                            </li>
-                            <li>
-                                <a href="invest">Invest in Precision Farming</a>
-                            </li>
-                            <li>
-                                <a href="automate">Automate Your farm</a>
-                            </li>
-                        </ul>
-                        <!-- second-level-items -->
-                    </li>
-                     <li>
-                        <a href="croptimeline"><i class="fa fa-flask fa-fw"></i>Crop Timeline</a>
-                    </li>
-                    <li>
-                        <a href="livevideostream"><i class="fa fa-table fa-fw"></i>Live Video Stream</a>
-                    </li>
-                    <!-- <li>
-                        <a href="forms.html"><i class="fa fa-edit fa-fw"></i>Forms</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-wrench fa-fw"></i>UI Elements<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li>
-                                <a href="panels-wells.html">Panels and Wells</a>
-                            </li>
-                            <li>
-                                <a href="buttons.html">Buttons</a>
-                            </li> -->
-                            <li>
-                                <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Chamber Stream<span class="fa arrow"></span></a>
-                                <ul class="nav nav-second-level">
-                                    <li>
-                                        <a href="currentchambers">current chambers</a>
-                                    </li>
-                                    <li>
-                                        <a href="allchmbers">All chambers</a>
-                                    </li>
-                                </ul>
-                                <!-- second-level-items -->
-                            </li>
-                            <li>
-                                <a href="activitylog"><i class="fa fa-wrench fa-fw"></i>Activity Log</a>
-                            </li>
-                            <li>
-                                <a href="knowledgebase"><i class="fa fa-edit fa-fw"></i>Knowledge Base</a>
-                            </li>
-                        
-                        <!-- second-level-items -->
-                    
-                    
-                    <li>
-                        <a href="#"><i class="fa fa-files-o fa-fw"></i>Important Links<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li>
-                                <a href="home">Go to Website</a>
-                            </li>
-                            <li>
-                                <a href="logout">Login Page</a>
-                            </li>
-                        </ul>
-                        <!-- second-level-items -->
-                    </li>
-                </ul>
-                <!-- end side-menu -->
-            </div>
-            <!-- end sidebar-collapse -->
-        </nav>
+        <%- include('../templates/leftbar')-%>
         <!-- end navbar side -->
         <!--  page-wrapper -->
         <div id="page-wrapper">
@@ -367,33 +261,11 @@
             <div class="row">
                 <!-- Page Header -->
                 <div class="col-lg-12">
-                    <h1 class="page-header">Dashboard</h1>
+                    <h1 class="page-header">Buy a Chamber</h1>
                 </div>
                 <!--End Page Header -->
             </div>
-            <div class="row">
-                <!--quick info section -->
-                <div class="col-lg-4">
-                    <div class="alert alert-danger text-center">
-                        <i class="fa fa-edit fa-3x"></i>&nbsp; <a href=""><b>Place an Order </b></a> <br> to know more <a href=""> click here</a>  
-
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="alert alert-success text-center">
-                        <i class="fa fa-usd fa-3x"></i>&nbsp;<b><a href=""> Invest in Agritech Precision Farming </a></b> <br> to know more <a href=""> click here</a>  
-
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="alert alert-info text-center">
-                        <i class="fa fa-line-chart fa-3x"></i>&nbsp;<a href=""><b>Automate your Cloud Farm</a></b> <br> to know more <a href=""> click here</a>  
-
-
-                    </div>
-                </div>
-               
-            </div>
+           
             <div class="row">
                 <!-- Welcome -->
                 <div class="col-lg-12">
@@ -415,43 +287,7 @@
 
                         <div class="panel-body">
                             <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered table-hover table-striped">
-                                            <thead>  <h1>chamber  1</h1>
-                                                <tr>
-                                                    <th>Stream#</th>
-                                                    <th>Date</th>
-                                                    <th>Time</th>
-                                                    <th>Temperature</th>
-                                                    <th>Humidity</th>
-                                                    <th>Soil Moisture</th>
-                                                    <th>Light Intensity</th>
-                                                    <th>chamberID</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <% stream.forEach(function(item) { %>
-                                                <tr>
-                                                    <td> <%= item.stream_id%></td>
-                                                    <td> <%= item.date%></td>
-                                                    <td> <%= item.time%></td>
-                                                    <td> <%= item.temperature%></td>
-                                                    <td> <%= item.humidity%></td>
-                                                    <td> <%= item.moisture%></td>
-                                                    <td> <%= item.ldr%></td>
-                                                    <td> <%= item.chamber_id%></td>
-                                                    
-                                                </tr>
-                                                <% }); %>
-                                               
-
-                                            </tbody>
-                                        </table>
-                                    </div>
-
-                                </div>
-
+                                
                             </div>
                             <!-- /.row -->
                         </div>
@@ -460,62 +296,6 @@
                     <!--End simple table example -->
 
                 </div>
-
-                <div class="row">
-                    <div class="col-lg-8">
-    
-    
-    
-                        <!--Area chart example -->
-                       
-    
-                            <div class="panel-body">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="table-responsive">
-                                            <table class="table table-bordered table-hover table-striped">
-                                                <thead> <h1>chamber 2 </h1>
-                                                    <tr>
-                                                        <th>Stream#</th>
-                                                        <th>Date</th>
-                                                        <th>Time</th>
-                                                        <th>Temperature</th>
-                                                        <th>Humidity</th>
-                                                        <th>Soil Moisture</th>
-                                                        <th>Light Intensity</th>
-                                                        <th>chamberID</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <% stream.forEach(function(item) { %>
-                                                    <tr>
-                                                        <td> <%= item.stream_id%></td>
-                                                        <td> <%= item.date%></td>
-                                                        <td> <%= item.time%></td>
-                                                        <td> <%= item.temperature%></td>
-                                                        <td> <%= item.humidity%></td>
-                                                        <td> <%= item.moisture%></td>
-                                                        <td> <%= item.ldr%></td>
-                                                        <td> <%= item.chamber_id%></td>
-                                                        
-                                                    </tr>
-                                                    <% }); %>
-                                                   
-    
-                                                </tbody>
-                                            </table>
-                                        </div>
-    
-                                    </div>
-    
-                                </div>
-                                <!-- /.row -->
-                            </div>
-                            <!-- /.panel-body -->
-                        </div>
-                        <!--End simple table example -->
-    
-                    </div>
                
                     <!--End Chat Panel Example-->
                 
@@ -533,7 +313,7 @@
 				</div>
 				<hr>
 			</div>	
-			<div class="row" >
+			<div class="row">
                 <h4>
 				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white" id="">
 					<p><u><a href="#">Agritech Precision farming company</a></u> is a Registered ISO certified Company</p>
