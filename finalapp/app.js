@@ -7,7 +7,7 @@ var url = require('url');
 var session = require('express-session');
 var bodyParser = require('body-parser');
 const app = express();
-const port = 7000;
+const port = 5000;
 var mysql = require('mysql');
 var con = mysql.createConnection({
   host: "localhost",

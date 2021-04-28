@@ -39,7 +39,7 @@ app.use(bodyParser.json());
 ///////////////////////////////////
 
 app.get('/',function (req, res) {
-  res.render('pages/dashboard')
+  res.render('pages/login')
 });
 
 app.get('/home',function (req, res) {
@@ -185,7 +185,8 @@ app.post('/insertuser' , function(req,res,next){
 });
 
 app.get('/dashboarduser',function (req, res) {
-  res.render('pages/dashboarduser')
+var username_dash = req.session.username;
+  res.render('pages/dashboarduser',{username_dash:username_dash });
 });
 
 app.get('/dashboardadmin',function (req, res) {
