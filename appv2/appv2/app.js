@@ -46,6 +46,10 @@ app.get('/home',function (req, res) {
   res.render('pages/index')
 });
 
+app.get('/newfarm',function (req, res) {
+  var username_dash = req.session.username;
+  res.render('pages/newfarm',{username_dash:username_dash });
+});
 
 app.get('/signup',function (req, res) {
   res.render('pages/signup')
@@ -59,6 +63,79 @@ app.get('/logout',function (req, res) {
   req.session.loggedin = false;
   res.render('pages/login')
 });
+
+
+// app.get('/newzone',function (req, res) {
+//   var username_dash = req.session.username;
+//     res.render('pages/newzone',{username_dash:username_dash });
+//   });
+
+
+app.get('/dashboarduser',function (req, res) {
+var username_dash = req.session.username;
+  res.render('pages/dashboarduser',{username_dash:username_dash });
+});
+
+app.get('/dashboardadmin',function (req, res) {
+  res.render('pages/dashboardadmin')
+});
+
+app.get('/allchambers',function (req, res, next){
+  if (req.session.loggedin) {
+      // res.send('Welcome back, ' + req.session.username + '!');
+       var username_dash = req.session.username;
+      con.query('SELECT * from stream_chamber ORDER BY stream_id DESC LIMIT 10', function (err, rs) {
+          res.render('pages/allchambers', {username_dash:username_dash,stream: rs });
+      //  res.render('pages/users');
+      });
+  } else {
+      res.send('Please login to view this page!');
+  }
+});
+
+app.get('/currentchambers',function (req, res, next){
+  if (req.session.loggedin) {
+      // res.send('Welcome back, ' + req.session.username + '!');
+       var username_dash = req.session.username;
+      con.query('SELECT * from stream_chamber ORDER BY stream_id DESC LIMIT 10', function (err, rs) {
+          res.render('pages/currentchambers', {username_dash:username_dash,stream: rs });
+      //  res.render('pages/users');
+      });
+  } else {
+      res.send('Please login to view this page!');
+  }
+});
+
+
+app.get('/buychamber',function (req, res, next){
+  if (req.session.loggedin) {
+      // res.send('Welcome back, ' + req.session.username + '!');
+       var username_dash = req.session.username;
+      //con.query('SELECT * from stream_chamber ORDER BY stream_id DESC LIMIT 10', function (err, rs) {
+          res.render('pages/buychamber', {username_dash:username_dash});
+      //});
+  } else {
+      res.send('Please login to view this page!');
+  }
+  // res.end();
+});
+
+app.get('/croptimeline',function (req, res, next){
+  if (req.session.loggedin) {
+      // res.send('Welcome back, ' + req.session.username + '!');
+       var username_dash = req.session.username;
+      //con.query('SELECT * from stream_chamber ORDER BY stream_id DESC LIMIT 10', function (err, rs) {
+          res.render('pages/croptimeline', {username_dash:username_dash });
+      //});
+  } else {
+      res.send('Please login to view this page!');
+  }
+  // res.end();
+});
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
 ///////////////////////////////////////////
 
 // var async      = require('async');
@@ -66,8 +143,7 @@ var credentials = {
   host: "localhost",
 user: "tecozk_root",
 password: "dbase_fc",
-database: "tecozk_agritech2",
-multipleStatements: true
+database: "tecozk_agritech2"
 }
 
 
@@ -184,69 +260,28 @@ app.post('/insertuser' , function(req,res,next){
 });
 });
 
-app.get('/dashboarduser',function (req, res) {
-var username_dash = req.session.username;
-  res.render('pages/dashboarduser',{username_dash:username_dash });
+app.post('/createfarm' , function(req,res,next){
+  let farm_name = req.body.farm_name;
+  let farm_size_len = req.body.farm_size_len;
+  let farm_size_wid = req.body.farm_size_wid;
+  let farm_location = req.body.farm_location;
+  var now = new Date().getTime();
+  let farm_create_date = now;
+  var username_dash = req.session.username;
+  
+  var form_data = {
+      farm_name: farm_name,
+      farm_size_len:farm_size_len,
+      farm_size_wid:farm_size_wid,
+      farm_location:farm_location
+    }
+  con.query('INSERT INTO farm SET ?', form_data, function (err, result) {
+    if (err) throw err;
+    res.render('pages/newzone',{username_dash:username_dash});
+// //  res.render('pages/users');
+
 });
-
-app.get('/dashboardadmin',function (req, res) {
-  res.render('pages/dashboardadmin')
 });
-
-app.get('/allchambers',function (req, res, next){
-  if (req.session.loggedin) {
-      // res.send('Welcome back, ' + req.session.username + '!');
-       var username_dash = req.session.username;
-      con.query('SELECT * from stream_chamber ORDER BY stream_id DESC LIMIT 10', function (err, rs) {
-          res.render('pages/allchambers', {username_dash:username_dash,stream: rs });
-      //  res.render('pages/users');
-      });
-  } else {
-      res.send('Please login to view this page!');
-  }
-});
-
-app.get('/currentchambers',function (req, res, next){
-  if (req.session.loggedin) {
-      // res.send('Welcome back, ' + req.session.username + '!');
-       var username_dash = req.session.username;
-      con.query('SELECT * from stream_chamber ORDER BY stream_id DESC LIMIT 10', function (err, rs) {
-          res.render('pages/currentchambers', {username_dash:username_dash,stream: rs });
-      //  res.render('pages/users');
-      });
-  } else {
-      res.send('Please login to view this page!');
-  }
-});
-
-
-app.get('/buychamber',function (req, res, next){
-  if (req.session.loggedin) {
-      // res.send('Welcome back, ' + req.session.username + '!');
-       var username_dash = req.session.username;
-      //con.query('SELECT * from stream_chamber ORDER BY stream_id DESC LIMIT 10', function (err, rs) {
-          res.render('pages/buychamber', {username_dash:username_dash});
-      //});
-  } else {
-      res.send('Please login to view this page!');
-  }
-  // res.end();
-});
-
-app.get('/croptimeline',function (req, res, next){
-  if (req.session.loggedin) {
-      // res.send('Welcome back, ' + req.session.username + '!');
-       var username_dash = req.session.username;
-      //con.query('SELECT * from stream_chamber ORDER BY stream_id DESC LIMIT 10', function (err, rs) {
-          res.render('pages/croptimeline', {username_dash:username_dash });
-      //});
-  } else {
-      res.send('Please login to view this page!');
-  }
-  // res.end();
-});
-
-
 
 
 
