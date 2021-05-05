@@ -63,31 +63,43 @@
 
           </div>
           <div class="col-lg-6">
-              <h2> New Farm</h2>
-              <form role="form" method="POST" action="createfarm" >
+              <h2> New Component</h2>
+              <form role="form" method="POST" action="createcomponent" >
               <div class="form-group">
                   
-                <label for="">Farm Name</label>
-                <input type="text" required
-                  class="form-control" name="farm_name" id="farm_name" aria-describedby="helpId" placeholder="">
+                <label for="">Component Name</label>
+                <input type="text"
+                  class="form-control" required name="component_name" id="Component_name" aria-describedby="helpId" placeholder="">
                 <small id="helpId" class="form-text text-muted">insert your farm name here</small>
 
-                <label for="">Farm Length</label>
-                <input type="text" required
-                  class="form-control" name="farm_size_len" id="farm_size_len" aria-describedby="helpId" placeholder="">
+                <label for="">Component Display Name</label>
+                <input type="text"
+                  class="form-control" required name="component_disp_name" id="component_disp_name" aria-describedby="helpId" placeholder="">
                 <small id="helpId" class="form-text text-muted">make sure to enter the length in inches</small>
 
-                <label for="">Farm Width</label>
-                <input type="text" required
-                  class="form-control" name="farm_size_wid" id="farm_size_wid" aria-describedby="helpId" placeholder="">
+                <label for="">Component Master Type</label>
+                <!-- <input type="text" class="form-control" name="component_master_type" id="component_master_type" aria-describedby="helpId" placeholder=""> -->
+                  <select class="form-control" name="component_master_type" id="component_master_type" aria-describedby="helpId" placeholder="">
+                    <option  value="Actuator">Actuator</option>
+                    <option value="Sensor">Sensor</option>
+                  </select>
                 <small id="helpId" class="form-text text-muted">Help text</small>
 
-                <label for="">Farm Location</label>
-                <input type="text" required
-                  class="form-control" name="farm_location" id="farm_location" aria-describedby="helpId" placeholder="">
-                <small id="helpId" class="form-text text-muted">Help text</small>
+                <label for="">Component Type</label>
+                <!-- <input type="text" class="form-control" name="component_type" id="component_type" aria-describedby="helpId" placeholder=""> -->
+                <select class="form-control" name="component_type" id="component_type" aria-describedby="helpId" placeholder="">
+                    
+                    <option value="Soil Moisture">Soil Moisture</option>
+                      <option value="Pump">Pump</option>
+                      <option value="Fan">Fan</option>
+                      <option value="Leds">Leds</option>
+                      <option value="Light Intensity">Light Intensity</option>
+                      <option value="Humidity">Humidity</option>
+
+                </select>
+                  <small id="helpId" class="form-text text-muted">Help text</small>
                 <br>
-                <button href="createfarm" class="btn btn-primary" role="button">Create</button>                
+                <button href="createcomponent" class="btn btn-primary" role="button">Create</button>                
               </div>
             </form>
             

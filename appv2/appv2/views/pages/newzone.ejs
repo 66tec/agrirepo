@@ -25,6 +25,13 @@
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="img/favicon.ico">
+
+     <!-- <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" /> -->
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="assets/plugins/pace/pace-theme-big-counter.css" rel="stylesheet" />
+   <link href="assets/css/style.css" rel="stylesheet" />
+      <link href="assets/css/main-style.css" rel="stylesheet" />
+
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -38,17 +45,57 @@
         <%- include('../templates/topbar.ejs') %>
       </header>
       <!-- Counts Section -->
-      <%- include('../templates/topnotices.ejs') %>
+      
       <!-- Header Section-->
+    <div class="row" style="margin-top: 20px;">
+
+    </div>
+       <!--end  Welcome -->
+      <center>
       <div class="row">
-        <!-- Welcome -->
-        <div class="col-lg-12">
-            <div class="alert alert-info">
-                <i class="fa fa-folder-open"></i><b>&nbsp;Hello ! </b>Welcome Back <b><%= username_dash  %> </b>
-            </div>
-        </div>
-        <!--end  Welcome -->
+          <div class="col-lg-2">
+
+          </div>
+          <div class="col-lg-6">
+              <h2> New zone</h2>
+              <form role="form" method="POST" action="tochamber" >
+              <div class="form-group">
+                  
+                <label for="">Zone Name</label>
+                <input type="text" required
+                  class="form-control" name="zone_name" id="zone_name" aria-describedby="helpId" placeholder="">
+                <small id="helpId" class="form-text text-muted">insert your farm name here</small>
+
+                <br>
+                               
+                  
+                  <div class="form-group">
+                    <label for="">Farm Name</label>
+                    <select class="form-control" name="farm_name" id="">
+                      <% stream.forEach(function(item) { %>
+                      <option><%= item.farm_name%></option>
+                      <% }); %>
+
+                    </select>
+                    
+                    
+                      
+
+                  <br>
+                  <button href="tochamber" class="btn btn-primary" role="button">Create & Proceed</button>                
+                              
+                </div> 
+                
+
+              </div>
+            </form>
+            
+
+          </div> 
+
       </div>
+    </center>
+
 
 
 
@@ -62,7 +109,7 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="js/grasp_mobile_progress_circle-1.0.0.min.js"></script>
     <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
-  
+    
     <script src="vendor/jquery-validation/jquery.validate.min.js"></script>
     <script src="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
   

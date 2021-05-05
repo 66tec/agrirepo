@@ -80,6 +80,7 @@ app.get('/dashboardadmin',function (req, res) {
   res.render('pages/dashboardadmin')
 });
 
+
 app.get('/allchambers',function (req, res, next){
   if (req.session.loggedin) {
       // res.send('Welcome back, ' + req.session.username + '!');
@@ -133,6 +134,99 @@ app.get('/croptimeline',function (req, res, next){
   // res.end();
 });
 
+app.get('/forms',function (req, res) {
+  res.render('pages/forms')
+});
+app.get('/newzone',function (req, res,next) {
+   username_dash = req.session.username;
+   con.query('SELECT farm_name from farm where user_name = ?',username_dash, function (err, rs) {
+    res.render('pages/newzone', {username_dash:username_dash,stream: rs });
+//  res.render('pages/users');
+});
+});
+
+app.get('/newchamber',function (req, res,next) {
+  var username_dash = req.session.username;
+  con.query('SELECT zone_name from zone where user_name = ?',username_dash, function (err, rsi) {
+    
+    con.query('SELECT farm_name from farm where user_name = ?',username_dash, function (err, rs) {
+      res.render('pages/newchamber', {username_dash:username_dash,stream: rs,stream2: rsi });
+  //  res.render('pages/users');
+  });
+//  res.render('pages/users');
+});
+
+});
+
+app.get('/newcomponent',function (req, res) {
+  var username_dash = req.session.username;
+    res.render('pages/newcomponent',{username_dash:username_dash });
+  });
+
+  app.get('/insights',function (req, res, next){
+    if (req.session.loggedin) {
+        // res.send('Welcome back, ' + req.session.username + '!');
+         var username_dash = req.session.username;
+
+         
+         con.query('SELECT * from chamber where user_name = ?',username_dash, function (err, rsj) {
+    
+         con.query('SELECT * from zone where user_name = ?',username_dash, function (err, rsi) {
+    
+          con.query('SELECT * from farm where user_name = ?',username_dash, function (err, rs) {
+            res.render('pages/insights', {username_dash:username_dash,stream: rs,stream2: rsi ,stream3: rsj });
+        });
+      });
+      });
+        //});
+    } else {
+        res.send('Please login to view this page!');
+    }
+    // res.end();
+  });
+  
+
+  app.get('/maintain',function (req, res, next){
+    if (req.session.loggedin) {
+        // res.send('Welcome back, ' + req.session.username + '!');
+         var username_dash = req.session.username;
+
+         
+         con.query('SELECT * from chamber where user_name = ?',username_dash, function (err, rsj) {
+    
+         con.query('SELECT * from zone where user_name = ?',username_dash, function (err, rsi) {
+    
+          con.query('SELECT * from farm where user_name = ?',username_dash, function (err, rs) {
+            res.render('pages/maintain', {username_dash:username_dash,stream: rs,stream2: rsi ,stream3: rsj });
+        });
+      });
+      });
+        //});
+    } else {
+        res.send('Please login to view this page!');
+    }
+    // res.end();
+  });
+
+  app.get('/delete', function(req, res) {
+       if (req.session.loggedin) {
+      // res.send('Welcome back, ' + req.session.username + '!');
+       
+      var username_dash = req.session.username;
+       let deleteId =  req.query.deleteId;
+       console.log(deleteId);
+      con.query('Delete from farm where farm_id = ?',deleteId, function (err, rs) {
+          res.redirect('/maintain');
+      });
+  } else {
+      res.send('Please login to view this page!');
+  }
+  
+});
+  
+
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -141,9 +235,9 @@ app.get('/croptimeline',function (req, res, next){
 // var async      = require('async');
 var credentials = { 
   host: "localhost",
-user: "tecozk_root",
-password: "dbase_fc",
-database: "tecozk_agritech2"
+  user: "tecozk_root",
+  password: "dbase_fc",
+  database: "tecozk_agritech2"
 }
 
 
@@ -273,16 +367,93 @@ app.post('/createfarm' , function(req,res,next){
       farm_name: farm_name,
       farm_size_len:farm_size_len,
       farm_size_wid:farm_size_wid,
-      farm_location:farm_location
+      farm_location:farm_location,
+      user_name:username_dash
     }
   con.query('INSERT INTO farm SET ?', form_data, function (err, result) {
     if (err) throw err;
-    res.render('pages/newzone',{username_dash:username_dash});
+
+    con.query('SELECT farm_name from farm where user_name = ?',username_dash, function (err, rs) {
+      res.render('pages/newzone', {username_dash:username_dash,stream: rs });
+  //  res.render('pages/users');
+  });
+  
+
+   
 // //  res.render('pages/users');
 
 });
 });
 
+
+app.post('/createchamber' , function(req,res,next){
+  let chamber_name = req.body.chamber_name;
+  let chamber_disp_name = req.body.chamber_disp_name;
+  let zone_name = req.body.zone_name;
+  let farm_name = req.body.farm_name;
+  var username_dash = req.session.username;
+  
+  var form_data = {
+      chamber_name: chamber_name,
+      chamber_disp_name:chamber_disp_name,
+      zone_name : zone_name,
+      farm_name : farm_name,
+      user_name:username_dash
+    }
+  con.query('INSERT INTO chamber SET ?', form_data, function (err, result) {
+    if (err) throw err;
+    res.render('pages/newcomponent',{username_dash:username_dash});
+// //  res.render('pages/users');
+
+});
+});
+
+app.post('/createcomponent' , function(req,res,next){
+  let component_name = req.body.component_name;
+  let component_disp_name = req.body.component_disp_name;
+  let component_master_type = req.body.component_master_type;
+  let component_type = req.body.component_type;
+  // var now = new Date().getTime();
+  // let farm_create_date = now;
+  var username_dash = req.session.username;
+  
+  var form_data = {
+      component_name: component_name,
+      component_disp_name:component_disp_name,
+      component_master_type:component_master_type,
+      component_type:component_type
+    }
+  con.query('INSERT INTO component SET ?', form_data, function (err, result) {
+    if (err) throw err;
+    res.render('pages/dashboarduser',{username_dash:username_dash});
+// //  res.render('pages/users');
+
+});
+});
+
+
+app.post('/tochamber' , function(req,res,next){
+  let zone_name = req.body.zone_name;
+  let farm_name = req.body.farm_name;
+  var username_dash = req.session.username;
+  
+  var form_data = {
+      zone_name: zone_name,
+      farm_name:farm_name,
+      user_name:username_dash
+      }
+  con.query('INSERT INTO zone SET ?', form_data, function (err, result) {
+    if (err) throw err;
+    con.query('SELECT zone_name from zone where user_name = ?',username_dash, function (err, rsi) {
+    
+      con.query('SELECT farm_name from farm where user_name = ?',username_dash, function (err, rs) {
+        res.render('pages/newchamber', {username_dash:username_dash,stream: rs,stream2: rsi });
+    //  res.render('pages/users');
+    });
+  //  res.render('pages/users');
+  });
+});
+});
 
 
 

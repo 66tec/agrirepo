@@ -63,31 +63,42 @@
 
           </div>
           <div class="col-lg-6">
-              <h2> New Farm</h2>
-              <form role="form" method="POST" action="createfarm" >
+              <h2> New chamber</h2>
+              <form role="form" method="POST" action="createchamber" >
               <div class="form-group">
                   
-                <label for="">Farm Name</label>
+                <label for="">Chamber Name</label>
                 <input type="text" required
-                  class="form-control" name="farm_name" id="farm_name" aria-describedby="helpId" placeholder="">
-                <small id="helpId" class="form-text text-muted">insert your farm name here</small>
+                  class="form-control" name="chamber_name" id="chamber_name" aria-describedby="helpId" placeholder="">
+                <small id="helpId" class="form-text text-muted">insert your Chamber name here</small>
 
-                <label for="">Farm Length</label>
+                <label for="">Chamber Display Name</label>
                 <input type="text" required
-                  class="form-control" name="farm_size_len" id="farm_size_len" aria-describedby="helpId" placeholder="">
-                <small id="helpId" class="form-text text-muted">make sure to enter the length in inches</small>
+                  class="form-control" name="chamber_disp_name" id="chamber_disp_name" aria-describedby="helpId" placeholder="">
+                <small id="helpId" class="form-text text-muted"></small>
 
-                <label for="">Farm Width</label>
-                <input type="text" required
-                  class="form-control" name="farm_size_wid" id="farm_size_wid" aria-describedby="helpId" placeholder="">
-                <small id="helpId" class="form-text text-muted">Help text</small>
+                <div class="form-group">
+                  <label for="">Zone Name</label>
+                  <select class="form-control" name="zone_name" id="">
+                    <% stream2.forEach(function(item) { %>
+                    <option><%= item.zone_name%></option>
+                    <% }); %>
 
-                <label for="">Farm Location</label>
-                <input type="text" required
-                  class="form-control" name="farm_location" id="farm_location" aria-describedby="helpId" placeholder="">
-                <small id="helpId" class="form-text text-muted">Help text</small>
+                  </select>
+
+                  
+                <div class="form-group">
+                  <label for="">farm Name</label>
+                  <select class="form-control" name="farm_name" id="">
+                    <% stream.forEach(function(item) { %>
+                    <option><%= item.farm_name%></option>
+                    <% }); %>
+
+                  </select>
+
+
                 <br>
-                <button href="createfarm" class="btn btn-primary" role="button">Create</button>                
+                <button href="createchamber" class="btn btn-primary" role="button">Create</button>                
               </div>
             </form>
             
