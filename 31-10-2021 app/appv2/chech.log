@@ -1,0 +1,1158 @@
+App 774 output: Agritech app Started on port 3000!
+App 774 output: /home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:437
+App 774 output:       throw err; // Rethrow non-MySQL errors
+App 774 output:       ^
+App 774 output: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'tecozk_root'@'localhost' to database 'tecozk_tecozk_agritech1'
+App 774 output:     at Handshake.Sequence._packetToError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+App 774 output:     at Handshake.ErrorPacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+App 774 output:     at Protocol._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 774 output:     at Parser._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 774 output:     at Parser.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 774 output:     at Protocol.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 774 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:88:28)
+App 774 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:526:10)
+App 774 output:     at Socket.emit (events.js:198:13)
+App 774 output:     at addChunk (_stream_readable.js:288:12)
+App 774 output:     --------------------
+App 774 output:     at Protocol._enqueue (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+App 774 output:     at Protocol.handshake (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+App 774 output:     at Connection.connect (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:116:18)
+App 774 output:     at Object.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/app.js:19:5)
+App 774 output:     at Module._compile (internal/modules/cjs/loader.js:778:30)
+App 774 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 774 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 774 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 774 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 774 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 973 output: Agritech app Started on port 3000!
+App 973 output: /home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:437
+App 973 output:       throw err; // Rethrow non-MySQL errors
+App 973 output:       ^
+App 973 output: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'tecozk_root'@'localhost' to database 'tecozk_tecozk_agritech1'
+App 973 output:     at Handshake.Sequence._packetToError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+App 973 output:     at Handshake.ErrorPacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+App 973 output:     at Protocol._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 973 output:     at Parser._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 973 output:     at Parser.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 973 output:     at Protocol.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 973 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:88:28)
+App 973 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:526:10)
+App 973 output:     at Socket.emit (events.js:198:13)
+App 973 output:     at addChunk (_stream_readable.js:288:12)
+App 973 output:     --------------------
+App 973 output:     at Protocol._enqueue (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+App 973 output:     at Protocol.handshake (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+App 973 output:     at Connection.connect (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:116:18)
+App 973 output:     at Object.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/app.js:19:5)
+App 973 output:     at Module._compile (internal/modules/cjs/loader.js:778:30)
+App 973 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 973 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 973 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 973 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 973 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 1192 output: Agritech app Started on port 3000!
+App 1192 output: /home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:437
+App 1192 output:       throw err; // Rethrow non-MySQL errors
+App 1192 output:       ^
+App 1192 output: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'tecozk_root'@'localhost' to database 'tecozk_tecozk_agritech1'
+App 1192 output:     at Handshake.Sequence._packetToError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+App 1192 output:     at Handshake.ErrorPacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+App 1192 output:     at Protocol._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 1192 output:     at Parser._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 1192 output:     at Parser.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 1192 output:     at Protocol.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 1192 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:88:28)
+App 1192 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:526:10)
+App 1192 output:     at Socket.emit (events.js:198:13)
+App 1192 output:     at addChunk (_stream_readable.js:288:12)
+App 1192 output:     --------------------
+App 1192 output:     at Protocol._enqueue (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+App 1192 output:     at Protocol.handshake (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+App 1192 output:     at Connection.connect (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:116:18)
+App 1192 output:     at Object.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/app.js:19:5)
+App 1192 output:     at Module._compile (internal/modules/cjs/loader.js:778:30)
+App 1192 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 1192 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 1192 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 1192 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 1192 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 1324 output: Agritech app Started on port 3000!
+App 1324 output: /home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:437
+App 1324 output:       throw err; // Rethrow non-MySQL errors
+App 1324 output:       ^
+App 1324 output: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'tecozk_root'@'localhost' to database 'tecozk_tecozk_agritech1'
+App 1324 output:     at Handshake.Sequence._packetToError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+App 1324 output:     at Handshake.ErrorPacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+App 1324 output:     at Protocol._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 1324 output:     at Parser._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 1324 output:     at Parser.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 1324 output:     at Protocol.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 1324 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:88:28)
+App 1324 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:526:10)
+App 1324 output:     at Socket.emit (events.js:198:13)
+App 1324 output:     at addChunk (_stream_readable.js:288:12)
+App 1324 output:     --------------------
+App 1324 output:     at Protocol._enqueue (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+App 1324 output:     at Protocol.handshake (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+App 1324 output:     at Connection.connect (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:116:18)
+App 1324 output:     at Object.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/app.js:19:5)
+App 1324 output:     at Module._compile (internal/modules/cjs/loader.js:778:30)
+App 1324 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 1324 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 1324 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 1324 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 1324 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 1470 output: Agritech app Started on port 3000!
+App 1470 output: /home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:437
+App 1470 output:       throw err; // Rethrow non-MySQL errors
+App 1470 output:       ^
+App 1470 output: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'tecozk_root'@'localhost' to database 'tecozk_tecozk_agritech1'
+App 1470 output:     at Handshake.Sequence._packetToError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+App 1470 output:     at Handshake.ErrorPacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+App 1470 output:     at Protocol._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 1470 output:     at Parser._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 1470 output:     at Parser.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 1470 output:     at Protocol.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 1470 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:88:28)
+App 1470 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:526:10)
+App 1470 output:     at Socket.emit (events.js:198:13)
+App 1470 output:     at addChunk (_stream_readable.js:288:12)
+App 1470 output:     --------------------
+App 1470 output:     at Protocol._enqueue (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+App 1470 output:     at Protocol.handshake (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+App 1470 output:     at Connection.connect (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:116:18)
+App 1470 output:     at Object.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/app.js:19:5)
+App 1470 output:     at Module._compile (internal/modules/cjs/loader.js:778:30)
+App 1470 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 1470 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 1470 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 1470 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 1470 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 1618 output: Agritech app Started on port 3000!
+App 1618 output: /home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:437
+App 1618 output:       throw err; // Rethrow non-MySQL errors
+App 1618 output:       ^
+App 1618 output: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'tecozk_root'@'localhost' to database 'tecozk_tecozk_agritech1'
+App 1618 output:     at Handshake.Sequence._packetToError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+App 1618 output:     at Handshake.ErrorPacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+App 1618 output:     at Protocol._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 1618 output:     at Parser._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 1618 output:     at Parser.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 1618 output:     at Protocol.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 1618 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:88:28)
+App 1618 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:526:10)
+App 1618 output:     at Socket.emit (events.js:198:13)
+App 1618 output:     at addChunk (_stream_readable.js:288:12)
+App 1618 output:     --------------------
+App 1618 output:     at Protocol._enqueue (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+App 1618 output:     at Protocol.handshake (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+App 1618 output:     at Connection.connect (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:116:18)
+App 1618 output:     at Object.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/app.js:19:5)
+App 1618 output:     at Module._compile (internal/modules/cjs/loader.js:778:30)
+App 1618 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 1618 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 1618 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 1618 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 1618 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 1809 output: Agritech app Started on port 3000!
+App 1809 output: /home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:437
+App 1809 output:       throw err; // Rethrow non-MySQL errors
+App 1809 output:       ^
+App 1809 output: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'tecozk_root'@'localhost' to database 'tecozk_tecozk_agritech1'
+App 1809 output:     at Handshake.Sequence._packetToError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+App 1809 output:     at Handshake.ErrorPacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+App 1809 output:     at Protocol._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 1809 output:     at Parser._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 1809 output:     at Parser.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 1809 output:     at Protocol.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 1809 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:88:28)
+App 1809 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:526:10)
+App 1809 output:     at Socket.emit (events.js:198:13)
+App 1809 output:     at addChunk (_stream_readable.js:288:12)
+App 1809 output:     --------------------
+App 1809 output:     at Protocol._enqueue (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+App 1809 output:     at Protocol.handshake (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+App 1809 output:     at Connection.connect (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:116:18)
+App 1809 output:     at Object.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/app.js:19:5)
+App 1809 output:     at Module._compile (internal/modules/cjs/loader.js:778:30)
+App 1809 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 1809 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 1809 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 1809 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 1809 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 2250 output: Agritech app Started on port 3000!
+App 2250 output: /home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:437
+App 2250 output:       throw err; // Rethrow non-MySQL errors
+App 2250 output:       ^
+App 2250 output: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'tecozk_root'@'localhost' to database 'tecozk_tecozk_agritech1'
+App 2250 output:     at Handshake.Sequence._packetToError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+App 2250 output:     at Handshake.ErrorPacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+App 2250 output:     at Protocol._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 2250 output:     at Parser._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 2250 output:     at Parser.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 2250 output:     at Protocol.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 2250 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:88:28)
+App 2250 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:526:10)
+App 2250 output:     at Socket.emit (events.js:198:13)
+App 2250 output:     at addChunk (_stream_readable.js:288:12)
+App 2250 output:     --------------------
+App 2250 output:     at Protocol._enqueue (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+App 2250 output:     at Protocol.handshake (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+App 2250 output:     at Connection.connect (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:116:18)
+App 2250 output:     at Object.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/app.js:19:5)
+App 2250 output:     at Module._compile (internal/modules/cjs/loader.js:778:30)
+App 2250 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 2250 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 2250 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 2250 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 2250 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 2428 output: Agritech app Started on port 3000!
+App 2428 output: /home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:437
+App 2428 output:       throw err; // Rethrow non-MySQL errors
+App 2428 output:       ^
+App 2428 output: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'tecozk_root'@'localhost' to database 'tecozk_tecozk_agritech1'
+App 2428 output:     at Handshake.Sequence._packetToError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+App 2428 output:     at Handshake.ErrorPacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+App 2428 output:     at Protocol._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 2428 output:     at Parser._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 2428 output:     at Parser.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 2428 output:     at Protocol.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 2428 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:88:28)
+App 2428 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:526:10)
+App 2428 output:     at Socket.emit (events.js:198:13)
+App 2428 output:     at addChunk (_stream_readable.js:288:12)
+App 2428 output:     --------------------
+App 2428 output:     at Protocol._enqueue (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+App 2428 output:     at Protocol.handshake (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+App 2428 output:     at Connection.connect (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:116:18)
+App 2428 output:     at Object.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/app.js:19:5)
+App 2428 output:     at Module._compile (internal/modules/cjs/loader.js:778:30)
+App 2428 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 2428 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 2428 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 2428 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 2428 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 2627 output: Agritech app Started on port 3000!
+App 2627 output: /home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:437
+App 2627 output:       throw err; // Rethrow non-MySQL errors
+App 2627 output:       ^
+App 2627 output: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'tecozk_root'@'localhost' to database 'tecozk_tecozk_agritech1'
+App 2627 output:     at Handshake.Sequence._packetToError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+App 2627 output:     at Handshake.ErrorPacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+App 2627 output:     at Protocol._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 2627 output:     at Parser._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 2627 output:     at Parser.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 2627 output:     at Protocol.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 2627 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:88:28)
+App 2627 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:526:10)
+App 2627 output:     at Socket.emit (events.js:198:13)
+App 2627 output:     at addChunk (_stream_readable.js:288:12)
+App 2627 output:     --------------------
+App 2627 output:     at Protocol._enqueue (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+App 2627 output:     at Protocol.handshake (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+App 2627 output:     at Connection.connect (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:116:18)
+App 2627 output:     at Object.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/app.js:19:5)
+App 2627 output:     at Module._compile (internal/modules/cjs/loader.js:778:30)
+App 2627 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 2627 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 2627 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 2627 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 2627 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 2861 output: Agritech app Started on port 3000!
+App 2861 output: /home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:437
+App 2861 output:       throw err; // Rethrow non-MySQL errors
+App 2861 output:       ^
+App 2861 output: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'tecozk_root'@'localhost' to database 'tecozk_tecozk_agritech1'
+App 2861 output:     at Handshake.Sequence._packetToError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+App 2861 output:     at Handshake.ErrorPacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+App 2861 output:     at Protocol._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 2861 output:     at Parser._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 2861 output:     at Parser.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 2861 output:     at Protocol.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 2861 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:88:28)
+App 2861 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:526:10)
+App 2861 output:     at Socket.emit (events.js:198:13)
+App 2861 output:     at addChunk (_stream_readable.js:288:12)
+App 2861 output:     --------------------
+App 2861 output:     at Protocol._enqueue (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+App 2861 output:     at Protocol.handshake (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+App 2861 output:     at Connection.connect (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:116:18)
+App 2861 output:     at Object.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/app.js:19:5)
+App 2861 output:     at Module._compile (internal/modules/cjs/loader.js:778:30)
+App 2861 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 2861 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 2861 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 2861 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 2861 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 3053 output: Agritech app Started on port 3000!
+App 3053 output: /home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:437
+App 3053 output:       throw err; // Rethrow non-MySQL errors
+App 3053 output:       ^
+App 3053 output: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'tecozk_root'@'localhost' to database 'tecozk_tecozk_agritech1'
+App 3053 output:     at Handshake.Sequence._packetToError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+App 3053 output:     at Handshake.ErrorPacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+App 3053 output:     at Protocol._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 3053 output:     at Parser._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 3053 output:     at Parser.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 3053 output:     at Protocol.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 3053 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:88:28)
+App 3053 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:526:10)
+App 3053 output:     at Socket.emit (events.js:198:13)
+App 3053 output:     at addChunk (_stream_readable.js:288:12)
+App 3053 output:     --------------------
+App 3053 output:     at Protocol._enqueue (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+App 3053 output:     at Protocol.handshake (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+App 3053 output:     at Connection.connect (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:116:18)
+App 3053 output:     at Object.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/app.js:19:5)
+App 3053 output:     at Module._compile (internal/modules/cjs/loader.js:778:30)
+App 3053 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 3053 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 3053 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 3053 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 3053 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 3276 output: Agritech app Started on port 3000!
+App 3276 output: /home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:437
+App 3276 output:       throw err; // Rethrow non-MySQL errors
+App 3276 output:       ^
+App 3276 output: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'tecozk_root'@'localhost' to database 'tecozk_tecozk_agritech1'
+App 3276 output:     at Handshake.Sequence._packetToError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+App 3276 output:     at Handshake.ErrorPacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+App 3276 output:     at Protocol._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 3276 output:     at Parser._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 3276 output:     at Parser.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 3276 output:     at Protocol.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 3276 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:88:28)
+App 3276 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:526:10)
+App 3276 output:     at Socket.emit (events.js:198:13)
+App 3276 output:     at addChunk (_stream_readable.js:288:12)
+App 3276 output:     --------------------
+App 3276 output:     at Protocol._enqueue (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+App 3276 output:     at Protocol.handshake (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+App 3276 output:     at Connection.connect (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:116:18)
+App 3276 output:     at Object.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/app.js:19:5)
+App 3276 output:     at Module._compile (internal/modules/cjs/loader.js:778:30)
+App 3276 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 3276 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 3276 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 3276 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 3276 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 3470 output: Agritech app Started on port 3000!
+App 3470 output: /home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:437
+App 3470 output:       throw err; // Rethrow non-MySQL errors
+App 3470 output:       ^
+App 3470 output: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'tecozk_root'@'localhost' to database 'tecozk_tecozk_agritech1'
+App 3470 output:     at Handshake.Sequence._packetToError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+App 3470 output:     at Handshake.ErrorPacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+App 3470 output:     at Protocol._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 3470 output:     at Parser._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 3470 output:     at Parser.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 3470 output:     at Protocol.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 3470 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:88:28)
+App 3470 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:526:10)
+App 3470 output:     at Socket.emit (events.js:198:13)
+App 3470 output:     at addChunk (_stream_readable.js:288:12)
+App 3470 output:     --------------------
+App 3470 output:     at Protocol._enqueue (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+App 3470 output:     at Protocol.handshake (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+App 3470 output:     at Connection.connect (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:116:18)
+App 3470 output:     at Object.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/app.js:19:5)
+App 3470 output:     at Module._compile (internal/modules/cjs/loader.js:778:30)
+App 3470 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 3470 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 3470 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 3470 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 3470 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 3669 output: Agritech app Started on port 3000!
+App 3669 output: /home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:437
+App 3669 output:       throw err; // Rethrow non-MySQL errors
+App 3669 output:       ^
+App 3669 output: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'tecozk_root'@'localhost' to database 'tecozk_tecozk_agritech1'
+App 3669 output:     at Handshake.Sequence._packetToError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+App 3669 output:     at Handshake.ErrorPacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+App 3669 output:     at Protocol._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 3669 output:     at Parser._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 3669 output:     at Parser.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 3669 output:     at Protocol.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 3669 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:88:28)
+App 3669 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:526:10)
+App 3669 output:     at Socket.emit (events.js:198:13)
+App 3669 output:     at addChunk (_stream_readable.js:288:12)
+App 3669 output:     --------------------
+App 3669 output:     at Protocol._enqueue (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+App 3669 output:     at Protocol.handshake (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+App 3669 output:     at Connection.connect (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:116:18)
+App 3669 output:     at Object.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/app.js:19:5)
+App 3669 output:     at Module._compile (internal/modules/cjs/loader.js:778:30)
+App 3669 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 3669 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 3669 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 3669 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 3669 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 4044 output: Agritech app Started on port 3000!
+App 4044 output: /home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:437
+App 4044 output:       throw err; // Rethrow non-MySQL errors
+App 4044 output:       ^
+App 4044 output: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'tecozk_root'@'localhost' to database 'tecozk_tecozk_agritech1'
+App 4044 output:     at Handshake.Sequence._packetToError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+App 4044 output:     at Handshake.ErrorPacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+App 4044 output:     at Protocol._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 4044 output:     at Parser._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 4044 output:     at Parser.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 4044 output:     at Protocol.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 4044 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:88:28)
+App 4044 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:526:10)
+App 4044 output:     at Socket.emit (events.js:198:13)
+App 4044 output:     at addChunk (_stream_readable.js:288:12)
+App 4044 output:     --------------------
+App 4044 output:     at Protocol._enqueue (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+App 4044 output:     at Protocol.handshake (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+App 4044 output:     at Connection.connect (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:116:18)
+App 4044 output:     at Object.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/app.js:19:5)
+App 4044 output:     at Module._compile (internal/modules/cjs/loader.js:778:30)
+App 4044 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 4044 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 4044 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 4044 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 4044 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 4405 output: Agritech app Started on port 3000!
+App 4405 output: /home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:437
+App 4405 output:       throw err; // Rethrow non-MySQL errors
+App 4405 output:       ^
+App 4405 output: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'tecozk_root'@'localhost' to database 'tecozk_tecozk_agritech1'
+App 4405 output:     at Handshake.Sequence._packetToError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+App 4405 output:     at Handshake.ErrorPacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+App 4405 output:     at Protocol._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 4405 output:     at Parser._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 4405 output:     at Parser.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 4405 output:     at Protocol.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 4405 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:88:28)
+App 4405 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:526:10)
+App 4405 output:     at Socket.emit (events.js:198:13)
+App 4405 output:     at addChunk (_stream_readable.js:288:12)
+App 4405 output:     --------------------
+App 4405 output:     at Protocol._enqueue (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+App 4405 output:     at Protocol.handshake (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+App 4405 output:     at Connection.connect (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:116:18)
+App 4405 output:     at Object.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/app.js:19:5)
+App 4405 output:     at Module._compile (internal/modules/cjs/loader.js:778:30)
+App 4405 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 4405 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 4405 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 4405 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 4405 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 4810 output: Agritech app Started on port 3000!
+App 4810 output: /home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:437
+App 4810 output:       throw err; // Rethrow non-MySQL errors
+App 4810 output:       ^
+App 4810 output: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'tecozk_root'@'localhost' to database 'tecozk_tecozk_agritech1'
+App 4810 output:     at Handshake.Sequence._packetToError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+App 4810 output:     at Handshake.ErrorPacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+App 4810 output:     at Protocol._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 4810 output:     at Parser._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 4810 output:     at Parser.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 4810 output:     at Protocol.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 4810 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:88:28)
+App 4810 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:526:10)
+App 4810 output:     at Socket.emit (events.js:198:13)
+App 4810 output:     at addChunk (_stream_readable.js:288:12)
+App 4810 output:     --------------------
+App 4810 output:     at Protocol._enqueue (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+App 4810 output:     at Protocol.handshake (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+App 4810 output:     at Connection.connect (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:116:18)
+App 4810 output:     at Object.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/app.js:19:5)
+App 4810 output:     at Module._compile (internal/modules/cjs/loader.js:778:30)
+App 4810 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 4810 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 4810 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 4810 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 4810 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 5223 output: Agritech app Started on port 3000!
+App 5223 output: /home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:437
+App 5223 output:       throw err; // Rethrow non-MySQL errors
+App 5223 output:       ^
+App 5223 output: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'tecozk_root'@'localhost' to database 'tecozk_tecozk_agritech1'
+App 5223 output:     at Handshake.Sequence._packetToError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+App 5223 output:     at Handshake.ErrorPacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+App 5223 output:     at Protocol._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 5223 output:     at Parser._parsePacket (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 5223 output:     at Parser.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 5223 output:     at Protocol.write (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 5223 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:88:28)
+App 5223 output:     at Socket.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:526:10)
+App 5223 output:     at Socket.emit (events.js:198:13)
+App 5223 output:     at addChunk (_stream_readable.js:288:12)
+App 5223 output:     --------------------
+App 5223 output:     at Protocol._enqueue (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+App 5223 output:     at Protocol.handshake (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+App 5223 output:     at Connection.connect (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:116:18)
+App 5223 output:     at Object.<anonymous> (/home/tecozk/check.intellefarm.com/appv2/app.js:19:5)
+App 5223 output:     at Module._compile (internal/modules/cjs/loader.js:778:30)
+App 5223 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 5223 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 5223 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 5223 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 5223 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 5669 output: Agritech app Started on port 3000!
+App 5669 output: Connected!
+App 5669 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.560 ms - 1162[0m
+App 5669 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.625 ms - 1162[0m
+App 5669 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.481 ms - 1162[0m
+App 5669 output: 2
+App 5669 output: connected
+App 5669 output: connected
+App 13814 output: Agritech app Started on port 3000!
+App 13814 output: Connected!
+App 13814 output: 2
+App 13814 output: connected
+App 13814 output: connected
+App 13814 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.043 ms - 1162[0m
+App 13814 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.004 ms - 1162[0m
+App 13814 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.707 ms - 1162[0m
+App 13814 output: 2
+App 13814 output: connected
+App 13814 output: connected
+App 5006 output: Agritech app Started on port 3000!
+App 5006 output: Connected!
+App 30024 output: Agritech app Started on port 3000!
+App 30024 output: Connected!
+App 30024 output: 2
+App 30024 output: connected
+App 30024 output: connected
+App 30024 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.038 ms - 1162[0m
+App 30024 output: 2
+App 30024 output: connected
+App 30024 output: connected
+App 5813 output: Agritech app Started on port 3000!
+App 5813 output: Connected!
+App 5813 output: 2
+App 5813 output: connected
+App 5813 output: connected
+App 5813 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.062 ms - 1162[0m
+App 5813 output: 2
+App 5813 output: connected
+App 5813 output: connected
+App 5813 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.770 ms - 1162[0m
+App 5813 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.528 ms - 1162[0m
+App 5813 output: 2
+App 5813 output: connected
+App 5813 output: connected
+App 5499 output: Agritech app Started on port 3000!
+App 5499 output: Connected!
+App 5499 output: 2
+App 5499 output: connected
+App 5499 output: connected
+App 29174 output: Agritech app Started on port 3000!
+App 29174 output: Connected!
+App 21869 output: Agritech app Started on port 3000!
+App 21869 output: Connected!
+App 21869 output: [0mGET /indeximages/poster3.jpg [31m500 [0m2.602 ms - 1162[0m
+App 21869 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.782 ms - 1162[0m
+App 21869 output: 0
+App 21869 output: connected
+App 21869 output: connected
+App 20586 output: Agritech app Started on port 3000!
+App 20586 output: Connected!
+App 14258 output: Agritech app Started on port 3000!
+App 14258 output: Connected!
+App 14258 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.785 ms - 1162[0m
+App 14258 output: [0mGET /favicon.ico [31m500 [0m0.624 ms - 1162[0m
+App 14258 output: [0mGET /favicon.ico [31m500 [0m0.444 ms - 1162[0m
+App 14258 output: [0mGET /favicon.ico [31m500 [0m0.405 ms - 1162[0m
+App 14258 output: [0mGET /favicon.ico [31m500 [0m0.683 ms - 1162[0m
+App 14258 output: [0mGET /favicon.ico [31m500 [0m0.486 ms - 1162[0m
+App 14258 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.482 ms - 1162[0m
+App 14258 output: [0mGET /favicon.ico [31m500 [0m0.476 ms - 1162[0m
+App 14258 output: [0mGET /favicon.ico [31m500 [0m0.446 ms - 1162[0m
+App 14258 output: [0mGET /favicon.ico [31m500 [0m0.466 ms - 1162[0m
+App 14258 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.439 ms - 1162[0m
+App 14258 output: [0mGET /favicon.ico [31m500 [0m0.465 ms - 1162[0m
+App 14258 output: [0mGET /favicon.ico [31m500 [0m0.443 ms - 1162[0m
+App 14258 output: [0mGET /favicon.ico [31m500 [0m0.656 ms - 1162[0m
+App 14258 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.445 ms - 1162[0m
+App 14258 output: [0mGET /favicon.ico [31m500 [0m0.478 ms - 1162[0m
+App 14258 output: [0mGET /favicon.ico [31m500 [0m0.408 ms - 1162[0m
+App 14258 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.457 ms - 1162[0m
+App 14258 output: [0mGET /favicon.ico [31m500 [0m0.453 ms - 1162[0m
+App 14258 output: [0mGET /favicon.ico [31m500 [0m0.409 ms - 1162[0m
+App 14258 output: [0mGET /favicon.ico [31m500 [0m0.465 ms - 1162[0m
+App 19391 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 19391 output:     }
+App 19391 output:     ^
+App 19391 output: SyntaxError: missing ) after argument list
+App 19391 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 19391 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 19391 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 19391 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 19391 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 19391 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 19391 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 19391 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 19391 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 19391 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 19610 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 19610 output:     }
+App 19610 output:     ^
+App 19610 output: SyntaxError: missing ) after argument list
+App 19610 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 19610 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 19610 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 19610 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 19610 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 19610 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 19610 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 19610 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 19610 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 19610 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 19808 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 19808 output:     }
+App 19808 output:     ^
+App 19808 output: SyntaxError: missing ) after argument list
+App 19808 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 19808 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 19808 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 19808 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 19808 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 19808 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 19808 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 19808 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 19808 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 19808 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 19931 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 19931 output:     }
+App 19931 output:     ^
+App 19931 output: SyntaxError: missing ) after argument list
+App 19931 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 19931 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 19931 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 19931 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 19931 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 19931 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 19931 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 19931 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 19931 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 19931 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 20899 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 20899 output:     }
+App 20899 output:     ^
+App 20899 output: SyntaxError: missing ) after argument list
+App 20899 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 20899 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 20899 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 20899 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 20899 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 20899 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 20899 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 20899 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 20899 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 20899 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 21040 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 21040 output:     }
+App 21040 output:     ^
+App 21040 output: SyntaxError: missing ) after argument list
+App 21040 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 21040 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 21040 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 21040 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 21040 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 21040 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 21040 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 21040 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 21040 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 21040 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 21178 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 21178 output:     }
+App 21178 output:     ^
+App 21178 output: SyntaxError: missing ) after argument list
+App 21178 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 21178 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 21178 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 21178 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 21178 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 21178 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 21178 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 21178 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 21178 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 21178 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 10124 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 10124 output:     }
+App 10124 output:     ^
+App 10124 output: SyntaxError: missing ) after argument list
+App 10124 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 10124 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 10124 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 10124 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 10124 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 10124 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 10124 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 10124 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 10124 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 10124 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 10304 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 10304 output:     }
+App 10304 output:     ^
+App 10304 output: SyntaxError: missing ) after argument list
+App 10304 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 10304 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 10304 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 10304 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 10304 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 10304 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 10304 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 10304 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 10304 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 10304 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 13078 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 13078 output:     }
+App 13078 output:     ^
+App 13078 output: SyntaxError: missing ) after argument list
+App 13078 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 13078 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 13078 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 13078 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 13078 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 13078 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 13078 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 13078 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 13078 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 13078 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 13219 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 13219 output:     }
+App 13219 output:     ^
+App 13219 output: SyntaxError: missing ) after argument list
+App 13219 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 13219 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 13219 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 13219 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 13219 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 13219 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 13219 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 13219 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 13219 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 13219 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 21925 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 21925 output:     }
+App 21925 output:     ^
+App 21925 output: SyntaxError: missing ) after argument list
+App 21925 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 21925 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 21925 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 21925 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 21925 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 21925 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 21925 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 21925 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 21925 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 21925 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 22072 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 22072 output:     }
+App 22072 output:     ^
+App 22072 output: SyntaxError: missing ) after argument list
+App 22072 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 22072 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 22072 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 22072 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 22072 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 22072 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 22072 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 22072 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 22072 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 22072 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 22225 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 22225 output:     }
+App 22225 output:     ^
+App 22225 output: SyntaxError: missing ) after argument list
+App 22225 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 22225 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 22225 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 22225 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 22225 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 22225 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 22225 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 22225 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 22225 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 22225 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 22344 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 22344 output:     }
+App 22344 output:     ^
+App 22344 output: SyntaxError: missing ) after argument list
+App 22344 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 22344 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 22344 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 22344 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 22344 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 22344 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 22344 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 22344 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 22344 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 22344 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 22474 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 22474 output:     }
+App 22474 output:     ^
+App 22474 output: SyntaxError: missing ) after argument list
+App 22474 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 22474 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 22474 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 22474 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 22474 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 22474 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 22474 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 22474 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 22474 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 22474 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 22611 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 22611 output:     }
+App 22611 output:     ^
+App 22611 output: SyntaxError: missing ) after argument list
+App 22611 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 22611 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 22611 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 22611 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 22611 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 22611 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 22611 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 22611 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 22611 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 22611 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 25534 output: node[25534]: pthread_create: Resource temporarily unavailable
+App 25534 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 25534 output:     }
+App 25534 output:     ^
+App 25534 output: SyntaxError: missing ) after argument list
+App 25534 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 25534 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 25534 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 25534 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 25534 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 25534 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 25534 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 25534 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 25534 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 25534 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 30060 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 30060 output:     }
+App 30060 output:     ^
+App 30060 output: SyntaxError: missing ) after argument list
+App 30060 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 30060 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 30060 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 30060 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 30060 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 30060 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 30060 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 30060 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 30060 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 30060 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 30189 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 30189 output:     }
+App 30189 output:     ^
+App 30189 output: SyntaxError: missing ) after argument list
+App 30189 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 30189 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 30189 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 30189 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 30189 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 30189 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 30189 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 30189 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 30189 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 30189 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 32212 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 32212 output:     }
+App 32212 output:     ^
+App 32212 output: SyntaxError: missing ) after argument list
+App 32212 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 32212 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 32212 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 32212 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 32212 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 32212 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 32212 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 32212 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 32212 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 32212 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 32339 output: /home/tecozk/check.intellefarm.com/appv2/app.js:695
+App 32339 output:     }
+App 32339 output:     ^
+App 32339 output: SyntaxError: missing ) after argument list
+App 32339 output:     at Module._compile (internal/modules/cjs/loader.js:723:23)
+App 32339 output:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+App 32339 output:     at Module.load (internal/modules/cjs/loader.js:653:32)
+App 32339 output:     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+App 32339 output:     at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+App 32339 output:     at Module.require (internal/modules/cjs/loader.js:692:17)
+App 32339 output:     at Module.require (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 32339 output:     at require (internal/modules/cjs/helpers.js:25:18)
+App 32339 output:     at loadApplication (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:243:2)
+App 32339 output:     at setupEnvironment (/opt/cpanel/ea-ruby24/root/usr/share/passenger/helper-scripts/node-loader.js:214:2)
+App 3582 output: Agritech app Started on port 3000!
+App 3582 output: Connected!
+App 3582 output: [0mGET /favicon.ico [31m500 [0m0.718 ms - 1162[0m
+App 4679 output: Agritech app Started on port 3000!
+App 4679 output: Connected!
+App 4679 output: Harvest is ready
+App 4679 output: connected
+App 4679 output: connected
+App 4679 output: Harvest is ready
+App 4679 output: connected
+App 4679 output: connected
+App 4679 output: Harvest is ready
+App 4679 output: connected
+App 4679 output: connected
+App 4679 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.012 ms - 1162[0m
+App 4679 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.685 ms - 1162[0m
+App 4679 output: Harvest is ready
+App 4679 output: connected
+App 4679 output: connected
+App 4679 output: [0mGET /lo [31m500 [0m0.491 ms - 1162[0m
+App 4679 output: [0mGET /favicon.ico [31m500 [0m0.441 ms - 1162[0m
+App 4679 output: Harvest is ready
+App 4679 output: connected
+App 4679 output: connected
+App 4679 output: [0mGET /vendor/bootstrap/js/bootstrap.bundle.min.js.map [31m500 [0m0.428 ms - 1162[0m
+App 4679 output: [0mGET /vendor/bootstrap/css/bootstrap.min.css.map [31m500 [0m0.420 ms - 1162[0m
+App 4679 output: Harvest is ready
+App 4679 output: connected
+App 4679 output: connected
+App 4679 output: [0mGET /vendor/bootstrap/css/bootstrap.min.css.map [31m500 [0m0.481 ms - 1162[0m
+App 4679 output: [0mGET /vendor/bootstrap/js/bootstrap.bundle.min.js.map [31m500 [0m1.146 ms - 1162[0m
+App 4679 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.472 ms - 1162[0m
+App 4679 output: Harvest is ready
+App 4679 output: connected
+App 4679 output: connected
+App 4679 output: [0mGET /vendor/bootstrap/js/bootstrap.bundle.min.js.map [31m500 [0m0.444 ms - 1162[0m
+App 4679 output: [0mGET /vendor/bootstrap/css/bootstrap.min.css.map [31m500 [0m0.421 ms - 1162[0m
+App 4679 output: Harvest is ready
+App 4679 output: connected
+App 4679 output: connected
+App 4679 output: [0mGET /vendor/bootstrap/css/bootstrap.min.css.map [31m500 [0m1.091 ms - 1162[0m
+App 4679 output: [0mGET /vendor/bootstrap/js/bootstrap.bundle.min.js.map [31m500 [0m0.450 ms - 1162[0m
+App 4679 output: Harvest is ready
+App 4679 output: connected
+App 4679 output: connected
+App 4679 output: [0mGET /vendor/bootstrap/css/bootstrap.min.css.map [31m500 [0m0.410 ms - 1162[0m
+App 4679 output: [0mGET /vendor/bootstrap/js/bootstrap.bundle.min.js.map [31m500 [0m0.449 ms - 1162[0m
+App 4679 output: Harvest is ready
+App 4679 output: connected
+App 4679 output: connected
+App 4679 output: [0mGET /vendor/bootstrap/css/bootstrap.min.css.map [31m500 [0m0.466 ms - 1162[0m
+App 4679 output: [0mGET /vendor/bootstrap/js/bootstrap.bundle.min.js.map [31m500 [0m0.495 ms - 1162[0m
+App 17921 output: Agritech app Started on port 3000!
+App 17921 output: Connected!
+App 17921 output: [0mGET /indeximages/poster3.jpg [31m500 [0m3.113 ms - 1162[0m
+App 26019 output: Agritech app Started on port 3000!
+App 26019 output: Connected!
+App 6540 output: Agritech app Started on port 3000!
+App 6540 output: Connected!
+App 13714 output: Agritech app Started on port 3000!
+App 13714 output: Connected!
+App 13714 output: [0mGET /indeximages/poster3.jpg [31m500 [0m2.419 ms - 1162[0m
+App 13872 output: Agritech app Started on port 3000!
+App 13872 output: Connected!
+App 13872 output: [0mGET /404.shtml [31m500 [0m16.411 ms - 1163[0m
+App 6831 output: Agritech app Started on port 3000!
+App 6831 output: Connected!
+App 6831 output: events.js:174
+App 6831 output:       throw er; // Unhandled 'error' event
+App 6831 output:       ^
+App 6831 output: Error: read ECONNRESET
+App 6831 output:     at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+App 6831 output: Emitted 'error' event at:
+App 6831 output:     at Connection._handleProtocolError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:423:8)
+App 6831 output:     at Protocol.emit (events.js:198:13)
+App 6831 output:     at Protocol._delegateError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 6831 output:     at Protocol.handleNetworkError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+App 6831 output:     at Connection._handleNetworkError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:418:18)
+App 6831 output:     at Socket.emit (events.js:198:13)
+App 6831 output:     at emitErrorNT (internal/streams/destroy.js:91:8)
+App 6831 output:     at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+App 6831 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 4616 output: Agritech app Started on port 3000!
+App 4616 output: Connected!
+App 32635 output: Agritech app Started on port 3000!
+App 32635 output: Connected!
+App 32635 output: Harvest is ready
+App 32635 output: connected
+App 32635 output: connected
+App 32635 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.434 ms - 1162[0m
+App 32635 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.941 ms - 1162[0m
+App 7621 output: Agritech app Started on port 3000!
+App 7621 output: Connected!
+App 16069 output: Agritech app Started on port 3000!
+App 16069 output: Connected!
+App 16069 output: events.js:174
+App 16069 output:       throw er; // Unhandled 'error' event
+App 16069 output:       ^
+App 16069 output: Error: read ECONNRESET
+App 16069 output:     at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+App 16069 output: Emitted 'error' event at:
+App 16069 output:     at Connection._handleProtocolError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:423:8)
+App 16069 output:     at Protocol.emit (events.js:198:13)
+App 16069 output:     at Protocol._delegateError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 16069 output:     at Protocol.handleNetworkError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+App 16069 output:     at Connection._handleNetworkError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:418:18)
+App 16069 output:     at Socket.emit (events.js:198:13)
+App 16069 output:     at emitErrorNT (internal/streams/destroy.js:91:8)
+App 16069 output:     at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+App 16069 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 13019 output: Agritech app Started on port 3000!
+App 13019 output: Connected!
+App 13019 output: Harvest is ready
+App 13019 output: connected
+App 13019 output: connected
+App 17591 output: Agritech app Started on port 3000!
+App 17591 output: Connected!
+App 17591 output: [0mGET /indeximages/poster3.jpg [31m500 [0m3.512 ms - 1162[0m
+App 17591 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.614 ms - 1162[0m
+App 17591 output: Harvest is ready
+App 17591 output: connected
+App 17591 output: connected
+App 17591 output: [0mGET /loginauth [31m500 [0m0.582 ms - 1163[0m
+App 28648 output: /etc/profile: fork: retry: No child processes
+App 28648 output: /etc/profile: fork: retry: No child processes
+App 28648 output: /etc/profile: fork: retry: No child processes
+App 28648 output: /etc/profile: fork: retry: No child processes
+App 28648 output: /etc/profile: fork: Resource temporarily unavailable
+App 28648 output: /etc/profile: line 107: [: : integer expression expected
+App 28648 output: /etc/bashrc: fork: retry: No child processes
+App 28648 output: /etc/bashrc: fork: retry: No child processes
+App 28648 output: /etc/bashrc: fork: retry: No child processes
+App 28648 output: /etc/bashrc: fork: retry: No child processes
+App 28648 output: /etc/bashrc: fork: Resource temporarily unavailable
+App 28648 output: /etc/bashrc: line 123: [: : integer expression expected
+App 31198 output: /etc/profile: fork: retry: Resource temporarily unavailable
+App 31198 output: /etc/profile: fork: retry: No child processes
+App 31198 output: /etc/profile: fork: retry: Resource temporarily unavailable
+App 31198 output: /etc/profile: fork: retry: No child processes
+App 31198 output: /etc/profile: fork: retry: Resource temporarily unavailable
+App 31198 output: /etc/profile: fork: retry: No child processes
+App 31198 output: /etc/profile: fork: retry: Resource temporarily unavailable
+App 31198 output: /etc/profile: fork: retry: No child processes
+App 31198 output: /etc/profile: fork: Resource temporarily unavailable
+App 31198 output: /etc/profile: fork: Resource temporarily unavailable
+App 31198 output: /etc/profile: line 107: [: : integer expression expected
+App 31198 output: /etc/bashrc: fork: retry: Resource temporarily unavailable
+App 31198 output: /etc/bashrc: fork: retry: No child processes
+App 31198 output: /etc/bashrc: fork: retry: Resource temporarily unavailable
+App 31198 output: /etc/bashrc: fork: retry: No child processes
+App 31198 output: /etc/bashrc: fork: retry: Resource temporarily unavailable
+App 31198 output: /etc/bashrc: fork: retry: No child processes
+App 31198 output: /etc/bashrc: fork: retry: Resource temporarily unavailable
+App 31198 output: /etc/bashrc: fork: retry: No child processes
+App 31198 output: /etc/bashrc: fork: Resource temporarily unavailable
+App 31198 output: /etc/bashrc: fork: Resource temporarily unavailable
+App 31198 output: /etc/bashrc: line 123: [: : integer expression expected
+App 31198 output: Error: Cannot fork() a new process: Resource temporarily unavailable (errno=11)
+App 31198 output:      (empty)
+App 19783 output: Agritech app Started on port 3000!
+App 19783 output: Connected!
+App 19783 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.277 ms - 1162[0m
+App 19783 output: Harvest is ready
+App 19783 output: connected
+App 19783 output: connected
+App 10051 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 10051 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 10051 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 10051 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 10051 output: /etc/profile.d/locallib.sh: fork: Resource temporarily unavailable
+App 9891 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 9891 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 9891 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 9891 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 9891 output: /etc/profile.d/locallib.sh: fork: Resource temporarily unavailable
+App 10180 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 10180 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 10180 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 10180 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 10180 output: /etc/profile.d/locallib.sh: fork: Resource temporarily unavailable
+App 3205 output: Agritech app Started on port 3000!
+App 3205 output: Connected!
+App 3205 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.531 ms - 1162[0m
+App 3205 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.624 ms - 1162[0m
+App 3205 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.453 ms - 1162[0m
+App 3205 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.627 ms - 1162[0m
+App 3205 output: events.js:174
+App 3205 output:       throw er; // Unhandled 'error' event
+App 3205 output:       ^
+App 3205 output: Error: read ECONNRESET
+App 3205 output:     at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+App 3205 output: Emitted 'error' event at:
+App 3205 output:     at Connection._handleProtocolError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:423:8)
+App 3205 output:     at Protocol.emit (events.js:198:13)
+App 3205 output:     at Protocol._delegateError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 3205 output:     at Protocol.handleNetworkError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/protocol/Protocol.js:371:10)
+App 3205 output:     at Connection._handleNetworkError (/home/tecozk/check.intellefarm.com/appv2/node_modules/mysql/lib/Connection.js:418:18)
+App 3205 output:     at Socket.emit (events.js:198:13)
+App 3205 output:     at emitErrorNT (internal/streams/destroy.js:91:8)
+App 3205 output:     at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+App 3205 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 25390 output: /etc/profile: fork: retry: Resource temporarily unavailable
+App 25390 output: /etc/profile: fork: retry: No child processes
+App 25390 output: /etc/profile: fork: retry: Resource temporarily unavailable
+App 25390 output: /etc/profile: fork: retry: No child processes
+App 25390 output: /etc/profile: fork: retry: Resource temporarily unavailable
+App 25390 output: /etc/profile: fork: retry: No child processes
+App 25390 output: /etc/profile: fork: retry: Resource temporarily unavailable
+App 25390 output: /etc/profile: fork: retry: No child processes
+App 25390 output: /etc/profile: fork: Resource temporarily unavailable
+App 25390 output: /etc/profile: fork: Resource temporarily unavailable
+App 25390 output: /etc/profile: line 107: [: : integer expression expected
+App 25390 output: /etc/bashrc: fork: retry: No child processes
+App 25390 output: /etc/bashrc: fork: retry: No child processes
+App 25390 output: /etc/bashrc: fork: retry: No child processes
+App 25390 output: /etc/bashrc: fork: retry: No child processes
+App 25390 output: /etc/bashrc: fork: Resource temporarily unavailable
+App 25390 output: /etc/bashrc: fork: retry: No child processes
+App 25390 output: /etc/bashrc: fork: retry: No child processes
+App 25390 output: /etc/bashrc: fork: retry: No child processes
+App 25390 output: /etc/bashrc: fork: retry: No child processes
+App 25390 output: /etc/bashrc: fork: Resource temporarily unavailable
+App 25390 output: /etc/bashrc: fork: retry: No child processes
+App 25390 output: /etc/bashrc: line 122: id: No such file or directory
+App 25390 output: /etc/bashrc: line 122: grep: No such file or directory
+App 25390 output: /etc/bashrc: line 123: id: No such file or directory
+App 25390 output: /etc/bashrc: fork: retry: Resource temporarily unavailable
+App 25390 output: /etc/bashrc: fork: retry: No child processes
+App 25390 output: /etc/bashrc: fork: retry: Resource temporarily unavailable
+App 25390 output: /etc/bashrc: fork: retry: No child processes
+App 25390 output: /etc/bashrc: fork: retry: Resource temporarily unavailable
+App 25390 output: /etc/bashrc: fork: retry: No child processes
+App 25390 output: /etc/bashrc: fork: retry: Resource temporarily unavailable
+App 25390 output: /etc/bashrc: fork: retry: No child processes
+App 25390 output: /etc/bashrc: fork: Resource temporarily unavailable
+App 25390 output: /etc/bashrc: fork: Resource temporarily unavailable
+App 25390 output: /etc/bashrc: line 123: [: : integer expression expected
+App 25390 output: *** ERROR: cannot execute env: No such file or directory (errno=2)
+App 25390 output: *** ERROR: cannot execute id: No such file or directory (errno=2)
+App 25390 output: *** ERROR: cannot execute env: No such file or directory (errno=2)
+App 25390 output: *** ERROR: cannot execute env: No such file or directory (errno=2)
+App 25390 output: /home/tecozk/nodevenv/check.intellefarm.com/appv2/10/bin/node: fork: retry: No child processes
+App 25390 output: /home/tecozk/nodevenv/check.intellefarm.com/appv2/10/bin/node: fork: retry: No child processes
+App 25390 output: /home/tecozk/nodevenv/check.intellefarm.com/appv2/10/bin/node: fork: retry: No child processes
+App 25390 output: /home/tecozk/nodevenv/check.intellefarm.com/appv2/10/bin/node: fork: retry: No child processes
+App 25390 output: /home/tecozk/nodevenv/check.intellefarm.com/appv2/10/bin/node: fork: Resource temporarily unavailable
+App 25390 output: /home/tecozk/nodevenv/check.intellefarm.com/appv2/10/bin/node: line 9: /home/tecozk/check.intellefarm.com/appv2/activate: No such file or directory
+App 25390 output: /home/tecozk/nodevenv/check.intellefarm.com/appv2/10/bin/node: line 10: /home/tecozk/check.intellefarm.com/appv2/set_env_vars.py: No such file or directory
+App 25390 output: /home/tecozk/nodevenv/check.intellefarm.com/appv2/10/bin/node: line 12: /usr/bin/node: No such file or directory
+App 27877 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 12920 output: node[12920]: pthread_create: Resource temporarily unavailable
+App 13058 output: node[13058]: pthread_create: Resource temporarily unavailable
+App 16068 output: node[16068]: pthread_create: Resource temporarily unavailable
+App 13502 output: Agritech app Started on port 3000!
+App 13502 output: Connected!
+App 29402 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 29402 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 29402 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 29402 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 29402 output: /etc/profile.d/locallib.sh: fork: Resource temporarily unavailable
+App 29743 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 29743 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 29743 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 29743 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 29743 output: /etc/profile.d/locallib.sh: fork: Resource temporarily unavailable
+App 7639 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 7639 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 7639 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 7639 output: /etc/profile.d/locallib.sh: fork: retry: No child processes
+App 7639 output: /etc/profile.d/locallib.sh: fork: Resource temporarily unavailable
+App 12956 output: Agritech app Started on port 3000!
+App 12956 output: Connected!
