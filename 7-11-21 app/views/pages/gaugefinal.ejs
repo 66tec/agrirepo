@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Dashboard</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome CSS-->
+  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+  <!-- Fontastic Custom icon font-->
+  <link rel="stylesheet" href="css/fontastic.css">
+  <!-- Google fonts - Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <!-- jQuery Circle-->
+  <link rel="stylesheet" href="css/grasp_mobile_progress_circle-1.0.0.min.css">
+  <!-- Custom Scrollbar-->
+  <link rel="stylesheet" href="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+  <!-- Custom stylesheet - for your changes-->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#2f434e" />
+  <meta http-equiv="cleartype" content="on" />
+
+  <link rel="stylesheet" href="srcguages/index.css" />
+  <link rel="stylesheet" href="srcguages/dark.css" />
+
+  <!-- Tweaks for older IEs-->
+  <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+            <style>
+              .info {
+                padding: 20px;
+              }
+              /* .example {
+                overflow: auto;
+                border-bottom: 1px solid rgba(0,0,0,0.6);
+                box-sizing: border-box;
+                clear: both;
+                margin-bottom: 30px;
+              } */
+              /* .example > .code, .example > .display {
+                box-sizing: border-box;
+                padding: 10px;
+              }
+             */
+              
+              
+        /* 
+              pre {
+                padding: 0;
+                margin: 0;
+              } */
+        
+        
+        
+              @media only screen and (min-device-width: 768px) {
+                .gauge-container {
+                  width: 250px;
+                  height: 250px;
+                }
+               
+               
+              }
+            </style>
+        
+          </head>
+
+<body>
+  <!--  wrapper -->
+  <%- include('../templates/leftnavbaradmin.ejs') %>
+    <div class="page">
+      <!-- navbar-->
+      <header class="header">
+        <%- include('../templates/topbar.ejs') %>
+      </header>
+      <!-- Counts Section -->
+      <!-- Header Section-->
+
+      <div class="row">
+        <!-- Welcome -->
+        <div class="col-lg-12">
+          <div class="alert alert-info">
+            <i class="fa fa-folder-open"></i><b>&nbsp;Hello ! </b>Welcome Back <b>
+              <%= username_dash %>
+            </b>
+          </div>
+        </div>
+        <!--end  Welcome -->
+
+
+      </div>
+
+      <br>
+
+      <div class="info">
+        <!-- <h2>Gauge</h2> -->
+        <h4></h4>
+        <p>
+          
+        </p>
+      </div>
+  
+      <div>
+        <!-- <h2>Temperature 1</h2> -->
+       
+          <!-- <div id="gauge0" class="gauge-container two"></div>  -->
+        </div>
+        
+       <!-- <h2>Humidity 1</h2> -->
+          <!-- <div id="gauge1" class="gauge-container three"></div> -->
+       
+      
+  
+          <!-- <h2>Soil Moisture 1 </h2> -->
+          <!-- <div id="gauge2" class="gauge-container four"></div> -->
+  
+       
+          <!-- <h2>Light Intensity 1 </h2> -->
+          <!-- <div id="gauge3" class="gauge-container five"></div> -->
+  
+      
+  
+      <div class="example">
+          <!-- <h2>Temperature 2</h2> -->
+         
+            <!-- <div id="gauge4" class="gauge-container two"></div> -->
+        
+          
+         <!-- <h2>Humidity 2</h2> -->
+            <!-- <div id="gauge5" class="gauge-container three"></div> -->
+         
+        </div>
+    
+            <!-- <h2>Soil Moisture 2 </h2> -->
+            <!-- <div id="gauge6" class="gauge-container four"></div> -->
+       
+         
+            <!-- <h2>Light Intensity 2 </h2> -->
+            <!-- <div id="gauge7" class="gauge-container five"></div> -->
+<center>
+  <form>
+    <!-- <input type="text"> -->
+    <!-- <label for="zone">Select Zone</label>
+    <select class="form-control" name="zone" id="zone" style="width: 50%;">
+      <% zoneDetail.forEach(function(item) { %>
+      <option value='<%= item.id%>'><%= item.name%></option>
+      <% }); %>
+
+    </select> -->
+  </form>
+</center>
+<!-- <br><br>     -->
+
+        <div class="container" style="color: black; ">
+          <div class="row">
+            <div class="col-sm">
+              <div style="text-align: center;"><b>Temperature 1</b></div>
+
+              <div id="gauge0" class="gauge-container two"></div> 
+
+            </div>
+            <div class="col-sm">
+              <div style="text-align: center;"><b>Humidity 1</b></div>
+              <div id="gauge1" class="gauge-container three"></div> 
+
+            </div>
+            <div class="col-sm">
+              <div style="text-align: center;"><b>Soil Moisture 1</b></div>
+              <div id="gauge2" class="gauge-container four"></div> 
+
+            </div>
+            <div class="col-sm">
+              <div style="text-align: center;"><b>Light Intensity 1</b></div>
+
+              <!-- <div id="gauge1" class="gauge-container two"></div>  -->
+              <div id="gauge3" class="gauge-container five"></div>
+
+            </div>
+
+            <div class="container" style="color: black;">
+              <div class="row">
+                <div class="col-sm">
+                  <div style="text-align: center;"><b>Temperature 2</b></div>
+                  <div id="gauge4" class="gauge-container two"></div> 
+    
+                </div>
+                <div class="col-sm">
+                  <div style="text-align: center;"><b>Humidity 2</b></div>
+                  <div id="gauge5" class="gauge-container three"></div> 
+    
+                </div>
+                <div class="col-sm">
+                  
+                  <div style="text-align: center;"><b>Soil Moisture 2</b></div>
+
+                  <div id="gauge6" class="gauge-container four"></div> 
+    
+                </div>
+                <div class="col-sm">
+                  <div style="text-align: center;"><b>Light Intensity 2</b></div>
+
+                  
+                  <!-- <div id="gauge1" class="gauge-container two"></div>  -->
+                  <div id="gauge7" class="gauge-container five"></div>
+    
+                </div>
+          </div>
+        </div>
+      </div>
+
+
+      <script type="text/javascript" src="srcguages/gauge.js"> </script>
+      <script>
+  
+        var pad = function(tar) {}
+  
+        var gauge0 = Gauge(document.getElementById("gauge0"),
+       
+          {
+            min: -100,
+            max: 100,
+            dialStartAngle: 180,
+            dialEndAngle: 0,
+            value: 50,
+            viewBox: "0 0 100 57",
+            color: function(value) {
+              if(value < 20) {
+                return "#5ee432";
+              }else if(value < 40) {
+                return "#fffa50";
+              }else if(value < 60) {
+                return "#f7aa38";
+              }else {
+                return "#ef4655";
+              }
+            }
+          }
+        );
+  
+        var gauge1 = Gauge(
+          document.getElementById("gauge1"),
+          {
+            max: 100,
+            value: 50
+          }
+          
+        );
+  
+        var gauge2 = Gauge(
+          document.getElementById("gauge2"),
+          {
+        max: 1100,
+        dialStartAngle: 180,
+        dialEndAngle: -90,
+        viewBox: "0 0 61 57",
+        value: 50
+      }
+        );
+  
+        var gauge3 = Gauge(
+          document.getElementById("gauge3"),
+          {
+        max: 1200,
+        dialStartAngle: 0,
+        dialEndAngle: -180,
+        viewBox: "0 20 100 100",
+        value: 50
+      }
+        );
+  
+        var gauge4 = Gauge(
+          document.getElementById("gauge4"),
+          {
+            min: -100,
+            max: 100,
+            dialStartAngle: 180,
+            dialEndAngle: 0,
+            value: 50,
+            viewBox: "0 0 100 57",
+            color: function(value) {
+              if(value < 20) {
+                return "#5ee432";
+              }else if(value < 40) {
+                return "#fffa50";
+              }else if(value < 60) {
+                return "#f7aa38";
+              }else {
+                return "#ef4655";
+              }
+            }
+          }
+        );
+  
+        var gauge5 = Gauge(
+          document.getElementById("gauge5"),
+          {
+            max: 100,
+            value: 50
+          }
+        );
+  
+        var gauge6 = Gauge(
+          document.getElementById("gauge6"),
+          {
+        max: 2000,
+        dialStartAngle: 180,
+        dialEndAngle: -90,
+        viewBox: "0 0 61 57",
+        value: 50
+      }
+        );
+  
+        var gauge7 = Gauge(
+      document.getElementById("gauge7"),
+      {
+        max: 1200,
+        dialStartAngle: 0,
+        dialEndAngle: -180,
+        viewBox: "0 20 100 100",
+        value: 50
+      }
+    );
+        (function loop() {
+          var value1  ='<%= humidity1 %>',
+              value2 = Math.random(),
+              value3 = Math.random() * 100,
+              value4 = Math.random() * 100,
+              value5 = Math.random() * 200;
+  
+          gauge0.setValue('<%= temp1 %>', 1);
+          gauge1.setValueAnimated('<%= humidity1 %>', 1);
+          gauge2.setValueAnimated('<%= soil1 %>', 3);
+          gauge3.setValueAnimated('<%= light1 %>', 1.5);
+          gauge4.setValueAnimated('<%= temp2 %>', 2);
+          gauge5.setValueAnimated('<%= humidity2 %>', 1);
+          gauge6.setValueAnimated('<%= soil2 %>', 1);
+          gauge7.setValueAnimated('<%= light2 %>', 1);
+          window.setTimeout(loop, 4000);
+        })();
+       </script>
+    </div>
+
+    <section>
+      <center>
+        <div class="row" style="color: black;">
+            <div class="col-lg-2">
+  
+            </div>
+            <div class="col-lg-6">
+                <!-- <form role="form" method="POST" action="createfarm" > -->
+                <form role="form" method="POST" action="setvalue" >
+        <% setValue.forEach(function(item) { %>
+
+                <div class="form-group">
+  
+                  <label for="">Low Temperature</label>
+                  <input type="text" required value="<%= item.temperaturelow%>"
+                  class="form-control" name="tempLow" id="tempLow" aria-describedby="helpId" placeholder="">
+                  <small id="helpId" class="form-text text-muted">Low Range for Temperature</small>
+  
+  
+                  
+                  <label for="">High Temperature</label>
+                  <input type="text" required value="<%= item.temperaturehigh%>"
+                    class="form-control" name="tempHigh" id="tempHigh" aria-describedby="helpId" placeholder="">
+                  <small id="helpId" class="form-text text-muted">High Range for Temperature</small>
+  
+                  <label for="">Humidity</label>
+                  <input type="text" required value="<%= item.humidity%>"
+                    class="form-control" name="humidityVal" id="humidityVal" aria-describedby="helpId" placeholder="">
+                  <small id="helpId" class="form-text text-muted">Humidity Range</small>
+  
+                  <label for="">Sprayer</label>
+                  <input type="text" required value="<%= item.sprayer%>"
+                    class="form-control" name="spray" id="spray" aria-describedby="helpId" placeholder="">
+                    <!-- <select class="form-control" name="spray" id="spray" value="<%= item.sprayer%>">
+                      
+                      <option  value="on" >On</option>
+                      <option  value="off">Off</option>
+                      
+                    </select> -->
+                    <small id="helpId" class="form-text text-muted">On / Off Humidifier</small>
+
+                  <label for="">Water Pump</label>
+                  <input type="text" required value="<%= item.water%>"
+                    class="form-control" name="pump" id="pump" aria-describedby="helpId" placeholder="">
+                    <!-- <select class="form-control" name="pump" id="pump" value="<%= item.water%>">
+                      
+                      <option value="on">On</option>
+                      <option value="off">Off</option>
+                      
+                    </select> -->
+                  <small id="helpId" class="form-text text-muted">On / Off Water Pump</small>
+                  <br>
+                  <button href="setvalue" class="btn btn-primary" role="button">Set Values</button>                
+                </div>
+                <% }); %>
+
+              </form>
+              
+  
+            </div> 
+  
+        </div>
+      </center>
+  
+    </section>
+    <!--End Chat Panel Example-->
+    <%- include('../templates/copyright.ejs') %>
+      </div>
+
+
+      <!-- JavaScript files-->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="js/grasp_mobile_progress_circle-1.0.0.min.js"></script>
+      <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+      <script src="vendor/chart.js/Chart.min.js"></script>
+      <script src="vendor/jquery-validation/jquery.validate.min.js"></script>
+      <script src="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/charts-home.js"></script>
+      <!-- Main File-->
+      <script src="js/front.js"></script>
+</body>
+
+</html>

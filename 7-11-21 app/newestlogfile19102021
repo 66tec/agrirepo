@@ -1,0 +1,2084 @@
+App 6046 output: Agritech app Started on port 3000!
+App 6046 output: Connected!
+App 6046 output: Connected!
+App 6046 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.496 ms - 1111[0m
+App 6046 output: Harvest is ready
+App 6046 output: connected
+App 6046 output: connected
+App 6046 output: /home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Parser.js:437
+App 6046 output:       throw err; // Rethrow non-MySQL errors
+App 6046 output:       ^
+App 6046 output: TypeError: Cannot read property 'length' of undefined
+App 6046 output:     at Query.<anonymous> (/home/tecozk/public_html/19-10-2021/routes/index.js:590:24)
+App 6046 output:     at Query.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 6046 output:     at Query._callback (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:488:16)
+App 6046 output:     at Query.Sequence.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+App 6046 output:     at Query.ErrorPacket (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+App 6046 output:     at Protocol._parsePacket (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 6046 output:     at Parser._parsePacket (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 6046 output:     at Parser.write (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 6046 output:     at Protocol.write (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 6046 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:88:28)
+App 6336 output: Agritech app Started on port 3000!
+App 6336 output: Connected!
+App 6336 output: Connected!
+App 6336 output: [0mGET /loginauth [31m500 [0m7.835 ms - 1112[0m
+App 6336 output: Harvest is ready
+App 6336 output: connected
+App 6336 output: connected
+App 6336 output: /home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Parser.js:437
+App 6336 output:       throw err; // Rethrow non-MySQL errors
+App 6336 output:       ^
+App 6336 output: TypeError: Cannot read property 'length' of undefined
+App 6336 output:     at Query.<anonymous> (/home/tecozk/public_html/19-10-2021/routes/index.js:590:24)
+App 6336 output:     at Query.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 6336 output:     at Query._callback (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:488:16)
+App 6336 output:     at Query.Sequence.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+App 6336 output:     at Query.ErrorPacket (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+App 6336 output:     at Protocol._parsePacket (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 6336 output:     at Parser._parsePacket (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 6336 output:     at Parser.write (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 6336 output:     at Protocol.write (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 6336 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:88:28)
+App 6604 output: Agritech app Started on port 3000!
+App 6604 output: Connected!
+App 6604 output: Connected!
+App 6604 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.175 ms - 1111[0m
+App 6604 output: Harvest is ready
+App 6604 output: connected
+App 6604 output: connected
+App 6604 output: /home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Parser.js:437
+App 6604 output:       throw err; // Rethrow non-MySQL errors
+App 6604 output:       ^
+App 6604 output: TypeError: Cannot read property 'length' of undefined
+App 6604 output:     at Query.<anonymous> (/home/tecozk/public_html/19-10-2021/routes/index.js:590:24)
+App 6604 output:     at Query.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 6604 output:     at Query._callback (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:488:16)
+App 6604 output:     at Query.Sequence.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+App 6604 output:     at Query.ErrorPacket (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+App 6604 output:     at Protocol._parsePacket (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 6604 output:     at Parser._parsePacket (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 6604 output:     at Parser.write (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 6604 output:     at Protocol.write (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 6604 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:88:28)
+App 7001 output: Agritech app Started on port 3000!
+App 7001 output: Connected!
+App 7001 output: Connected!
+App 7001 output: Harvest is ready
+App 7001 output: connected
+App 7001 output: connected
+App 7001 output: /home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Parser.js:437
+App 7001 output:       throw err; // Rethrow non-MySQL errors
+App 7001 output:       ^
+App 7001 output: TypeError: Cannot read property 'length' of undefined
+App 7001 output:     at Query.<anonymous> (/home/tecozk/public_html/19-10-2021/routes/index.js:590:24)
+App 7001 output:     at Query.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 7001 output:     at Query._callback (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:488:16)
+App 7001 output:     at Query.Sequence.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+App 7001 output:     at Query.ErrorPacket (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+App 7001 output:     at Protocol._parsePacket (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+App 7001 output:     at Parser._parsePacket (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Parser.js:433:10)
+App 7001 output:     at Parser.write (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Parser.js:43:10)
+App 7001 output:     at Protocol.write (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+App 7001 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:88:28)
+App 7800 output: Agritech app Started on port 3000!
+App 7800 output: Connected!
+App 7800 output: Connected!
+App 7800 output: [0mGET /tecozk_ms1/?C=D;O=A [31m500 [0m5.963 ms - 1112[0m
+App 7800 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.740 ms - 1111[0m
+App 7800 output: Harvest is ready
+App 7800 output: connected
+App 7800 output: connected
+App 7800 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.710 ms - 1111[0m
+App 7800 output: Harvest is ready
+App 7800 output: connected
+App 7800 output: connected
+App 7800 output: [0mGET /tecozk_ms1/?C=M;O=A [31m500 [0m0.670 ms - 1112[0m
+App 7800 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.525 ms - 1111[0m
+App 7800 output: Harvest is ready
+App 7800 output: connected
+App 7800 output: connected
+App 7800 output: [0mGET /favicon.ico [31m500 [0m0.464 ms - 1112[0m
+App 31392 output: Agritech app Started on port 3000!
+App 31392 output: Connected!
+App 31392 output: Connected!
+App 31392 output: [0mGET /favicon.ico [31m500 [0m7.106 ms - 1112[0m
+App 31392 output: [0mGET /tecozk_ms1/?C=N;O=D [31m500 [0m0.675 ms - 1112[0m
+App 31392 output: [0mGET /robots.txt [31m500 [0m0.480 ms - 1112[0m
+App 31392 output: [0mGET /humans.txt [31m500 [0m0.395 ms - 1112[0m
+App 31392 output: [0mGET /ads.txt [31m500 [0m0.414 ms - 1112[0m
+App 25412 output: Agritech app Started on port 3000!
+App 25412 output: Connected!
+App 25412 output: Connected!
+App 25412 output: [0mGET /tecozk_ms1/?C=S;O=A [31m500 [0m5.986 ms - 1112[0m
+App 16940 output: Agritech app Started on port 3000!
+App 16940 output: Connected!
+App 16940 output: Connected!
+App 16940 output: [0mGET /tecozk_muzammil/?C=D;O=A [31m500 [0m5.988 ms - 1112[0m
+App 27202 output: Agritech app Started on port 3000!
+App 27202 output: Connected!
+App 27202 output: Connected!
+App 27202 output: [0mGET /404.shtml [31m500 [0m8.355 ms - 1112[0m
+App 23757 output: Agritech app Started on port 3000!
+App 23757 output: Connected!
+App 23757 output: Connected!
+App 23757 output: [0mGET /robots.txt [31m500 [0m6.069 ms - 1112[0m
+App 23757 output: [0mGET /robots.txt [31m500 [0m235.254 ms - 1112[0m
+App 23757 output: [0mGET /robots.txt [31m500 [0m8.337 ms - 1112[0m
+App 28449 output: Agritech app Started on port 3000!
+App 28449 output: Connected!
+App 28449 output: Connected!
+App 28449 output: [0mGET /robots.txt [31m500 [0m7.154 ms - 1112[0m
+App 28449 output: [0mGET /app2/ [31m500 [0m0.721 ms - 1112[0m
+App 28449 output: [0mGET /_profiler/phpinfo [31m500 [0m2.607 ms - 1112[0m
+App 28449 output: [0mGET /404.shtml [31m500 [0m0.403 ms - 1112[0m
+App 28449 output: [0mGET /phpinfo [31m500 [0m0.426 ms - 1112[0m
+App 28449 output: [0mGET /aws.yml [31m500 [0m0.416 ms - 1112[0m
+App 28449 output: [0mGET /403.shtml [31m500 [0m0.456 ms - 1112[0m
+App 28449 output: [0mGET /404.shtml [31m500 [0m0.444 ms - 1112[0m
+App 28449 output: [0mGET /.aws/credentials [31m500 [0m0.577 ms - 1112[0m
+App 28449 output: [0mGET /config/aws.yml [31m500 [0m0.419 ms - 1112[0m
+App 28449 output: [0mGET /config.js [31m500 [0m0.472 ms - 1112[0m
+App 28449 output: [0mGET /robots.txt [31m500 [0m0.431 ms - 1112[0m
+App 20728 output: Agritech app Started on port 3000!
+App 20728 output: Connected!
+App 20728 output: Connected!
+App 20728 output: [0mGET /robots.txt [31m500 [0m7.436 ms - 1112[0m
+App 20728 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.721 ms - 1111[0m
+App 20728 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.517 ms - 1111[0m
+App 20728 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.427 ms - 1111[0m
+App 20728 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.427 ms - 1111[0m
+App 20728 output: [0mGET /robots.txt [31m500 [0m1.706 ms - 1112[0m
+App 20728 output: [0mGET /app2/views/pages/indeximages/poster3.jpg [31m500 [0m0.929 ms - 1112[0m
+App 20728 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.661 ms - 1112[0m
+App 20728 output: [0mGET /404.shtml [31m500 [0m0.519 ms - 1112[0m
+App 20728 output: [0mGET /404.shtml [31m500 [0m0.449 ms - 1112[0m
+App 20728 output: [0mGET /wordpress/wp-login.php [31m500 [0m0.767 ms - 1112[0m
+App 20728 output: [0mGET /blog/wp-login.php [31m500 [0m0.480 ms - 1112[0m
+App 20728 output: [0mGET /wp/wp-login.php [31m500 [0m1.468 ms - 1112[0m
+App 20728 output: [0mGET /404.shtml [31m500 [0m0.669 ms - 1112[0m
+App 26683 output: Agritech app Started on port 3000!
+App 26683 output: Connected!
+App 26683 output: Connected!
+App 26683 output: [0mGET /robots.txt [31m500 [0m13.482 ms - 1112[0m
+App 24463 output: Agritech app Started on port 3000!
+App 24463 output: Connected!
+App 24463 output: Connected!
+App 24463 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.544 ms - 1111[0m
+App 24463 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.591 ms - 1111[0m
+App 24463 output: Harvest is ready
+App 24463 output: connected
+App 24463 output: connected
+App 24463 output: [0mGET /favicon.ico [31m500 [0m0.710 ms - 1111[0m
+App 7056 output: Agritech app Started on port 3000!
+App 7056 output: Connected!
+App 7056 output: Connected!
+App 7056 output: [0mGET /robots.txt [31m500 [0m6.560 ms - 1112[0m
+App 7056 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.717 ms - 1111[0m
+App 7056 output: Harvest is ready
+App 7056 output: connected
+App 7056 output: connected
+App 28497 output: Agritech app Started on port 3000!
+App 28497 output: Connected!
+App 28497 output: Connected!
+App 28497 output: [0mGET /robots.txt [31m500 [0m5.882 ms - 1112[0m
+App 28497 output: [0mGET /app2/views/pages/images/?C=N;O=D [31m500 [0m0.695 ms - 1112[0m
+App 28497 output: [0mGET /_profiler/phpinfo [31m500 [0m0.451 ms - 1112[0m
+App 28497 output: [0mGET /404.shtml [31m500 [0m0.396 ms - 1112[0m
+App 28497 output: [0mGET /phpinfo [31m500 [0m0.791 ms - 1112[0m
+App 28497 output: [0mGET /aws.yml [31m500 [0m0.730 ms - 1112[0m
+App 28497 output: [0mGET /403.shtml [31m500 [0m0.424 ms - 1112[0m
+App 28497 output: [0mGET /404.shtml [31m500 [0m0.469 ms - 1112[0m
+App 28497 output: [0mGET /.aws/credentials [31m500 [0m0.587 ms - 1112[0m
+App 28497 output: [0mGET /config/aws.yml [31m500 [0m0.600 ms - 1112[0m
+App 28497 output: [0mGET /config.js [31m500 [0m0.440 ms - 1112[0m
+App 28497 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.495 ms - 1111[0m
+App 28497 output: Harvest is ready
+App 28497 output: connected
+App 28497 output: connected
+App 13424 output: Agritech app Started on port 3000!
+App 13424 output: Connected!
+App 13424 output: Connected!
+App 13424 output: [0mGET /404.shtml [31m500 [0m6.086 ms - 1112[0m
+App 13424 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.233 ms - 1111[0m
+App 13424 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.569 ms - 1111[0m
+App 13424 output: Harvest is ready
+App 13424 output: connected
+App 13424 output: connected
+App 13424 output: [0mHEAD /tecozk_ms1/ [31m500 [0m0.838 ms - 1112[0m
+App 13424 output: [0mGET /tecozk_ms1/ [31m500 [0m0.645 ms - 1112[0m
+App 13424 output: [0mGET /robots.txt [31m500 [0m0.449 ms - 1112[0m
+App 29017 output: Agritech app Started on port 3000!
+App 29017 output: Connected!
+App 29017 output: Connected!
+App 29017 output: [0mGET /tecozk_ms1/ [31m500 [0m7.144 ms - 1112[0m
+App 29017 output: [0mGET /tecozk_ms1/ [31m500 [0m0.777 ms - 1112[0m
+App 29017 output: [0mGET /tecozk_ms1/ [31m500 [0m0.548 ms - 1112[0m
+App 29017 output: [0mGET /tecozk_ms1/ [31m500 [0m0.385 ms - 1112[0m
+App 29017 output: [0mGET /tecozk_ms1/ [31m500 [0m0.384 ms - 1112[0m
+App 29017 output: [0mGET /tecozk_ms1/ [31m500 [0m0.453 ms - 1112[0m
+App 29017 output: [0mGET /tecozk_ms1/ [31m500 [0m0.451 ms - 1112[0m
+App 29017 output: [0mGET /tecozk_ms1/ [31m500 [0m0.449 ms - 1112[0m
+App 3143 output: Agritech app Started on port 3000!
+App 3143 output: Connected!
+App 3143 output: Connected!
+App 3143 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.445 ms - 1111[0m
+App 3143 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.629 ms - 1111[0m
+App 3143 output: Harvest is ready
+App 3143 output: connected
+App 3143 output: connected
+App 3143 output: Harvest is ready
+App 3143 output: connected
+App 3143 output: connected
+App 3143 output: [0mGET /favicon.ico [31m500 [0m0.688 ms - 1111[0m
+App 3143 output: [0mGET /robots.txt [31m500 [0m0.689 ms - 1112[0m
+App 3143 output: [0mGET /favicon.ico [31m500 [0m0.459 ms - 1112[0m
+App 3143 output: [0mGET /favicon.ico [31m500 [0m0.615 ms - 1112[0m
+App 3143 output: [0mGET /__media__/js/netsoltrademark.php?d=google.com [31m500 [0m1.204 ms - 1112[0m
+App 32710 output: Agritech app Started on port 3000!
+App 32710 output: Connected!
+App 32710 output: Connected!
+App 32710 output: [0mGET /robots.txt [31m500 [0m5.869 ms - 1112[0m
+App 32710 output: [0mGET /app2/public/assets/font-awesome/ [31m500 [0m0.720 ms - 1112[0m
+App 22141 output: Agritech app Started on port 3000!
+App 22141 output: Connected!
+App 22141 output: Connected!
+App 22141 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.350 ms - 1111[0m
+App 22141 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.644 ms - 1111[0m
+App 22141 output: Harvest is ready
+App 22141 output: connected
+App 22141 output: connected
+App 19708 output: Agritech app Started on port 3000!
+App 19708 output: Connected!
+App 19708 output: Connected!
+App 19708 output: [0mGET /tecozk_muzammil/?C=N;O=D [31m500 [0m6.976 ms - 1112[0m
+App 20006 output: Agritech app Started on port 3000!
+App 20006 output: Connected!
+App 20006 output: Connected!
+App 20006 output: [0mGET /_ignition/execute-solution [31m500 [0m6.109 ms - 1112[0m
+App 1762 output: Agritech app Started on port 3000!
+App 1762 output: Connected!
+App 1762 output: Connected!
+App 1762 output: [0mGET /robots.txt [31m500 [0m7.199 ms - 1112[0m
+App 1762 output: [0mGET /app2/node_modules/json-schema/ [31m500 [0m0.726 ms - 1112[0m
+App 5832 output: Agritech app Started on port 3000!
+App 5832 output: Connected!
+App 5832 output: Connected!
+App 5832 output: [0mGET /wp-content/ [31m500 [0m5.937 ms - 1112[0m
+App 5832 output: [0mGET /app2/public/images/ [31m500 [0m0.785 ms - 1112[0m
+App 23000 output: Agritech app Started on port 3000!
+App 23000 output: Connected!
+App 23000 output: Connected!
+App 23000 output: [0mGET /robots.txt [31m500 [0m7.476 ms - 1112[0m
+App 23000 output: [0mGET /wp-content/ [31m500 [0m0.958 ms - 1112[0m
+App 23236 output: Agritech app Started on port 3000!
+App 23236 output: Connected!
+App 23236 output: Connected!
+App 23236 output: [0mGET /404.shtml [31m500 [0m7.488 ms - 1112[0m
+App 23236 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.856 ms - 1111[0m
+App 23236 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.574 ms - 1111[0m
+App 23236 output: Harvest is ready
+App 23236 output: connected
+App 23236 output: connected
+App 23236 output: Harvest is ready
+App 23236 output: connected
+App 23236 output: connected
+App 23236 output: Harvest is ready
+App 23236 output: connected
+App 23236 output: connected
+App 23236 output: Harvest is ready
+App 23236 output: connected
+App 23236 output: connected
+App 23236 output: Harvest is ready
+App 23236 output: connected
+App 23236 output: connected
+App 23236 output: Harvest is ready
+App 23236 output: connected
+App 23236 output: connected
+App 23236 output: events.js:174
+App 23236 output:       throw er; // Unhandled 'error' event
+App 23236 output:       ^
+App 23236 output: Error: Connection lost: The server closed the connection.
+App 23236 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+App 23236 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 23236 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 23236 output:     at Socket.emit (events.js:203:15)
+App 23236 output:     at endReadableNT (_stream_readable.js:1145:12)
+App 23236 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 23236 output: Emitted 'error' event at:
+App 23236 output:     at Connection._handleProtocolError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:423:8)
+App 23236 output:     at Protocol.emit (events.js:198:13)
+App 23236 output:     at Protocol._delegateError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 23236 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+App 23236 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 23236 output:     [... lines matching original stack trace ...]
+App 23236 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 15726 output: Agritech app Started on port 3000!
+App 15726 output: Connected!
+App 15726 output: Connected!
+App 15726 output: Harvest is ready
+App 15726 output: connected
+App 15726 output: connected
+App 15726 output: [0mGET /favicon.ico [31m500 [0m0.902 ms - 1112[0m
+App 15726 output: [0mGET /favicon.ico [31m500 [0m0.734 ms - 1112[0m
+App 15726 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.860 ms - 1111[0m
+App 15726 output: Harvest is ready
+App 15726 output: connected
+App 15726 output: connected
+App 15726 output: Harvest is ready
+App 15726 output: connected
+App 15726 output: connected
+App 15726 output: [0mGET /robots.txt [31m500 [0m0.477 ms - 1112[0m
+App 15726 output: [0mGET /robots.txt [31m500 [0m0.506 ms - 1112[0m
+App 15726 output: [0mGET /app2/public/img/ [31m500 [0m0.649 ms - 1112[0m
+App 15726 output: Harvest is ready
+App 15726 output: connected
+App 15726 output: connected
+App 15726 output: [0mGET /app2/node_modules/mime/ [31m500 [0m0.608 ms - 1112[0m
+App 15726 output: [0mGET /robots.txt [31m500 [0m0.512 ms - 1112[0m
+App 15726 output: [0mGET /sitemap.xml [31m500 [0m1.297 ms - 1112[0m
+App 15726 output: [0mGET /sitemap.xml [31m500 [0m0.571 ms - 1112[0m
+App 15726 output: [0mGET /robots.txt [31m500 [0m0.475 ms - 1112[0m
+App 15726 output: events.js:174
+App 15726 output:       throw er; // Unhandled 'error' event
+App 15726 output:       ^
+App 15726 output: Error: Connection lost: The server closed the connection.
+App 15726 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+App 15726 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 15726 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 15726 output:     at Socket.emit (events.js:203:15)
+App 15726 output:     at endReadableNT (_stream_readable.js:1145:12)
+App 15726 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 15726 output: Emitted 'error' event at:
+App 15726 output:     at Connection._handleProtocolError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:423:8)
+App 15726 output:     at Protocol.emit (events.js:198:13)
+App 15726 output:     at Protocol._delegateError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 15726 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+App 15726 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 15726 output:     [... lines matching original stack trace ...]
+App 15726 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 29934 output: Agritech app Started on port 3000!
+App 29934 output: Connected!
+App 29934 output: Connected!
+App 29934 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.503 ms - 1111[0m
+App 29934 output: Harvest is ready
+App 29934 output: connected
+App 29934 output: connected
+App 29934 output: [0mGET /app2/node_modules/json-schema/draft-03/ [31m500 [0m0.719 ms - 1112[0m
+App 29934 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.436 ms - 1111[0m
+App 29934 output: Harvest is ready
+App 29934 output: connected
+App 29934 output: connected
+App 4523 output: Agritech app Started on port 3000!
+App 4523 output: Connected!
+App 4523 output: Connected!
+App 4523 output: [0mGET /robots.txt [31m500 [0m5.953 ms - 1112[0m
+App 4523 output: [0mGET /robots.txt [31m500 [0m0.666 ms - 1112[0m
+App 4523 output: [0mGET /app2/node_modules/bignumber.js/ [31m500 [0m0.483 ms - 1112[0m
+App 19177 output: Agritech app Started on port 3000!
+App 19177 output: Connected!
+App 19177 output: Connected!
+App 19177 output: Harvest is ready
+App 19177 output: connected
+App 19177 output: connected
+App 19177 output: [0mGET /robots.txt [31m500 [0m0.912 ms - 1112[0m
+App 19177 output: [0mGET /app2/public/stylesheets/ [31m500 [0m0.641 ms - 1112[0m
+App 19177 output: [0mGET /robots.txt [31m500 [0m0.653 ms - 1112[0m
+App 19177 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.035 ms - 1111[0m
+App 19177 output: Harvest is ready
+App 19177 output: connected
+App 19177 output: connected
+App 19177 output: Harvest is ready
+App 19177 output: connected
+App 19177 output: connected
+App 19177 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.454 ms - 1111[0m
+App 19177 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.483 ms - 1111[0m
+App 19177 output: Harvest is ready
+App 19177 output: connected
+App 19177 output: connected
+App 19177 output: [0mGET /robots.txt [31m500 [0m0.504 ms - 1112[0m
+App 19177 output: [0mGET /app2/node_modules/qs/ [31m500 [0m0.427 ms - 1112[0m
+App 19177 output: events.js:174
+App 19177 output:       throw er; // Unhandled 'error' event
+App 19177 output:       ^
+App 19177 output: Error: Connection lost: The server closed the connection.
+App 19177 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+App 19177 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 19177 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 19177 output:     at Socket.emit (events.js:203:15)
+App 19177 output:     at endReadableNT (_stream_readable.js:1145:12)
+App 19177 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 19177 output: Emitted 'error' event at:
+App 19177 output:     at Connection._handleProtocolError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:423:8)
+App 19177 output:     at Protocol.emit (events.js:198:13)
+App 19177 output:     at Protocol._delegateError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 19177 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+App 19177 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 19177 output:     [... lines matching original stack trace ...]
+App 19177 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 19346 output: Agritech app Started on port 3000!
+App 19346 output: Connected!
+App 19346 output: Connected!
+App 19346 output: [0mGET /404.shtml [31m500 [0m5.732 ms - 1112[0m
+App 19346 output: [0mGET /app2/node_modules/clone-response/ [31m500 [0m0.658 ms - 1112[0m
+App 19346 output: [0mGET /404.shtml [31m500 [0m0.468 ms - 1112[0m
+App 19346 output: Harvest is ready
+App 19346 output: connected
+App 19346 output: connected
+App 19346 output: [0mGET /robots.txt [31m500 [0m0.590 ms - 1112[0m
+App 19346 output: [0mGET /app2/node_modules/verror/ [31m500 [0m1.272 ms - 1112[0m
+App 19346 output: Harvest is ready
+App 19346 output: connected
+App 19346 output: connected
+App 19346 output: [0mGET /robots.txt [31m500 [0m0.577 ms - 1112[0m
+App 19346 output: [0mGET /app2/public/indexjs/ [31m500 [0m0.510 ms - 1112[0m
+App 19346 output: [0mGET /_profiler/phpinfo [31m500 [0m0.427 ms - 1112[0m
+App 19346 output: [0mGET /404.shtml [31m500 [0m0.515 ms - 1112[0m
+App 19346 output: [0mGET /phpinfo [31m500 [0m0.459 ms - 1112[0m
+App 19346 output: [0mGET /aws.yml [31m500 [0m0.462 ms - 1112[0m
+App 19346 output: [0mGET /403.shtml [31m500 [0m1.137 ms - 1112[0m
+App 19346 output: [0mGET /404.shtml [31m500 [0m0.470 ms - 1112[0m
+App 19346 output: [0mGET /.aws/credentials [31m500 [0m0.488 ms - 1112[0m
+App 19346 output: [0mGET /config/aws.yml [31m500 [0m0.494 ms - 1112[0m
+App 19346 output: [0mGET /config.js [31m500 [0m0.464 ms - 1112[0m
+App 19346 output: Harvest is ready
+App 19346 output: connected
+App 19346 output: connected
+App 19346 output: events.js:174
+App 19346 output:       throw er; // Unhandled 'error' event
+App 19346 output:       ^
+App 19346 output: Error: Connection lost: The server closed the connection.
+App 19346 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+App 19346 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 19346 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 19346 output:     at Socket.emit (events.js:203:15)
+App 19346 output:     at endReadableNT (_stream_readable.js:1145:12)
+App 19346 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 19346 output: Emitted 'error' event at:
+App 19346 output:     at Connection._handleProtocolError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:423:8)
+App 19346 output:     at Protocol.emit (events.js:198:13)
+App 19346 output:     at Protocol._delegateError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 19346 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+App 19346 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 19346 output:     [... lines matching original stack trace ...]
+App 19346 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 6983 output: Agritech app Started on port 3000!
+App 6983 output: Connected!
+App 6983 output: Connected!
+App 6983 output: [0mGET /robots.txt [31m500 [0m6.037 ms - 1112[0m
+App 6983 output: [0mGET /app2/node_modules/util-deprecate/ [31m500 [0m0.778 ms - 1112[0m
+App 6983 output: Harvest is ready
+App 6983 output: connected
+App 6983 output: connected
+App 6983 output: Harvest is ready
+App 6983 output: connected
+App 6983 output: connected
+App 6983 output: [0mGET /app2/public/js/ [31m500 [0m0.661 ms - 1112[0m
+App 6983 output: [0mGET /wp-includes/wlwmanifest.xml [31m500 [0m0.760 ms - 1111[0m
+App 6983 output: [0mGET /404.shtml [31m500 [0m0.530 ms - 1111[0m
+App 6983 output: [0mGET /blog/wp-includes/wlwmanifest.xml [31m500 [0m0.658 ms - 1111[0m
+App 6983 output: [0mGET /web/wp-includes/wlwmanifest.xml [31m500 [0m0.477 ms - 1111[0m
+App 6983 output: [0mGET /wordpress/wp-includes/wlwmanifest.xml [31m500 [0m0.438 ms - 1111[0m
+App 6983 output: [0mGET /website/wp-includes/wlwmanifest.xml [31m500 [0m0.733 ms - 1111[0m
+App 6983 output: [0mGET /wp/wp-includes/wlwmanifest.xml [31m500 [0m0.460 ms - 1111[0m
+App 6983 output: [0mGET /news/wp-includes/wlwmanifest.xml [31m500 [0m0.482 ms - 1111[0m
+App 6983 output: [0mGET /2020/wp-includes/wlwmanifest.xml [31m500 [0m1.534 ms - 1111[0m
+App 6983 output: [0mGET /2019/wp-includes/wlwmanifest.xml [31m500 [0m0.474 ms - 1111[0m
+App 6983 output: [0mGET /shop/wp-includes/wlwmanifest.xml [31m500 [0m0.466 ms - 1111[0m
+App 6983 output: [0mGET /wp1/wp-includes/wlwmanifest.xml [31m500 [0m0.623 ms - 1111[0m
+App 6983 output: [0mGET /test/wp-includes/wlwmanifest.xml [31m500 [0m0.728 ms - 1111[0m
+App 6983 output: [0mGET /wp2/wp-includes/wlwmanifest.xml [31m500 [0m0.772 ms - 1111[0m
+App 6983 output: [0mGET /site/wp-includes/wlwmanifest.xml [31m500 [0m0.594 ms - 1111[0m
+App 6983 output: [0mGET /cms/wp-includes/wlwmanifest.xml [31m500 [0m0.612 ms - 1111[0m
+App 6983 output: [0mGET /sito/wp-includes/wlwmanifest.xml [31m500 [0m0.643 ms - 1111[0m
+App 6983 output: [0mGET /app2/public/vendor/font-awesome/ [31m500 [0m0.566 ms - 1112[0m
+App 6983 output: [0mGET /app2/node_modules/defer-to-connect/ [31m500 [0m0.569 ms - 1112[0m
+App 6983 output: [0mGET /robots.txt [31m500 [0m0.443 ms - 1112[0m
+App 6983 output: [0mGET /robots.txt [31m500 [0m0.475 ms - 1112[0m
+App 6983 output: events.js:174
+App 6983 output:       throw er; // Unhandled 'error' event
+App 6983 output:       ^
+App 6983 output: Error: Connection lost: The server closed the connection.
+App 6983 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+App 6983 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 6983 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 6983 output:     at Socket.emit (events.js:203:15)
+App 6983 output:     at endReadableNT (_stream_readable.js:1145:12)
+App 6983 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 6983 output: Emitted 'error' event at:
+App 6983 output:     at Connection._handleProtocolError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:423:8)
+App 6983 output:     at Protocol.emit (events.js:198:13)
+App 6983 output:     at Protocol._delegateError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 6983 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+App 6983 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 6983 output:     [... lines matching original stack trace ...]
+App 6983 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 7216 output: Agritech app Started on port 3000!
+App 7216 output: Connected!
+App 7216 output: Connected!
+App 7216 output: [0mGET /app2/node_modules/json-schema/draft-01/ [31m500 [0m5.947 ms - 1112[0m
+App 7216 output: [0mGET /app2/node_modules/safer-buffer/ [31m500 [0m0.820 ms - 1112[0m
+App 7216 output: [0mGET /robots.txt [31m500 [0m0.469 ms - 1112[0m
+App 7216 output: [0mGET /app2/public/vendor/font-awesome/fonts/ [31m500 [0m0.397 ms - 1112[0m
+App 7216 output: [0mGET /app2/node_modules/string_decoder/?C=M;O=A [31m500 [0m0.389 ms - 1112[0m
+App 7216 output: [0mGET /app2/public/indexjs/ [31m500 [0m0.611 ms - 1112[0m
+App 7216 output: [0mGET /app2/node_modules/json-schema/lib/?C=S;O=A [31m500 [0m0.427 ms - 1112[0m
+App 7216 output: [0mGET /app2/node_modules/uri-js/ [31m500 [0m0.440 ms - 1112[0m
+App 7216 output: [0mGET /app2/node_modules/clone-response/ [31m500 [0m0.398 ms - 1112[0m
+App 7216 output: [0mGET /app2/node_modules/chalk/ [31m500 [0m0.417 ms - 1112[0m
+App 7216 output: [0mGET /app2/public/assets/plugins/metisMenu/?C=M;O=D [31m500 [0m0.378 ms - 1112[0m
+App 7216 output: [0mGET /robots.txt [31m500 [0m0.419 ms - 1112[0m
+App 7216 output: [0mGET /app2/node_modules/semver/bin/ [31m500 [0m0.377 ms - 1112[0m
+App 7216 output: [0mGET /app2/node_modules/global-dirs/ [31m500 [0m0.444 ms - 1112[0m
+App 7216 output: [0mGET /app2/node_modules/nopt/lib/?C=M;O=D [31m500 [0m0.437 ms - 1112[0m
+App 7216 output: [0mGET /app2/node_modules/fresh/ [31m500 [0m1.595 ms - 1112[0m
+App 7216 output: [0mGET /app2/?C=S;O=A [31m500 [0m0.488 ms - 1112[0m
+App 7216 output: [0mGET /app2/node_modules/iconv-lite/ [31m500 [0m0.451 ms - 1112[0m
+App 7216 output: [0mGET /app2/public/vendor/bootstrap/css/ [31m500 [0m0.454 ms - 1112[0m
+App 7216 output: [0mGET /app2/node_modules/abbrev/ [31m500 [0m0.431 ms - 1112[0m
+App 7216 output: [0mGET /robots.txt [31m500 [0m0.434 ms - 1112[0m
+App 7216 output: [0mGET /app2/node_modules/verror/ [31m500 [0m0.618 ms - 1112[0m
+App 7216 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.522 ms - 1111[0m
+App 7216 output: Harvest is ready
+App 7216 output: connected
+App 7216 output: connected
+App 7216 output: [0mGET /app2/node_modules/har-validator/lib/ [31m500 [0m0.717 ms - 1112[0m
+App 7216 output: [0mGET /app2/node_modules/is-fullwidth-code-point/ [31m500 [0m0.613 ms - 1112[0m
+App 7216 output: [0mGET /app2/?C=D;O=D [31m500 [0m0.479 ms - 1112[0m
+App 7216 output: [0mGET /app2/node_modules/update-notifier/ [31m500 [0m0.471 ms - 1112[0m
+App 7216 output: [0mGET /app2/views/templates/ [31m500 [0m0.418 ms - 1112[0m
+App 7216 output: [0mGET /app2/bin/ [31m500 [0m0.417 ms - 1112[0m
+App 7216 output: [0mGET /app2/node_modules/is-typedarray/ [31m500 [0m0.465 ms - 1112[0m
+App 7216 output: [0mGET /tecozk_ms1/?C=M;O=A [31m500 [0m0.420 ms - 1112[0m
+App 7216 output: [0mGET /app2/node_modules/aws4/ [31m500 [0m0.486 ms - 1112[0m
+App 7216 output: [0mGET /app2/node_modules/string_decoder/ [31m500 [0m0.445 ms - 1112[0m
+App 7216 output: [0mGET /app2/node_modules/http-signature/ [31m500 [0m0.440 ms - 1112[0m
+App 7216 output: events.js:174
+App 7216 output:       throw er; // Unhandled 'error' event
+App 7216 output:       ^
+App 7216 output: Error: Connection lost: The server closed the connection.
+App 7216 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+App 7216 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 7216 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 7216 output:     at Socket.emit (events.js:203:15)
+App 7216 output:     at endReadableNT (_stream_readable.js:1145:12)
+App 7216 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 7216 output: Emitted 'error' event at:
+App 7216 output:     at Connection._handleProtocolError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:423:8)
+App 7216 output:     at Protocol.emit (events.js:198:13)
+App 7216 output:     at Protocol._delegateError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 7216 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+App 7216 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 7216 output:     [... lines matching original stack trace ...]
+App 7216 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 30602 output: Agritech app Started on port 3000!
+App 30602 output: Connected!
+App 30602 output: Connected!
+App 30602 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.433 ms - 1111[0m
+App 30602 output: Harvest is ready
+App 30602 output: connected
+App 30602 output: connected
+App 30602 output: [0mGET /app2/node_modules/nopt/bin/?C=S;O=A [31m500 [0m0.758 ms - 1112[0m
+App 30602 output: [0mGET /robots.txt [31m500 [0m0.498 ms - 1112[0m
+App 30602 output: [0mGET /app2/tmp/?C=N;O=D [31m500 [0m0.652 ms - 1112[0m
+App 30602 output: [0mGET /app2/public/assets/font-awesome/fonts/?C=D;O=A [31m500 [0m0.437 ms - 1112[0m
+App 30602 output: [0mGET /app2/public/assets/font-awesome/?C=D;O=A [31m500 [0m0.419 ms - 1112[0m
+App 30602 output: [0mGET /app2/public/assets/css/?C=S;O=A [31m500 [0m0.441 ms - 1112[0m
+App 30602 output: [0mGET /app2/node_modules/chalk/node_modules/?C=S;O=A [31m500 [0m0.475 ms - 1112[0m
+App 30602 output: [0mGET /app2/node_modules/nopt/lib/?C=M;O=A [31m500 [0m0.416 ms - 1112[0m
+App 30602 output: [0mGET /app2/node_modules/jsprim/lib/?C=N;O=D [31m500 [0m0.447 ms - 1112[0m
+App 30602 output: [0mGET /wp-includes/wlwmanifest.xml [31m500 [0m0.503 ms - 1111[0m
+App 30602 output: [0mGET /404.shtml [31m500 [0m0.479 ms - 1111[0m
+App 30602 output: [0mGET /blog/wp-includes/wlwmanifest.xml [31m500 [0m0.451 ms - 1111[0m
+App 30602 output: [0mGET /web/wp-includes/wlwmanifest.xml [31m500 [0m0.475 ms - 1111[0m
+App 30602 output: [0mGET /wordpress/wp-includes/wlwmanifest.xml [31m500 [0m0.467 ms - 1111[0m
+App 30602 output: [0mGET /website/wp-includes/wlwmanifest.xml [31m500 [0m0.551 ms - 1111[0m
+App 30602 output: [0mGET /wp/wp-includes/wlwmanifest.xml [31m500 [0m0.474 ms - 1111[0m
+App 30602 output: [0mGET /news/wp-includes/wlwmanifest.xml [31m500 [0m0.477 ms - 1111[0m
+App 30602 output: [0mGET /2018/wp-includes/wlwmanifest.xml [31m500 [0m0.629 ms - 1111[0m
+App 30602 output: [0mGET /2019/wp-includes/wlwmanifest.xml [31m500 [0m0.444 ms - 1111[0m
+App 30602 output: [0mGET /shop/wp-includes/wlwmanifest.xml [31m500 [0m0.750 ms - 1111[0m
+App 30602 output: [0mGET /wp1/wp-includes/wlwmanifest.xml [31m500 [0m0.467 ms - 1111[0m
+App 30602 output: [0mGET /test/wp-includes/wlwmanifest.xml [31m500 [0m0.442 ms - 1111[0m
+App 30602 output: [0mGET /media/wp-includes/wlwmanifest.xml [31m500 [0m0.517 ms - 1111[0m
+App 30602 output: [0mGET /wp2/wp-includes/wlwmanifest.xml [31m500 [0m0.454 ms - 1111[0m
+App 30602 output: [0mGET /site/wp-includes/wlwmanifest.xml [31m500 [0m0.464 ms - 1111[0m
+App 30602 output: [0mGET /cms/wp-includes/wlwmanifest.xml [31m500 [0m0.444 ms - 1111[0m
+App 30602 output: [0mGET /sito/wp-includes/wlwmanifest.xml [31m500 [0m0.603 ms - 1111[0m
+App 30602 output: [0mGET /app2/node_modules/har-validator/lib/?C=D;O=D [31m500 [0m0.437 ms - 1112[0m
+App 30602 output: [0mGET /app2/node_modules/json-schema/draft-01/?C=M;O=A [31m500 [0m0.422 ms - 1112[0m
+App 30602 output: [0mGET /app2/node_modules/performance-now/lib/?C=N;O=D [31m500 [0m0.491 ms - 1112[0m
+App 30602 output: [0mGET /app2/public/assets/img/?C=S;O=A [31m500 [0m0.482 ms - 1112[0m
+App 30602 output: [0mGET /app2/public/assets/img/?C=N;O=D [31m500 [0m0.474 ms - 1112[0m
+App 30602 output: [0mGET /app2/node_modules/graceful-fs/?C=M;O=A [31m500 [0m0.442 ms - 1112[0m
+App 30602 output: [0mGET /app2/node_modules/semver/bin/?C=D;O=A [31m500 [0m0.437 ms - 1112[0m
+App 30602 output: [0mGET /app2/node_modules/readable-stream/lib/internal/?C=M;O=A [31m500 [0m0.448 ms - 1112[0m
+App 30602 output: [0mGET /app2/node_modules/json-stringify-safe/test/?C=N;O=D [31m500 [0m0.467 ms - 1112[0m
+App 30602 output: [0mGET /app2/node_modules/ipaddr.js/?C=N;O=D [31m500 [0m0.529 ms - 1112[0m
+App 30602 output: [0mGET /app2/node_modules/ipaddr.js/?C=D;O=A [31m500 [0m0.448 ms - 1112[0m
+App 30602 output: [0mGET /app2/node_modules/ipaddr.js/lib/?C=D;O=A [31m500 [0m0.440 ms - 1112[0m
+App 30602 output: [0mGET /tecozk_muzammil/?C=S;O=A [31m500 [0m1.098 ms - 1112[0m
+App 30602 output: [0mGET /app2/node_modules/ipaddr.js/lib/?C=D;O=D [31m500 [0m0.470 ms - 1112[0m
+App 30602 output: [0mGET /app2/public/vendor/font-awesome/css/?C=S;O=A [31m500 [0m0.666 ms - 1112[0m
+App 30602 output: [0mGET /app2/bin/?C=S;O=D [31m500 [0m0.422 ms - 1112[0m
+App 30602 output: [0mGET /app2/public/assets/plugins/ [31m500 [0m0.477 ms - 1112[0m
+App 30602 output: [0mGET /app2/node_modules/color-name/ [31m500 [0m0.451 ms - 1112[0m
+App 24049 output: Agritech app Started on port 3000!
+App 24049 output: Connected!
+App 24049 output: Connected!
+App 24049 output: [0mGET /app2/public/vendor/chart.js/ [31m500 [0m6.549 ms - 1112[0m
+App 24049 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.713 ms - 1111[0m
+App 24049 output: Harvest is ready
+App 24049 output: connected
+App 24049 output: connected
+App 24049 output: [0mGET /app2/public/assets/scripts/ [31m500 [0m0.720 ms - 1112[0m
+App 24049 output: [0mGET /app2/tmp/?C=N;O=D [31m500 [0m0.702 ms - 1112[0m
+App 24049 output: [0mGET /app2/node_modules/har-validator/lib/?C=S;O=A [31m500 [0m0.496 ms - 1112[0m
+App 24049 output: [0mGET /app2/node_modules/ipaddr.js/?C=S;O=A [31m500 [0m0.470 ms - 1112[0m
+App 24049 output: [0mGET /robots.txt [31m500 [0m0.419 ms - 1112[0m
+App 24049 output: [0mGET /app2/node_modules/cacheable-request/ [31m500 [0m0.421 ms - 1112[0m
+App 24049 output: [0mGET /app2/public/assets/scripts/ [31m500 [0m0.437 ms - 1112[0m
+App 24049 output: [0mGET /app2/node_modules/debug/node_modules/?C=M;O=D [31m500 [0m0.448 ms - 1112[0m
+App 24049 output: [0mGET /app2/public/indeximages/?C=D;O=A [31m500 [0m0.440 ms - 1112[0m
+App 24049 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.466 ms - 1111[0m
+App 24049 output: Harvest is ready
+App 24049 output: connected
+App 24049 output: connected
+App 24049 output: [0mGET /app2/node_modules/har-validator/lib/ [31m500 [0m0.465 ms - 1112[0m
+App 24049 output: [0mGET /app2/node_modules/once/?C=S;O=A [31m500 [0m0.442 ms - 1112[0m
+App 24049 output: [0mGET /favicon.ico [31m500 [0m0.425 ms - 1112[0m
+App 24049 output: [0mGET /favicon.ico [31m500 [0m0.441 ms - 1112[0m
+App 24049 output: [0mGET /app2/node_modules/json-schema/ [31m500 [0m0.477 ms - 1112[0m
+App 24049 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.433 ms - 1111[0m
+App 24049 output: Harvest is ready
+App 24049 output: connected
+App 24049 output: connected
+App 24049 output: [0mGET /app2/node_modules/balanced-match/ [31m500 [0m0.475 ms - 1112[0m
+App 24049 output: Harvest is ready
+App 24049 output: connected
+App 24049 output: connected
+App 24049 output: [0mGET /robots.txt [31m500 [0m0.490 ms - 1112[0m
+App 24049 output: [0mGET /app2/node_modules/ecc-jsbn/ [31m500 [0m0.427 ms - 1112[0m
+App 24049 output: [0mGET /app2/views/errors/?C=D;O=A [31m500 [0m0.431 ms - 1112[0m
+App 24049 output: [0mGET /app2/node_modules/path-to-regexp/ [31m500 [0m0.544 ms - 1112[0m
+App 24049 output: [0mGET /app2/node_modules/once/ [31m500 [0m0.487 ms - 1112[0m
+App 24049 output: [0mGET /app2/public/icons-reference/?C=N;O=D [31m500 [0m1.313 ms - 1112[0m
+App 24049 output: [0mGET /app2/node_modules/to-readable-stream/ [31m500 [0m0.467 ms - 1112[0m
+App 24049 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.425 ms - 1111[0m
+App 24049 output: Harvest is ready
+App 24049 output: connected
+App 24049 output: connected
+App 24049 output: [0mGET /app2/public/assets/font-awesome/css/?C=D;O=A [31m500 [0m0.576 ms - 1112[0m
+App 24049 output: [0mGET /robots.txt [31m500 [0m0.491 ms - 1112[0m
+App 24049 output: [0mGET /app2/node_modules/har-validator/lib/?C=D;O=A [31m500 [0m0.460 ms - 1112[0m
+App 24049 output: Harvest is ready
+App 24049 output: connected
+App 24049 output: connected
+App 24049 output: [0mGET /app2/node_modules/extsprintf/ [31m500 [0m0.545 ms - 1112[0m
+App 11651 output: Agritech app Started on port 3000!
+App 11651 output: Connected!
+App 11651 output: Connected!
+App 11651 output: [0mGET /app2/public/indeximages/ [31m500 [0m6.396 ms - 1112[0m
+App 11651 output: [0mGET /app2/node_modules/concat-map/ [31m500 [0m0.748 ms - 1112[0m
+App 11651 output: [0mGET /app2/public/vendor/bootstrap/js/ [31m500 [0m0.480 ms - 1112[0m
+App 18340 output: Agritech app Started on port 3000!
+App 18340 output: Connected!
+App 18340 output: Connected!
+App 18340 output: [0mGET /tecozk_muzammil/?C=M;O=D [31m500 [0m6.072 ms - 1112[0m
+App 18340 output: [0mGET /app2/node_modules/uri-js/dist/ [31m500 [0m0.792 ms - 1112[0m
+App 18340 output: [0mGET /app2/node_modules/ipaddr.js/ [31m500 [0m0.493 ms - 1112[0m
+App 18340 output: [0mGET /404.shtml [31m500 [0m0.396 ms - 1112[0m
+App 18340 output: [0mGET /app2/node_modules/form-data/lib/ [31m500 [0m0.421 ms - 1112[0m
+App 18340 output: [0mGET /app2/bin/ [31m500 [0m0.501 ms - 1112[0m
+App 18340 output: [0mGET /app2/node_modules/qs/dist/ [31m500 [0m0.387 ms - 1112[0m
+App 18340 output: [0mGET /app2/node_modules/ [31m500 [0m0.406 ms - 1112[0m
+App 17178 output: Agritech app Started on port 3000!
+App 17178 output: Connected!
+App 17178 output: Connected!
+App 17178 output: [0mGET /robots.txt [31m500 [0m5.813 ms - 1112[0m
+App 17178 output: [0mGET /app2/node_modules/nopt/examples/ [31m500 [0m0.671 ms - 1112[0m
+App 17178 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.559 ms - 1111[0m
+App 17178 output: Harvest is ready
+App 17178 output: connected
+App 17178 output: connected
+App 17178 output: [0mGET /app2/node_modules/dashdash/ [31m500 [0m0.711 ms - 1112[0m
+App 17178 output: [0mGET /wp-includes/wlwmanifest.xml [31m500 [0m0.631 ms - 1111[0m
+App 17178 output: [0mGET /404.shtml [31m500 [0m0.467 ms - 1111[0m
+App 17178 output: [0mGET /blog/wp-includes/wlwmanifest.xml [31m500 [0m0.425 ms - 1111[0m
+App 17178 output: [0mGET /web/wp-includes/wlwmanifest.xml [31m500 [0m0.451 ms - 1111[0m
+App 17178 output: [0mGET /wordpress/wp-includes/wlwmanifest.xml [31m500 [0m0.446 ms - 1111[0m
+App 17178 output: [0mGET /website/wp-includes/wlwmanifest.xml [31m500 [0m0.446 ms - 1111[0m
+App 17178 output: [0mGET /wp/wp-includes/wlwmanifest.xml [31m500 [0m0.546 ms - 1111[0m
+App 17178 output: [0mGET /news/wp-includes/wlwmanifest.xml [31m500 [0m0.469 ms - 1111[0m
+App 17178 output: [0mGET /2018/wp-includes/wlwmanifest.xml [31m500 [0m0.444 ms - 1111[0m
+App 17178 output: [0mGET /2019/wp-includes/wlwmanifest.xml [31m500 [0m0.475 ms - 1111[0m
+App 17178 output: [0mGET /shop/wp-includes/wlwmanifest.xml [31m500 [0m0.486 ms - 1111[0m
+App 17178 output: [0mGET /wp1/wp-includes/wlwmanifest.xml [31m500 [0m0.420 ms - 1111[0m
+App 17178 output: [0mGET /test/wp-includes/wlwmanifest.xml [31m500 [0m0.406 ms - 1111[0m
+App 17178 output: [0mGET /media/wp-includes/wlwmanifest.xml [31m500 [0m0.627 ms - 1111[0m
+App 17178 output: [0mGET /wp2/wp-includes/wlwmanifest.xml [31m500 [0m0.428 ms - 1111[0m
+App 17178 output: [0mGET /site/wp-includes/wlwmanifest.xml [31m500 [0m0.442 ms - 1111[0m
+App 17178 output: [0mGET /cms/wp-includes/wlwmanifest.xml [31m500 [0m0.448 ms - 1111[0m
+App 17178 output: [0mGET /sito/wp-includes/wlwmanifest.xml [31m500 [0m0.441 ms - 1111[0m
+App 17178 output: [0mGET /app2/node_modules/har-validator/?C=M;O=A [31m500 [0m0.475 ms - 1112[0m
+App 17178 output: [0mGET /tecozk_muzammil/?C=D;O=A [31m500 [0m0.444 ms - 1112[0m
+App 17178 output: [0mGET /tecozk_muzammil/?C=D;O=D [31m500 [0m0.452 ms - 1112[0m
+App 17178 output: [0mGET /app2/node_modules/imurmurhash/ [31m500 [0m0.420 ms - 1112[0m
+App 17178 output: [0mGET /app2/node_modules/pupa/ [31m500 [0m0.479 ms - 1112[0m
+App 17178 output: [0mGET /app2/node_modules/undefsafe/ [31m500 [0m0.439 ms - 1112[0m
+App 17178 output: [0mGET /app2/node_modules/imurmurhash/ [31m500 [0m0.477 ms - 1112[0m
+App 17178 output: [0mGET /app2/public/vendor/font-awesome/css/ [31m500 [0m0.444 ms - 1112[0m
+App 17178 output: [0mGET /app2/node_modules/range-parser/ [31m500 [0m0.455 ms - 1112[0m
+App 17178 output: [0mGET /app2/public/vendor/font-awesome/css/ [31m500 [0m0.878 ms - 1112[0m
+App 17178 output: [0mGET /app2/public/assets/plugins/metisMenu/?C=N;O=D [31m500 [0m0.458 ms - 1112[0m
+App 17178 output: [0mGET /robots.txt [31m500 [0m0.440 ms - 1112[0m
+App 17178 output: [0mGET /app2/node_modules/nodemon/doc/cli/ [31m500 [0m0.471 ms - 1112[0m
+App 17178 output: [0mGET /app2/public/vendor/jquery/ [31m500 [0m0.485 ms - 1112[0m
+App 17178 output: [0mGET /robots.txt [31m500 [0m0.447 ms - 1112[0m
+App 17178 output: [0mGET /app2/node_modules/undefsafe/node_modules/ [31m500 [0m0.505 ms - 1112[0m
+App 17178 output: [0mGET /app2/node_modules/minimist/ [31m500 [0m0.415 ms - 1112[0m
+App 17178 output: [0mGET /app2/?C=M;O=D [31m500 [0m0.564 ms - 1112[0m
+App 17178 output: [0mGET /app2/node_modules/dashdash/lib/?C=M;O=A [31m500 [0m0.484 ms - 1112[0m
+App 17178 output: [0mGET /app2/node_modules/http-signature/lib/ [31m500 [0m1.142 ms - 1112[0m
+App 17178 output: [0mGET /app2/node_modules/nopt/lib/?C=S;O=A [31m500 [0m0.666 ms - 1112[0m
+App 17178 output: [0mGET /wp-content/ [31m500 [0m0.426 ms - 1112[0m
+App 17178 output: [0mGET /robots.txt [31m500 [0m0.508 ms - 1112[0m
+App 17178 output: [0mGET /app2/node_modules/semver-diff/ [31m500 [0m0.453 ms - 1112[0m
+App 17178 output: [0mGET /app2/node_modules/semver/ [31m500 [0m0.455 ms - 1112[0m
+App 17178 output: [0mGET /app2/public/assets/font-awesome/ [31m500 [0m0.427 ms - 1112[0m
+App 17178 output: [0mGET /app2/node_modules/undefsafe/node_modules/?C=M;O=A [31m500 [0m0.476 ms - 1112[0m
+App 29011 output: Agritech app Started on port 3000!
+App 29011 output: Connected!
+App 29011 output: Connected!
+App 29011 output: [0mGET /robots.txt [31m500 [0m6.112 ms - 1112[0m
+App 29011 output: [0mGET /app2/node_modules/keyv/ [31m500 [0m0.772 ms - 1112[0m
+App 29011 output: [0mGET /app2/public/icons-reference/?C=S;O=A [31m500 [0m0.487 ms - 1112[0m
+App 29011 output: [0mGET /app2/node_modules/has-flag/ [31m500 [0m0.403 ms - 1112[0m
+App 29011 output: [0mGET /app2/node_modules/jsprim/lib/ [31m500 [0m0.411 ms - 1112[0m
+App 29011 output: [0mGET /app2/node_modules/performance-now/test/ [31m500 [0m0.445 ms - 1112[0m
+App 29011 output: [0mGET /tecozk_muzammil/?C=N;O=A [31m500 [0m0.427 ms - 1112[0m
+App 29011 output: [0mGET /app2/public/js/?C=N;O=D [31m500 [0m0.444 ms - 1112[0m
+App 29011 output: [0mGET /robots.txt [31m500 [0m0.392 ms - 1112[0m
+App 29011 output: [0mGET /app2/public/assets/fonts/ [31m500 [0m0.408 ms - 1112[0m
+App 28266 output: Agritech app Started on port 3000!
+App 28266 output: Connected!
+App 28266 output: Connected!
+App 28266 output: [0mGET /404.shtml [31m500 [0m7.276 ms - 1112[0m
+App 28266 output: [0mGET /app2/public/images/ [31m500 [0m0.677 ms - 1112[0m
+App 28266 output: [0mGET /app2/node_modules/aws4/?C=M;O=A [31m500 [0m0.471 ms - 1112[0m
+App 28266 output: [0mGET /app2/node_modules/is-number/ [31m500 [0m0.551 ms - 1112[0m
+App 28266 output: [0mGET /app2/node_modules/core-util-is/ [31m500 [0m0.385 ms - 1112[0m
+App 28266 output: [0mGET /app2/node_modules/raw-body/ [31m500 [0m0.438 ms - 1112[0m
+App 28266 output: [0mGET /app2/node_modules/dashdash/lib/?C=S;O=A [31m500 [0m0.393 ms - 1112[0m
+App 28266 output: [0mGET /robots.txt [31m500 [0m0.426 ms - 1112[0m
+App 28266 output: [0mGET /app2/node_modules/combined-stream/lib/ [31m500 [0m0.400 ms - 1112[0m
+App 28266 output: Harvest is ready
+App 28266 output: connected
+App 28266 output: connected
+App 28266 output: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+App 28266 output:     at ServerResponse.setHeader (_http_outgoing.js:470:11)
+App 28266 output:     at ServerResponse.header (/home/tecozk/public_html/19-10-2021/node_modules/express/lib/response.js:767:10)
+App 28266 output:     at ServerResponse.send (/home/tecozk/public_html/19-10-2021/node_modules/express/lib/response.js:170:12)
+App 28266 output:     at done (/home/tecozk/public_html/19-10-2021/node_modules/express/lib/response.js:1004:10)
+App 28266 output:     at tryHandleCache (/home/tecozk/public_html/19-10-2021/node_modules/ejs/lib/ejs.js:260:5)
+App 28266 output:     at View.exports.renderFile [as engine] (/home/tecozk/public_html/19-10-2021/node_modules/ejs/lib/ejs.js:485:10)
+App 28266 output:     at View.render (/home/tecozk/public_html/19-10-2021/node_modules/express/lib/view.js:135:8)
+App 28266 output:     at tryRender (/home/tecozk/public_html/19-10-2021/node_modules/express/lib/application.js:640:10)
+App 28266 output:     at Function.render (/home/tecozk/public_html/19-10-2021/node_modules/express/lib/application.js:592:3)
+App 28266 output:     at ServerResponse.render (/home/tecozk/public_html/19-10-2021/node_modules/express/lib/response.js:1008:7)
+App 28266 output: [0mGET /favicon.ico [31m500 [0m0.931 ms - 1111[0m
+App 28266 output: Harvest is ready
+App 28266 output: connected
+App 28266 output: connected
+App 28266 output: [0mGET /app2/node_modules/asynckit/ [31m500 [0m0.525 ms - 1112[0m
+App 20654 output: Agritech app Started on port 3000!
+App 20654 output: Connected!
+App 20654 output: Connected!
+App 20654 output: [0mGET /app2/node_modules/debug/node_modules/?C=M;O=A [31m500 [0m5.885 ms - 1112[0m
+App 20654 output: [0mGET /app2/node_modules/ipaddr.js/lib/?C=D;O=D [31m500 [0m0.750 ms - 1112[0m
+App 20654 output: [0mGET /app2/node_modules/lowercase-keys/ [31m500 [0m0.429 ms - 1112[0m
+App 20654 output: [0mGET /app2/node_modules/binary-extensions/ [31m500 [0m0.420 ms - 1112[0m
+App 20654 output: [0mGET /tecozk_ms1/?C=M;O=D [31m500 [0m0.398 ms - 1112[0m
+App 20654 output: [0mGET /robots.txt [31m500 [0m0.396 ms - 1112[0m
+App 20654 output: [0mGET /app2/public/css/ [31m500 [0m0.387 ms - 1112[0m
+App 20654 output: [0mGET /app2/node_modules/ejs/ [31m500 [0m0.382 ms - 1112[0m
+App 20654 output: [0mGET /404.shtml [31m500 [0m0.476 ms - 1112[0m
+App 20654 output: [0mGET /app2/public/css/ [31m500 [0m0.659 ms - 1112[0m
+App 20654 output: [0mGET /app2/public/vendor/font-awesome/css/ [31m500 [0m0.562 ms - 1112[0m
+App 20654 output: [0mGET /favicon.ico [31m500 [0m0.438 ms - 1112[0m
+App 20654 output: [0mGET /favicon.ico [31m500 [0m0.438 ms - 1112[0m
+App 20654 output: [0mGET /favicon.ico [31m500 [0m0.429 ms - 1112[0m
+App 20654 output: [0mGET /app2/views/?C=N;O=A [31m500 [0m0.549 ms - 1112[0m
+App 20654 output: [0mGET /robots.txt [31m500 [0m0.440 ms - 1112[0m
+App 20654 output: [0mGET /app2/node_modules/string_decoder/lib/ [31m500 [0m0.376 ms - 1112[0m
+App 20654 output: [0mGET /app2/public/assets/plugins/social-buttons/ [31m500 [0m0.407 ms - 1112[0m
+App 20654 output: [0mGET /app2/node_modules/json-schema/lib/ [31m500 [0m0.898 ms - 1112[0m
+App 20654 output: [0mGET /app2/public/assets/img/ [31m500 [0m0.650 ms - 1112[0m
+App 20654 output: [0mGET /app2/public/vendor/jquery-validation/localization/ [31m500 [0m0.512 ms - 1112[0m
+App 20654 output: [0mGET /app2/node_modules/ejs/lib/ [31m500 [0m0.417 ms - 1112[0m
+App 20654 output: [0mGET /app2/node_modules/performance-now/test/ [31m500 [0m0.428 ms - 1112[0m
+App 20654 output: [0mGET /robots.txt [31m500 [0m0.522 ms - 1112[0m
+App 20654 output: [0mGET /app2/public/vendor/malihu-custom-scrollbar-plugin/ [31m500 [0m0.463 ms - 1112[0m
+App 28773 output: Agritech app Started on port 3000!
+App 28773 output: Connected!
+App 28773 output: Connected!
+App 28773 output: [0mGET /app2/node_modules/qs/dist/ [31m500 [0m5.874 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/semver/bin/?C=N;O=A [31m500 [0m0.736 ms - 1112[0m
+App 28773 output: [0mGET /wp-includes/wlwmanifest.xml [31m500 [0m0.520 ms - 1111[0m
+App 28773 output: [0mGET /404.shtml [31m500 [0m0.418 ms - 1111[0m
+App 28773 output: [0mGET /blog/wp-includes/wlwmanifest.xml [31m500 [0m0.385 ms - 1111[0m
+App 28773 output: [0mGET /web/wp-includes/wlwmanifest.xml [31m500 [0m0.432 ms - 1111[0m
+App 28773 output: [0mGET /wordpress/wp-includes/wlwmanifest.xml [31m500 [0m0.439 ms - 1111[0m
+App 28773 output: [0mGET /website/wp-includes/wlwmanifest.xml [31m500 [0m0.622 ms - 1111[0m
+App 28773 output: [0mGET /wp/wp-includes/wlwmanifest.xml [31m500 [0m0.458 ms - 1111[0m
+App 28773 output: [0mGET /news/wp-includes/wlwmanifest.xml [31m500 [0m0.485 ms - 1111[0m
+App 28773 output: [0mGET /2020/wp-includes/wlwmanifest.xml [31m500 [0m0.525 ms - 1111[0m
+App 28773 output: [0mGET /2019/wp-includes/wlwmanifest.xml [31m500 [0m1.377 ms - 1111[0m
+App 28773 output: [0mGET /shop/wp-includes/wlwmanifest.xml [31m500 [0m0.407 ms - 1111[0m
+App 28773 output: [0mGET /wp1/wp-includes/wlwmanifest.xml [31m500 [0m0.456 ms - 1111[0m
+App 28773 output: [0mGET /test/wp-includes/wlwmanifest.xml [31m500 [0m0.436 ms - 1111[0m
+App 28773 output: [0mGET /wp2/wp-includes/wlwmanifest.xml [31m500 [0m0.407 ms - 1111[0m
+App 28773 output: [0mGET /site/wp-includes/wlwmanifest.xml [31m500 [0m0.453 ms - 1111[0m
+App 28773 output: [0mGET /cms/wp-includes/wlwmanifest.xml [31m500 [0m0.506 ms - 1111[0m
+App 28773 output: [0mGET /sito/wp-includes/wlwmanifest.xml [31m500 [0m0.512 ms - 1111[0m
+App 28773 output: [0mGET /app2/node_modules/is-yarn-global/ [31m500 [0m1.381 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/color-convert/ [31m500 [0m0.433 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/normalize-url/ [31m500 [0m0.436 ms - 1112[0m
+App 28773 output: [0mGET /app2/public/assets/plugins/pace/ [31m500 [0m0.462 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/nopt/?C=S;O=A [31m500 [0m0.409 ms - 1112[0m
+App 28773 output: [0mGET /app2/public/assets/plugins/metisMenu/?C=S;O=A [31m500 [0m0.428 ms - 1112[0m
+App 28773 output: [0mGET /robots.txt [31m500 [0m0.480 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/array-flatten/ [31m500 [0m0.405 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/isstream/ [31m500 [0m0.428 ms - 1112[0m
+App 28773 output: [0mGET /wp-admin/install.php [31m500 [0m0.473 ms - 1112[0m
+App 28773 output: [0mGET /wp/wp-admin/install.php [31m500 [0m0.628 ms - 1112[0m
+App 28773 output: [0mGET /new/wp-admin/install.php [31m500 [0m0.497 ms - 1112[0m
+App 28773 output: [0mGET /old/wp-admin/install.php [31m500 [0m0.624 ms - 1112[0m
+App 28773 output: [0mGET /wordpress/wp-admin/install.php [31m500 [0m0.473 ms - 1112[0m
+App 28773 output: [0mGET /test/wp-admin/install.php [31m500 [0m0.440 ms - 1112[0m
+App 28773 output: [0mGET /blog/wp-admin/install.php [31m500 [0m0.617 ms - 1112[0m
+App 28773 output: [0mGET /cms/wp-admin/install.php [31m500 [0m0.620 ms - 1112[0m
+App 28773 output: [0mGET /web/wp-admin/install.php [31m500 [0m0.481 ms - 1112[0m
+App 28773 output: [0mGET /backup/wp-admin/install.php [31m500 [0m0.719 ms - 1112[0m
+App 28773 output: [0mGET /site/wp-admin/install.php [31m500 [0m0.466 ms - 1112[0m
+App 28773 output: [0mGET /oldsite/wp-admin/install.php [31m500 [0m0.416 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/graceful-fs/ [31m500 [0m0.814 ms - 1112[0m
+App 28773 output: [0mGET /app2/public/icons-reference/fonts/?C=N;O=D [31m500 [0m0.699 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/qs/dist/?C=D;O=A [31m500 [0m0.519 ms - 1112[0m
+App 28773 output: [0mGET /app2/tmp/?C=D;O=A [31m500 [0m0.441 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/qs/dist/?C=S;O=A [31m500 [0m0.476 ms - 1112[0m
+App 28773 output: [0mGET /403.shtml [31m500 [0m0.452 ms - 1112[0m
+App 28773 output: [0mGET /robots.txt [31m500 [0m0.795 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/qs/?C=D;O=A [31m500 [0m0.545 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/core-util-is/lib/?C=S;O=A [31m500 [0m0.644 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/core-util-is/lib/ [31m500 [0m0.463 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/form-data/lib/ [31m500 [0m0.464 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/json-schema/lib/?C=S;O=D [31m500 [0m0.476 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/core-util-is/lib/ [31m500 [0m0.419 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/json-schema/lib/?C=S;O=D [31m500 [0m0.437 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/tough-cookie/ [31m500 [0m0.662 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/defer-to-connect/?C=S;O=A [31m500 [0m0.450 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/wrappy/ [31m500 [0m0.423 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/defer-to-connect/?C=S;O=A [31m500 [0m0.438 ms - 1112[0m
+App 28773 output: [0mGET /robots.txt [31m500 [0m0.483 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/readable-stream/doc/?C=D;O=A [31m500 [0m0.456 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/undefsafe/?C=M;O=A [31m500 [0m0.444 ms - 1112[0m
+App 28773 output: [0mGET /app2/node_modules/debug/ [31m500 [0m0.635 ms - 1112[0m
+App 28773 output: [0mGET /app2/public/icons-reference/ [31m500 [0m0.415 ms - 1112[0m
+App 28773 output: [0mGET /tecozk_ms1/?C=N;O=A [31m500 [0m0.430 ms - 1112[0m
+App 28773 output: events.js:174
+App 28773 output:       throw er; // Unhandled 'error' event
+App 28773 output:       ^
+App 28773 output: Error: Connection lost: The server closed the connection.
+App 28773 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+App 28773 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 28773 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 28773 output:     at Socket.emit (events.js:203:15)
+App 28773 output:     at endReadableNT (_stream_readable.js:1145:12)
+App 28773 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 28773 output: Emitted 'error' event at:
+App 28773 output:     at Connection._handleProtocolError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:423:8)
+App 28773 output:     at Protocol.emit (events.js:198:13)
+App 28773 output:     at Protocol._delegateError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 28773 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+App 28773 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 28773 output:     [... lines matching original stack trace ...]
+App 28773 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 10926 output: Agritech app Started on port 3000!
+App 10926 output: Connected!
+App 10926 output: Connected!
+App 10926 output: [0mGET /app2/?C=N;O=A [31m500 [0m11.330 ms - 1112[0m
+App 10926 output: [0mGET /robots.txt [31m500 [0m0.709 ms - 1112[0m
+App 10926 output: [0mGET /app2/node_modules/readable-stream/lib/internal/ [31m500 [0m0.530 ms - 1112[0m
+App 10926 output: [0mGET /app2/node_modules/mime/build/ [31m500 [0m0.397 ms - 1112[0m
+App 10926 output: [0mGET /app2/public/fonts/ [31m500 [0m0.407 ms - 1112[0m
+App 13283 output: Agritech app Started on port 3000!
+App 13283 output: Connected!
+App 13283 output: Connected!
+App 13283 output: [0mGET /app2/public/data/?C=M;O=A [31m500 [0m5.859 ms - 1112[0m
+App 28382 output: Agritech app Started on port 3000!
+App 28382 output: Connected!
+App 28382 output: Connected!
+App 28382 output: [0mGET /app2/public/vendor/ [31m500 [0m6.310 ms - 1112[0m
+App 28382 output: [0mGET /robots.txt [31m500 [0m0.716 ms - 1112[0m
+App 28382 output: [0mGET /app2/node_modules/once/?C=N;O=D [31m500 [0m0.423 ms - 1112[0m
+App 28382 output: [0mGET /app2/public/assets/plugins/flot/ [31m500 [0m0.579 ms - 1112[0m
+App 28382 output: [0mGET /app2/public/assets/img/?C=D;O=D [31m500 [0m0.456 ms - 1112[0m
+App 28382 output: [0mGET /app2/node_modules/form-data/lib/?C=D;O=A [31m500 [0m0.426 ms - 1112[0m
+App 28382 output: [0mGET /app2/public/assets/plugins/metisMenu/?C=M;O=A [31m500 [0m0.380 ms - 1112[0m
+App 5574 output: Agritech app Started on port 3000!
+App 5574 output: Connected!
+App 5574 output: Connected!
+App 5574 output: [0mGET /app2/node_modules/verror/lib/?C=D;O=D [31m500 [0m6.014 ms - 1112[0m
+App 5574 output: [0mGET /app2/node_modules/aws4/?C=D;O=A [31m500 [0m0.734 ms - 1112[0m
+App 5574 output: [0mGET /robots.txt [31m500 [0m0.430 ms - 1112[0m
+App 5574 output: [0mGET /app2/public/assets/img/?C=D;O=A [31m500 [0m0.422 ms - 1112[0m
+App 5574 output: [0mGET /app2/node_modules/readable-stream/doc/wg-meetings/ [31m500 [0m0.413 ms - 1112[0m
+App 5574 output: [0mGET /app2/node_modules/jsprim/lib/?C=D;O=D [31m500 [0m0.413 ms - 1112[0m
+App 5574 output: [0mGET /robots.txt [31m500 [0m1.848 ms - 1112[0m
+App 5574 output: [0mGET /app2/node_modules/bignumber.js/doc/?C=S;O=A [31m500 [0m0.488 ms - 1112[0m
+App 5574 output: [0mGET /app2/node_modules/uri-js/dist/?C=D;O=A [31m500 [0m0.567 ms - 1112[0m
+App 5574 output: [0mGET /app2/node_modules/chokidar/ [31m500 [0m0.524 ms - 1112[0m
+App 5574 output: [0mGET /app2/node_modules/touch/ [31m500 [0m0.430 ms - 1112[0m
+App 5574 output: [0mGET /app2/public/assets/css/ [31m500 [0m0.471 ms - 1112[0m
+App 5574 output: [0mGET /app2/node_modules/dashdash/?C=N;O=D [31m500 [0m1.281 ms - 1112[0m
+App 5574 output: [0mGET /app2/node_modules/ini/ [31m500 [0m0.477 ms - 1112[0m
+App 5574 output: [0mGET /robots.txt [31m500 [0m0.658 ms - 1112[0m
+App 5574 output: [0mGET /app2/node_modules/debug/node_modules/?C=N;O=D [31m500 [0m0.435 ms - 1112[0m
+App 5574 output: [0mGET /app2/node_modules/dashdash/lib/?C=N;O=D [31m500 [0m0.475 ms - 1112[0m
+App 5574 output: [0mGET /app2/node_modules/@szmarczak/ [31m500 [0m0.442 ms - 1112[0m
+App 5574 output: [0mGET /app2/node_modules/@szmarczak/ [31m500 [0m0.459 ms - 1112[0m
+App 5574 output: [0mGET /app2/public/stylesheets/ [31m500 [0m1.314 ms - 1112[0m
+App 5574 output: [0mGET /app2/node_modules/performance-now/?C=S;O=A [31m500 [0m0.930 ms - 1112[0m
+App 5574 output: [0mGET /app2/node_modules/nopt/bin/ [31m500 [0m0.666 ms - 1112[0m
+App 5574 output: [0mGET /app2/node_modules/readable-stream/doc/ [31m500 [0m0.523 ms - 1112[0m
+App 5574 output: events.js:174
+App 5574 output:       throw er; // Unhandled 'error' event
+App 5574 output:       ^
+App 5574 output: Error: Connection lost: The server closed the connection.
+App 5574 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+App 5574 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 5574 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 5574 output:     at Socket.emit (events.js:203:15)
+App 5574 output:     at endReadableNT (_stream_readable.js:1145:12)
+App 5574 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 5574 output: Emitted 'error' event at:
+App 5574 output:     at Connection._handleProtocolError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:423:8)
+App 5574 output:     at Protocol.emit (events.js:198:13)
+App 5574 output:     at Protocol._delegateError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 5574 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+App 5574 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 5574 output:     [... lines matching original stack trace ...]
+App 5574 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 29352 output: Agritech app Started on port 3000!
+App 29352 output: Connected!
+App 29352 output: Connected!
+App 29352 output: [0mGET /app2/node_modules/verror/lib/?C=M;O=D [31m500 [0m5.759 ms - 1112[0m
+App 29352 output: [0mGET /app2/public/images/?C=M;O=A [31m500 [0m0.893 ms - 1112[0m
+App 29352 output: [0mGET /favicon.ico [31m500 [0m0.482 ms - 1112[0m
+App 29352 output: [0mGET /favicon.ico [31m500 [0m0.415 ms - 1112[0m
+App 29352 output: [0mGET /robots.txt [31m500 [0m0.436 ms - 1112[0m
+App 29352 output: [0mGET /app2/public/assets/fonts/?C=M;O=A [31m500 [0m0.564 ms - 1112[0m
+App 29352 output: [0mGET /app2/node_modules/supports-color/ [31m500 [0m0.409 ms - 1112[0m
+App 29352 output: [0mGET /tecozk_muzammil/?C=M;O=A [31m500 [0m0.604 ms - 1112[0m
+App 29352 output: [0mGET /app2/node_modules/json-schema/test/ [31m500 [0m0.650 ms - 1112[0m
+App 29352 output: [0mGET /app2/public/assets/plugins/morris/ [31m500 [0m0.513 ms - 1112[0m
+App 29352 output: [0mGET /app2/node_modules/json-schema/draft-02/ [31m500 [0m0.449 ms - 1112[0m
+App 29352 output: [0mGET /robots.txt [31m500 [0m0.465 ms - 1112[0m
+App 29352 output: [0mGET /app2/node_modules/http-cache-semantics/ [31m500 [0m0.410 ms - 1112[0m
+App 29352 output: [0mGET /403.shtml [31m500 [0m0.407 ms - 1112[0m
+App 29352 output: [0mGET /app2/node_modules/assert-plus/?C=S;O=A [31m500 [0m0.418 ms - 1112[0m
+App 29352 output: [0mGET /app2/node_modules/assert-plus/ [31m500 [0m0.467 ms - 1112[0m
+App 29352 output: [0mGET /404.shtml [31m500 [0m0.413 ms - 1112[0m
+App 29352 output: [0mGET /app2/public/assets/img/?C=M;O=A [31m500 [0m1.437 ms - 1112[0m
+App 29352 output: [0mGET /app2/node_modules/verror/lib/?C=S;O=D [31m500 [0m0.618 ms - 1112[0m
+App 29352 output: [0mGET /app2/node_modules/core-util-is/lib/?C=D;O=A [31m500 [0m0.436 ms - 1112[0m
+App 29352 output: [0mGET /app2/node_modules/inherits/ [31m500 [0m0.431 ms - 1112[0m
+App 29352 output: [0mGET /app2/node_modules/json-stringify-safe/test/?C=D;O=A [31m500 [0m0.411 ms - 1112[0m
+App 29352 output: [0mGET /robots.txt [31m500 [0m0.433 ms - 1112[0m
+App 29352 output: [0mGET /404.shtml [31m500 [0m0.433 ms - 1112[0m
+App 29352 output: [0mGET /robots.txt [31m500 [0m0.409 ms - 1112[0m
+App 29352 output: [0mGET /app2/public/vendor/font-awesome/?C=N;O=D [31m500 [0m0.443 ms - 1112[0m
+App 29352 output: events.js:174
+App 29352 output:       throw er; // Unhandled 'error' event
+App 29352 output:       ^
+App 29352 output: Error: Connection lost: The server closed the connection.
+App 29352 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+App 29352 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 29352 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 29352 output:     at Socket.emit (events.js:203:15)
+App 29352 output:     at endReadableNT (_stream_readable.js:1145:12)
+App 29352 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 29352 output: Emitted 'error' event at:
+App 29352 output:     at Connection._handleProtocolError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:423:8)
+App 29352 output:     at Protocol.emit (events.js:198:13)
+App 29352 output:     at Protocol._delegateError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 29352 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+App 29352 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 29352 output:     [... lines matching original stack trace ...]
+App 29352 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 24687 output: Agritech app Started on port 3000!
+App 24687 output: Connected!
+App 24687 output: Connected!
+App 3586 output: Agritech app Started on port 3000!
+App 3586 output: Connected!
+App 3586 output: Connected!
+App 3586 output: [0mGET /app2/node_modules/qs/dist/?C=M;O=A [31m500 [0m7.215 ms - 1112[0m
+App 3586 output: [0mGET /robots.txt [31m500 [0m0.624 ms - 1112[0m
+App 3586 output: [0mGET /app2/node_modules/verror/lib/?C=D;O=A [31m500 [0m0.480 ms - 1112[0m
+App 3586 output: [0mGET /app2/node_modules/jsprim/?C=S;O=A [31m500 [0m0.549 ms - 1112[0m
+App 3586 output: [0mGET /app2/node_modules/got/ [31m500 [0m0.407 ms - 1112[0m
+App 3586 output: [0mGET /app2/node_modules/uri-js/dist/?C=N;O=A [31m500 [0m0.424 ms - 1112[0m
+App 3586 output: [0mGET /app2/node_modules/qs/dist/?C=D;O=D [31m500 [0m0.493 ms - 1112[0m
+App 3586 output: [0mGET /app2/node_modules/punycode/ [31m500 [0m0.427 ms - 1112[0m
+App 3586 output: [0mGET /app2/node_modules/nopt/lib/?C=N;O=D [31m500 [0m0.444 ms - 1112[0m
+App 3586 output: [0mGET /app2/node_modules/punycode/ [31m500 [0m0.389 ms - 1112[0m
+App 3586 output: [0mGET /app2/node_modules/assert-plus/ [31m500 [0m0.400 ms - 1112[0m
+App 3586 output: [0mGET /robots.txt [31m500 [0m0.413 ms - 1112[0m
+App 3586 output: [0mGET /app2/public/vendor/font-awesome/ [31m500 [0m0.587 ms - 1112[0m
+App 3586 output: [0mGET /robots.txt [31m500 [0m0.408 ms - 1112[0m
+App 3586 output: [0mGET /app2/node_modules/getpass/lib/ [31m500 [0m0.515 ms - 1112[0m
+App 3586 output: [0mGET /app2/node_modules/qs/?C=N;O=D [31m500 [0m0.404 ms - 1112[0m
+App 3586 output: [0mGET /app2/node_modules/nodemon/doc/?C=S;O=A [31m500 [0m0.464 ms - 1112[0m
+App 3586 output: [0mGET /app2/public/assets/css/?C=M;O=A [31m500 [0m0.441 ms - 1112[0m
+App 3586 output: [0mGET /app2/public/assets/plugins/dataTables/ [31m500 [0m0.409 ms - 1112[0m
+App 3586 output: [0mGET /app2/node_modules/jsprim/lib/?C=N;O=A [31m500 [0m0.464 ms - 1112[0m
+App 3586 output: [0mGET /robots.txt [31m500 [0m0.414 ms - 1112[0m
+App 3586 output: [0mGET /app2/public/assets/plugins/morris/ [31m500 [0m0.417 ms - 1112[0m
+App 3586 output: [0mGET /robots.txt [31m500 [0m0.453 ms - 1112[0m
+App 3586 output: [0mGET /app2/node_modules/body-parser/ [31m500 [0m0.593 ms - 1112[0m
+App 3586 output: [0mGET /robots.txt [31m500 [0m1.568 ms - 1112[0m
+App 3586 output: [0mGET /app2/public/vendor/bootstrap/ [31m500 [0m0.438 ms - 1112[0m
+App 3586 output: [0mGET /app2/node_modules/nopt/lib/ [31m500 [0m0.408 ms - 1112[0m
+App 3586 output: [0mGET /app2/node_modules/jsprim/lib/?C=M;O=A [31m500 [0m0.388 ms - 1112[0m
+App 3586 output: [0mGET /app2/node_modules/ajv/ [31m500 [0m0.626 ms - 1112[0m
+App 3586 output: [0mGET /robots.txt [31m500 [0m0.382 ms - 1112[0m
+App 3586 output: [0mGET /app2/public/vendor/jquery.cookie/ [31m500 [0m0.576 ms - 1112[0m
+App 3586 output: events.js:174
+App 3586 output:       throw er; // Unhandled 'error' event
+App 3586 output:       ^
+App 3586 output: Error: Connection lost: The server closed the connection.
+App 3586 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+App 3586 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 3586 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 3586 output:     at Socket.emit (events.js:203:15)
+App 3586 output:     at endReadableNT (_stream_readable.js:1145:12)
+App 3586 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 3586 output: Emitted 'error' event at:
+App 3586 output:     at Connection._handleProtocolError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:423:8)
+App 3586 output:     at Protocol.emit (events.js:198:13)
+App 3586 output:     at Protocol._delegateError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 3586 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+App 3586 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 3586 output:     [... lines matching original stack trace ...]
+App 3586 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 7610 output: Agritech app Started on port 3000!
+App 7610 output: Connected!
+App 7610 output: Connected!
+App 7610 output: [0mGET /robots.txt [31m500 [0m1.373 ms - 1112[0m
+App 7610 output: [0mGET /app2/node_modules/nodemon/node_modules/ [31m500 [0m0.617 ms - 1112[0m
+App 7610 output: [0mGET /app2/node_modules/mysql/ [31m500 [0m0.762 ms - 1112[0m
+App 7610 output: [0mGET /app2/node_modules/string_decoder/?C=D;O=A [31m500 [0m0.397 ms - 1112[0m
+App 7610 output: [0mGET /app2/node_modules/bignumber.js/doc/ [31m500 [0m0.418 ms - 1112[0m
+App 7610 output: [0mGET /app2/?C=D;O=A [31m500 [0m0.378 ms - 1112[0m
+App 7610 output: [0mGET /app2/public/assets/plugins/timeline/ [31m500 [0m0.409 ms - 1112[0m
+App 7610 output: [0mGET /robots.txt [31m500 [0m1.737 ms - 1112[0m
+App 7610 output: [0mGET /app2/?C=M;O=A [31m500 [0m0.403 ms - 1112[0m
+App 7610 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.516 ms - 1111[0m
+App 7610 output: Harvest is ready
+App 7610 output: connected
+App 7610 output: connected
+App 7610 output: [0mGET /app2/node_modules/performance-now/ [31m500 [0m0.695 ms - 1112[0m
+App 7610 output: [0mGET /app2/node_modules/json-schema/draft-00/ [31m500 [0m1.287 ms - 1112[0m
+App 7610 output: [0mGET /app2/node_modules/anymatch/ [31m500 [0m0.499 ms - 1112[0m
+App 7610 output: [0mGET /app2/node_modules/delayed-stream/lib/ [31m500 [0m0.476 ms - 1112[0m
+App 7610 output: [0mGET /robots.txt [31m500 [0m0.476 ms - 1112[0m
+App 7610 output: [0mGET /app2/public/assets/plugins/bootstrap/ [31m500 [0m0.449 ms - 1112[0m
+App 7610 output: [0mGET /app2/node_modules/nopt/examples/?C=S;O=D [31m500 [0m0.481 ms - 1112[0m
+App 7668 output: Agritech app Started on port 3000!
+App 7668 output: Connected!
+App 7668 output: Connected!
+App 7668 output: [0mGET /indeximages/poster3.jpg [31m500 [0m1.493 ms - 1111[0m
+App 7668 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.603 ms - 1111[0m
+App 7668 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.532 ms - 1111[0m
+App 7668 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.431 ms - 1111[0m
+App 7668 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.774 ms - 1111[0m
+App 7668 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.634 ms - 1111[0m
+App 7668 output: Harvest is ready
+App 7668 output: connected
+App 7668 output: connected
+App 7668 output: Harvest is ready
+App 7668 output: connected
+App 7668 output: connected
+App 7668 output: Harvest is ready
+App 7668 output: connected
+App 7668 output: connected
+App 7668 output: Harvest is ready
+App 7668 output: connected
+App 7668 output: connected
+App 7668 output: [0mGET /favicon.ico [31m500 [0m0.549 ms - 1111[0m
+App 7668 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.464 ms - 1111[0m
+App 7668 output: Harvest is ready
+App 7668 output: connected
+App 7668 output: connected
+App 7668 output: [0mGET /loginauth [31m500 [0m0.450 ms - 1111[0m
+App 7668 output: [0mGET /favicon.ico [31m500 [0m0.456 ms - 1111[0m
+App 7668 output: [0mGET /app2/node_modules/verror/lib/ [31m500 [0m0.445 ms - 1112[0m
+App 7668 output: [0mGET /robots.txt [31m500 [0m0.492 ms - 1112[0m
+App 7668 output: [0mGET /app2/node_modules/boxen/ [31m500 [0m0.488 ms - 1112[0m
+App 7668 output: [0mGET /favicon.ico [31m500 [0m0.455 ms - 1112[0m
+App 26860 output: Agritech app Started on port 3000!
+App 26860 output: Connected!
+App 26860 output: Connected!
+App 26860 output: [0mGET /favicon.ico [31m500 [0m1.424 ms - 1112[0m
+App 26860 output: [0mGET /favicon.ico [31m500 [0m0.607 ms - 1112[0m
+App 26860 output: [0mGET /wp-includes/wlwmanifest.xml [31m500 [0m0.548 ms - 1111[0m
+App 26860 output: [0mGET /404.shtml [31m500 [0m0.403 ms - 1111[0m
+App 26860 output: [0mGET /blog/wp-includes/wlwmanifest.xml [31m500 [0m0.431 ms - 1111[0m
+App 26860 output: [0mGET /web/wp-includes/wlwmanifest.xml [31m500 [0m0.426 ms - 1111[0m
+App 26860 output: [0mGET /wordpress/wp-includes/wlwmanifest.xml [31m500 [0m0.402 ms - 1111[0m
+App 26860 output: [0mGET /website/wp-includes/wlwmanifest.xml [31m500 [0m0.448 ms - 1111[0m
+App 26860 output: [0mGET /wp/wp-includes/wlwmanifest.xml [31m500 [0m0.460 ms - 1111[0m
+App 26860 output: [0mGET /news/wp-includes/wlwmanifest.xml [31m500 [0m0.469 ms - 1111[0m
+App 26860 output: [0mGET /2020/wp-includes/wlwmanifest.xml [31m500 [0m0.440 ms - 1111[0m
+App 26860 output: [0mGET /2019/wp-includes/wlwmanifest.xml [31m500 [0m0.425 ms - 1111[0m
+App 26860 output: [0mGET /shop/wp-includes/wlwmanifest.xml [31m500 [0m0.385 ms - 1111[0m
+App 26860 output: [0mGET /wp1/wp-includes/wlwmanifest.xml [31m500 [0m0.684 ms - 1111[0m
+App 26860 output: [0mGET /test/wp-includes/wlwmanifest.xml [31m500 [0m0.477 ms - 1111[0m
+App 26860 output: [0mGET /wp2/wp-includes/wlwmanifest.xml [31m500 [0m0.423 ms - 1111[0m
+App 26860 output: [0mGET /site/wp-includes/wlwmanifest.xml [31m500 [0m0.408 ms - 1111[0m
+App 26860 output: [0mGET /cms/wp-includes/wlwmanifest.xml [31m500 [0m0.438 ms - 1111[0m
+App 26860 output: [0mGET /sito/wp-includes/wlwmanifest.xml [31m500 [0m0.594 ms - 1111[0m
+App 29065 output: Agritech app Started on port 3000!
+App 29065 output: Connected!
+App 29065 output: Connected!
+App 29065 output: [0mGET /app2/tmp/?C=M;O=A [31m500 [0m5.832 ms - 1112[0m
+App 29065 output: [0mGET /app2/node_modules/minimatch/?C=D;O=A [31m500 [0m0.754 ms - 1112[0m
+App 29065 output: [0mGET /robots.txt [31m500 [0m0.452 ms - 1112[0m
+App 29065 output: [0mGET /app2/public/assets/ [31m500 [0m0.437 ms - 1112[0m
+App 29065 output: [0mGET /app2/node_modules/deep-extend/ [31m500 [0m0.418 ms - 1112[0m
+App 29065 output: [0mGET /app2/node_modules/registry-auth-token/ [31m500 [0m0.646 ms - 1112[0m
+App 29065 output: [0mGET /app2/node_modules/jsprim/lib/?C=D;O=A [31m500 [0m0.429 ms - 1112[0m
+App 5908 output: Agritech app Started on port 3000!
+App 5908 output: Connected!
+App 5908 output: Connected!
+App 5908 output: [0mGET /app2/node_modules/aws4/?C=S;O=A [31m500 [0m5.958 ms - 1112[0m
+App 5908 output: [0mGET /app2/public/vendor/jquery-validation/ [31m500 [0m1.151 ms - 1112[0m
+App 5908 output: [0mGET /app2/node_modules/chalk/source/ [31m500 [0m0.435 ms - 1112[0m
+App 5908 output: [0mGET /app2/bin/?C=D;O=D [31m500 [0m0.367 ms - 1112[0m
+App 8890 output: Agritech app Started on port 3000!
+App 8890 output: Connected!
+App 8890 output: Connected!
+App 8890 output: [0mGET /app2/node_modules/safe-buffer/ [31m500 [0m6.109 ms - 1112[0m
+App 8613 output: Agritech app Started on port 3000!
+App 8613 output: Connected!
+App 8613 output: Connected!
+App 8613 output: [0mGET /robots.txt [31m500 [0m5.801 ms - 1112[0m
+App 8613 output: [0mGET /app2/node_modules/delayed-stream/ [31m500 [0m0.719 ms - 1112[0m
+App 14352 output: Agritech app Started on port 3000!
+App 14352 output: Connected!
+App 14352 output: Connected!
+App 14352 output: [0mGET /app2/node_modules/is-path-inside/ [31m500 [0m6.169 ms - 1112[0m
+App 18256 output: Agritech app Started on port 3000!
+App 18256 output: Connected!
+App 18256 output: Connected!
+App 18256 output: [0mGET /robots.txt [31m500 [0m5.887 ms - 1112[0m
+App 11910 output: Agritech app Started on port 3000!
+App 11910 output: Connected!
+App 11910 output: Connected!
+App 11910 output: [0mGET /wp-includes/wlwmanifest.xml [31m500 [0m1.418 ms - 1111[0m
+App 11910 output: [0mGET /404.shtml [31m500 [0m0.623 ms - 1111[0m
+App 11910 output: [0mGET /blog/wp-includes/wlwmanifest.xml [31m500 [0m0.467 ms - 1111[0m
+App 11910 output: [0mGET /web/wp-includes/wlwmanifest.xml [31m500 [0m0.402 ms - 1111[0m
+App 11910 output: [0mGET /wordpress/wp-includes/wlwmanifest.xml [31m500 [0m0.402 ms - 1111[0m
+App 11910 output: [0mGET /website/wp-includes/wlwmanifest.xml [31m500 [0m0.444 ms - 1111[0m
+App 11910 output: [0mGET /wp/wp-includes/wlwmanifest.xml [31m500 [0m0.405 ms - 1111[0m
+App 11910 output: [0mGET /news/wp-includes/wlwmanifest.xml [31m500 [0m0.441 ms - 1111[0m
+App 11910 output: [0mGET /2020/wp-includes/wlwmanifest.xml [31m500 [0m0.591 ms - 1111[0m
+App 11910 output: [0mGET /2019/wp-includes/wlwmanifest.xml [31m500 [0m0.500 ms - 1111[0m
+App 11910 output: [0mGET /shop/wp-includes/wlwmanifest.xml [31m500 [0m0.503 ms - 1111[0m
+App 11910 output: [0mGET /wp1/wp-includes/wlwmanifest.xml [31m500 [0m0.638 ms - 1111[0m
+App 11910 output: [0mGET /test/wp-includes/wlwmanifest.xml [31m500 [0m0.440 ms - 1111[0m
+App 11910 output: [0mGET /wp2/wp-includes/wlwmanifest.xml [31m500 [0m0.451 ms - 1111[0m
+App 11910 output: [0mGET /site/wp-includes/wlwmanifest.xml [31m500 [0m0.412 ms - 1111[0m
+App 11910 output: [0mGET /cms/wp-includes/wlwmanifest.xml [31m500 [0m0.406 ms - 1111[0m
+App 11910 output: [0mGET /sito/wp-includes/wlwmanifest.xml [31m500 [0m0.396 ms - 1111[0m
+App 11910 output: [0mGET /404.shtml [31m500 [0m0.661 ms - 1112[0m
+App 11910 output: [0mGET /404.shtml [31m500 [0m0.402 ms - 1112[0m
+App 11910 output: [0mGET /app2/?C=S;O=A [31m500 [0m0.429 ms - 1112[0m
+App 11910 output: [0mGET /app2/tmp/ [31m500 [0m0.407 ms - 1112[0m
+App 10222 output: Agritech app Started on port 3000!
+App 10222 output: Connected!
+App 10222 output: Connected!
+App 10222 output: [0mGET /app2/views/errors/ [31m500 [0m1.376 ms - 1112[0m
+App 8085 output: Agritech app Started on port 3000!
+App 8085 output: Connected!
+App 8085 output: Connected!
+App 8085 output: [0mGET /app2/public/data/?C=S;O=A [31m500 [0m7.232 ms - 1112[0m
+App 8085 output: [0mGET /app2/node_modules/nopt/examples/?C=N;O=D [31m500 [0m0.835 ms - 1112[0m
+App 8085 output: [0mGET /app2/node_modules/aws4/?C=N;O=D [31m500 [0m0.498 ms - 1112[0m
+App 13654 output: Agritech app Started on port 3000!
+App 13654 output: Connected!
+App 13654 output: Connected!
+App 13654 output: [0mGET /robots.txt [31m500 [0m6.292 ms - 1112[0m
+App 13654 output: [0mGET /humans.txt [31m500 [0m1.157 ms - 1112[0m
+App 13654 output: [0mGET /ads.txt [31m500 [0m0.719 ms - 1112[0m
+App 13654 output: [0mGET /robots.txt [31m500 [0m0.493 ms - 1112[0m
+App 13654 output: [0mGET /app2/public/vendor/chart.js/ [31m500 [0m0.386 ms - 1112[0m
+App 13654 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.493 ms - 1111[0m
+App 13654 output: Harvest is ready
+App 13654 output: connected
+App 13654 output: connected
+App 13654 output: [0mGET /app2/node_modules/form-data/lib/?C=S;O=A [31m500 [0m0.679 ms - 1112[0m
+App 13654 output: [0mGET /404.shtml [31m500 [0m0.949 ms - 1112[0m
+App 13654 output: [0mGET /404.shtml [31m500 [0m0.469 ms - 1112[0m
+App 13654 output: [0mGET /app2/node_modules/uid-safe/ [31m500 [0m1.387 ms - 1112[0m
+App 13654 output: [0mGET /app2/node_modules/chalk/node_modules/?C=N;O=D [31m500 [0m0.416 ms - 1112[0m
+App 13654 output: [0mGET /app2/node_modules/chalk/node_modules/?C=N;O=D [31m500 [0m0.465 ms - 1112[0m
+App 13654 output: [0mGET /app2/node_modules/xdg-basedir/ [31m500 [0m1.084 ms - 1112[0m
+App 13654 output: [0mGET /app2/node_modules/nodemon/ [31m500 [0m0.635 ms - 1112[0m
+App 13654 output: [0mGET /app2/node_modules/har-validator/ [31m500 [0m0.444 ms - 1112[0m
+App 13654 output: [0mGET /app2/ [31m500 [0m0.604 ms - 1112[0m
+App 13654 output: [0mGET /robots.txt [31m500 [0m0.444 ms - 1112[0m
+App 13654 output: [0mGET /app2/views/pages/ [31m500 [0m0.431 ms - 1112[0m
+App 13654 output: [0mGET /app2/node_modules/ipaddr.js/lib/ [31m500 [0m0.475 ms - 1112[0m
+App 13654 output: [0mGET /app2/node_modules/iconv-lite/?C=S;O=A [31m500 [0m1.213 ms - 1112[0m
+App 13654 output: [0mGET /app2/public/assets/font-awesome/fonts/ [31m500 [0m0.534 ms - 1112[0m
+App 13654 output: [0mGET /app2/views/pages/signup [31m500 [0m0.513 ms - 1112[0m
+App 13654 output: [0mGET /app2/public/indexcss/ [31m500 [0m0.453 ms - 1112[0m
+App 13654 output: [0mGET /app2/node_modules/extsprintf/lib/ [31m500 [0m0.463 ms - 1112[0m
+App 13654 output: [0mGET /app2/node_modules/nodemon/bin/ [31m500 [0m0.485 ms - 1112[0m
+App 13654 output: [0mGET /app2/node_modules/har-schema/?C=N;O=D [31m500 [0m0.454 ms - 1112[0m
+App 6952 output: Agritech app Started on port 3000!
+App 6952 output: Connected!
+App 6952 output: Connected!
+App 6952 output: [0mGET /robots.txt [31m500 [0m11.465 ms - 1112[0m
+App 6952 output: [0mGET /app2/node_modules/qs/ [31m500 [0m0.752 ms - 1112[0m
+App 6952 output: [0mGET /app2/node_modules/nopt/lib/?C=S;O=D [31m500 [0m0.475 ms - 1112[0m
+App 6952 output: [0mGET /robots.txt [31m500 [0m0.419 ms - 1112[0m
+App 6952 output: [0mGET /app2/node_modules/json-stringify-safe/ [31m500 [0m0.456 ms - 1112[0m
+App 6952 output: [0mGET /app2/bin/?C=N;O=D [31m500 [0m0.480 ms - 1112[0m
+App 6952 output: [0mGET /app2/node_modules/nopt/bin/?C=M;O=D [31m500 [0m0.444 ms - 1112[0m
+App 6952 output: [0mGET /app2/node_modules/combined-stream/ [31m500 [0m0.458 ms - 1112[0m
+App 6952 output: [0mGET /app2/node_modules/verror/lib/?C=M;O=A [31m500 [0m0.461 ms - 1112[0m
+App 22641 output: Agritech app Started on port 3000!
+App 22641 output: Connected!
+App 22641 output: Connected!
+App 22641 output: [0mGET /robots.txt [31m500 [0m5.824 ms - 1112[0m
+App 22641 output: [0mGET /tecozk_muzammil/ [31m500 [0m0.735 ms - 1112[0m
+App 22641 output: [0mGET /app2/tmp/?C=N;O=A [31m500 [0m0.515 ms - 1112[0m
+App 22641 output: [0mGET /app2/node_modules/semver/bin/?C=M;O=A [31m500 [0m0.395 ms - 1112[0m
+App 25326 output: Agritech app Started on port 3000!
+App 25326 output: Connected!
+App 25326 output: Connected!
+App 25326 output: [0mGET /robots.txt [31m500 [0m5.887 ms - 1112[0m
+App 25326 output: [0mGET /app2/node_modules/performance-now/src/ [31m500 [0m0.665 ms - 1112[0m
+App 25326 output: [0mGET /app2/node_modules/debug/node_modules/ [31m500 [0m0.478 ms - 1112[0m
+App 25326 output: [0mGET /app2/node_modules/debug/node_modules/?C=S;O=A [31m500 [0m0.546 ms - 1112[0m
+App 25326 output: [0mGET /app2/node_modules/dashdash/?C=S;O=A [31m500 [0m0.429 ms - 1112[0m
+App 25326 output: [0mGET /tecozk_ms1/?C=S;O=A [31m500 [0m0.430 ms - 1112[0m
+App 25326 output: [0mGET /app2/node_modules/punycode/ [31m500 [0m0.396 ms - 1112[0m
+App 25326 output: [0mGET /app2/node_modules/chalk/node_modules/ [31m500 [0m0.393 ms - 1112[0m
+App 25326 output: [0mGET /robots.txt [31m500 [0m0.381 ms - 1112[0m
+App 25326 output: [0mGET /app2/public/assets/plugins/timeline/?C=N;O=D [31m500 [0m0.424 ms - 1112[0m
+App 25326 output: [0mGET /app2/node_modules/form-data/ [31m500 [0m0.443 ms - 1112[0m
+App 25326 output: [0mGET /favicon.ico [31m500 [0m0.613 ms - 1112[0m
+App 25326 output: [0mGET /favicon.ico [31m500 [0m0.506 ms - 1112[0m
+App 25326 output: [0mGET /app2/node_modules/semver/bin/?C=S;O=A [31m500 [0m0.435 ms - 1112[0m
+App 25326 output: [0mGET /app2/public/assets/plugins/metisMenu/ [31m500 [0m0.434 ms - 1112[0m
+App 25326 output: [0mGET /app2/node_modules/ini/?C=D;O=A [31m500 [0m0.468 ms - 1112[0m
+App 25326 output: [0mGET /app2/public/vendor/font-awesome/css/?C=D;O=A [31m500 [0m0.443 ms - 1112[0m
+App 25326 output: [0mGET /robots.txt [31m500 [0m0.461 ms - 1112[0m
+App 25326 output: [0mGET /app2/node_modules/ms/ [31m500 [0m0.455 ms - 1112[0m
+App 25326 output: [0mGET /app2/node_modules/qs/dist/?C=N;O=D [31m500 [0m0.433 ms - 1112[0m
+App 25326 output: [0mGET /app2/node_modules/core-util-is/lib/?C=N;O=D [31m500 [0m0.418 ms - 1112[0m
+App 25326 output: [0mGET /app2/node_modules/fast-deep-equal/ [31m500 [0m0.431 ms - 1112[0m
+App 25326 output: events.js:174
+App 25326 output:       throw er; // Unhandled 'error' event
+App 25326 output:       ^
+App 25326 output: Error: Connection lost: The server closed the connection.
+App 25326 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+App 25326 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 25326 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 25326 output:     at Socket.emit (events.js:203:15)
+App 25326 output:     at endReadableNT (_stream_readable.js:1145:12)
+App 25326 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 25326 output: Emitted 'error' event at:
+App 25326 output:     at Connection._handleProtocolError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:423:8)
+App 25326 output:     at Protocol.emit (events.js:198:13)
+App 25326 output:     at Protocol._delegateError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 25326 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+App 25326 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 25326 output:     [... lines matching original stack trace ...]
+App 25326 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 25809 output: Agritech app Started on port 3000!
+App 25809 output: Connected!
+App 25809 output: Connected!
+App 25809 output: [0mGET /app2/node_modules/isarray/ [31m500 [0m7.445 ms - 1112[0m
+App 25809 output: [0mGET /app2/node_modules/nopt/ [31m500 [0m0.753 ms - 1112[0m
+App 25809 output: [0mGET /404.shtml [31m500 [0m0.455 ms - 1112[0m
+App 25809 output: [0mGET /app2/node_modules/package-json/ [31m500 [0m0.405 ms - 1112[0m
+App 25809 output: [0mGET /app2/node_modules/mime/ [31m500 [0m0.420 ms - 1112[0m
+App 25809 output: [0mGET /robots.txt [31m500 [0m0.389 ms - 1112[0m
+App 25809 output: [0mGET /app2/node_modules/dashdash/?C=M;O=A [31m500 [0m0.393 ms - 1112[0m
+App 18014 output: Agritech app Started on port 3000!
+App 18014 output: Connected!
+App 18014 output: Connected!
+App 18014 output: [0mGET /app2/node_modules/dashdash/?C=M;O=A [31m500 [0m5.869 ms - 1112[0m
+App 18014 output: [0mGET /app2/node_modules/qs/?C=M;O=A [31m500 [0m0.830 ms - 1112[0m
+App 320 output: Agritech app Started on port 3000!
+App 320 output: Connected!
+App 320 output: Connected!
+App 320 output: [0mGET /app2/node_modules/readable-stream/lib/ [31m500 [0m1.596 ms - 1112[0m
+App 320 output: [0mGET /app2/node_modules/jsprim/lib/ [31m500 [0m0.643 ms - 1112[0m
+App 19212 output: Agritech app Started on port 3000!
+App 19212 output: Connected!
+App 19212 output: Connected!
+App 19212 output: [0mGET /app2/public/data/ [31m500 [0m7.096 ms - 1112[0m
+App 19212 output: [0mGET /app2/node_modules/ipaddr.js/lib/?C=M;O=A [31m500 [0m0.727 ms - 1112[0m
+App 19212 output: [0mGET /robots.txt [31m500 [0m0.806 ms - 1112[0m
+App 19212 output: [0mGET /app2/public/data/ [31m500 [0m0.490 ms - 1112[0m
+App 19212 output: [0mGET /app2/node_modules/nodemon/doc/ [31m500 [0m0.454 ms - 1112[0m
+App 19212 output: [0mGET /app2/node_modules/bignumber.js/doc/?C=N;O=D [31m500 [0m0.573 ms - 1112[0m
+App 19212 output: [0mGET /tecozk_muzammil/ [31m500 [0m0.386 ms - 1112[0m
+App 20162 output: Agritech app Started on port 3000!
+App 20162 output: Connected!
+App 20162 output: Connected!
+App 20162 output: [0mGET /app2/node_modules/minimatch/?C=N;O=A [31m500 [0m6.003 ms - 1112[0m
+App 20162 output: [0mGET /app2/public/assets/font-awesome/ [31m500 [0m1.133 ms - 1112[0m
+App 20162 output: [0mGET /app2/node_modules/json-schema/ [31m500 [0m0.500 ms - 1112[0m
+App 13188 output: Agritech app Started on port 3000!
+App 13188 output: Connected!
+App 13188 output: Connected!
+App 13188 output: [0mGET /app2/node_modules/minimatch/ [31m500 [0m5.863 ms - 1112[0m
+App 13188 output: [0mGET /app2/node_modules/depd/ [31m500 [0m0.777 ms - 1112[0m
+App 13188 output: [0mGET /403.shtml [31m500 [0m0.515 ms - 1112[0m
+App 13188 output: [0mGET /robots.txt [31m500 [0m0.398 ms - 1112[0m
+App 13188 output: [0mGET /tecozk_muzammil/?C=S;O=D [31m500 [0m0.437 ms - 1112[0m
+App 24645 output: Agritech app Started on port 3000!
+App 24645 output: Connected!
+App 24645 output: Connected!
+App 24645 output: [0mGET /app2/node_modules/json-stringify-safe/test/ [31m500 [0m5.893 ms - 1112[0m
+App 24645 output: [0mGET /app2/views/ [31m500 [0m0.854 ms - 1112[0m
+App 24645 output: [0mGET /app2/node_modules/send/ [31m500 [0m0.446 ms - 1112[0m
+App 24645 output: [0mGET /app2/node_modules/chalk/node_modules/?C=D;O=A [31m500 [0m0.809 ms - 1112[0m
+App 24645 output: [0mGET /robots.txt [31m500 [0m0.486 ms - 1112[0m
+App 24645 output: [0mGET /app2/public/images/?C=S;O=A [31m500 [0m0.440 ms - 1112[0m
+App 24645 output: [0mGET /app2/public/ [31m500 [0m0.430 ms - 1112[0m
+App 24645 output: [0mGET /app2/ [31m500 [0m0.415 ms - 1112[0m
+App 24645 output: [0mGET /app2/node_modules/once/?C=D;O=A [31m500 [0m0.414 ms - 1112[0m
+App 24645 output: [0mGET /app2/node_modules/bignumber.js/doc/?C=M;O=A [31m500 [0m0.466 ms - 1112[0m
+App 24645 output: [0mGET /app2/public/icons-reference/fonts/ [31m500 [0m0.404 ms - 1112[0m
+App 24645 output: [0mGET /app2/node_modules/undefsafe/?C=D;O=A [31m500 [0m0.431 ms - 1112[0m
+App 24645 output: [0mGET /app2/node_modules/aws-sign2/ [31m500 [0m0.417 ms - 1112[0m
+App 24645 output: [0mGET /robots.txt [31m500 [0m2166.255 ms - 1112[0m
+App 24645 output: [0mGET /app2/node_modules/json-schema/draft-03/ [31m500 [0m0.406 ms - 1112[0m
+App 24645 output: [0mGET /app2/node_modules/iconv-lite/lib/ [31m500 [0m0.497 ms - 1112[0m
+App 24645 output: [0mGET /app2/node_modules/performance-now/lib/ [31m500 [0m0.469 ms - 1112[0m
+App 24645 output: [0mGET /app2/node_modules/nodemon/doc/?C=N;O=D [31m500 [0m0.402 ms - 1112[0m
+App 24645 output: [0mGET /app2/?C=S;O=D [31m500 [0m0.419 ms - 1112[0m
+App 24645 output: [0mGET /app2/views/?C=S;O=A [31m500 [0m0.479 ms - 1112[0m
+App 24645 output: [0mGET /app2/node_modules/nopt/ [31m500 [0m1.389 ms - 1112[0m
+App 24645 output: [0mGET /meters [31m500 [0m0.419 ms - 1112[0m
+App 24645 output: [0mGET /favicon.ico [31m500 [0m0.667 ms - 1111[0m
+App 24645 output: [0mGET /meter [31m500 [0m0.441 ms - 1111[0m
+App 24645 output: [0mGET /favicon.ico [31m500 [0m0.475 ms - 1111[0m
+App 24645 output: [0mGET /app2/node_modules/nopt/bin/?C=D;O=A [31m500 [0m0.411 ms - 1112[0m
+App 24645 output: [0mGET /robots.txt [31m500 [0m0.409 ms - 1112[0m
+App 24645 output: [0mGET /app2/node_modules/har-schema/ [31m500 [0m0.425 ms - 1112[0m
+App 24645 output: [0mGET /app2/node_modules/nopt/examples/?C=S;O=A [31m500 [0m0.463 ms - 1112[0m
+App 23483 output: Agritech app Started on port 3000!
+App 23483 output: Connected!
+App 23483 output: Connected!
+App 23483 output: [0mGET /app2/node_modules/dashdash/lib/ [31m500 [0m7.450 ms - 1112[0m
+App 23483 output: [0mGET /app2/node_modules/dashdash/lib/ [31m500 [0m0.846 ms - 1112[0m
+App 23483 output: [0mGET /app2/views/?C=S;O=D [31m500 [0m0.471 ms - 1112[0m
+App 14496 output: Agritech app Started on port 3000!
+App 14496 output: Connected!
+App 14496 output: Connected!
+App 14496 output: [0mGET /app2/node_modules/dashdash/etc/ [31m500 [0m6.151 ms - 1112[0m
+App 24126 output: Agritech app Started on port 3000!
+App 24126 output: Connected!
+App 24126 output: Connected!
+App 24126 output: [0mGET /app2/node_modules/ejs/lib/?C=D;O=A [31m500 [0m7.804 ms - 1112[0m
+App 24126 output: [0mGET /app2/bin/?C=D;O=A [31m500 [0m1.236 ms - 1112[0m
+App 24126 output: [0mGET /app2/views/templates/?C=N;O=D [31m500 [0m0.559 ms - 1112[0m
+App 24126 output: [0mGET /app2/node_modules/json-schema/test/?C=M;O=A [31m500 [0m0.386 ms - 1112[0m
+App 24126 output: [0mGET /robots.txt [31m500 [0m0.447 ms - 1112[0m
+App 24126 output: [0mGET /app2/node_modules/etag/ [31m500 [0m0.406 ms - 1112[0m
+App 27159 output: Agritech app Started on port 3000!
+App 27159 output: Connected!
+App 27159 output: Connected!
+App 27159 output: [0mGET /app2/node_modules/json-schema/draft-04/?C=S;O=A [31m500 [0m6.038 ms - 1112[0m
+App 27159 output: [0mGET /app2/node_modules/nopt/examples/ [31m500 [0m0.773 ms - 1112[0m
+App 27159 output: [0mGET /403.shtml [31m500 [0m0.468 ms - 1112[0m
+App 27159 output: [0mGET /app2/node_modules/type-fest/ [31m500 [0m0.401 ms - 1112[0m
+App 27159 output: [0mGET /favicon.ico [31m500 [0m0.506 ms - 1112[0m
+App 27159 output: [0mGET /favicon.ico [31m500 [0m0.419 ms - 1112[0m
+App 27159 output: [0mGET /robots.txt [31m500 [0m0.462 ms - 1112[0m
+App 27159 output: [0mGET /robots.txt [31m500 [0m0.413 ms - 1112[0m
+App 27159 output: [0mGET /app2/node_modules/har-validator/lib/?C=S;O=D [31m500 [0m1.639 ms - 1112[0m
+App 27159 output: [0mGET /app2/node_modules/bignumber.js/ [31m500 [0m0.428 ms - 1112[0m
+App 27159 output: [0mGET /wp-includes/wlwmanifest.xml [31m500 [0m0.551 ms - 1111[0m
+App 27159 output: [0mGET /404.shtml [31m500 [0m0.441 ms - 1111[0m
+App 27159 output: [0mGET /blog/wp-includes/wlwmanifest.xml [31m500 [0m0.422 ms - 1111[0m
+App 27159 output: [0mGET /web/wp-includes/wlwmanifest.xml [31m500 [0m0.906 ms - 1111[0m
+App 27159 output: [0mGET /wordpress/wp-includes/wlwmanifest.xml [31m500 [0m0.499 ms - 1111[0m
+App 27159 output: [0mGET /website/wp-includes/wlwmanifest.xml [31m500 [0m0.450 ms - 1111[0m
+App 27159 output: [0mGET /wp/wp-includes/wlwmanifest.xml [31m500 [0m0.455 ms - 1111[0m
+App 27159 output: [0mGET /news/wp-includes/wlwmanifest.xml [31m500 [0m0.430 ms - 1111[0m
+App 27159 output: [0mGET /2018/wp-includes/wlwmanifest.xml [31m500 [0m0.418 ms - 1111[0m
+App 27159 output: [0mGET /2019/wp-includes/wlwmanifest.xml [31m500 [0m0.425 ms - 1111[0m
+App 27159 output: [0mGET /shop/wp-includes/wlwmanifest.xml [31m500 [0m0.424 ms - 1111[0m
+App 27159 output: [0mGET /wp1/wp-includes/wlwmanifest.xml [31m500 [0m0.457 ms - 1111[0m
+App 27159 output: [0mGET /test/wp-includes/wlwmanifest.xml [31m500 [0m0.627 ms - 1111[0m
+App 27159 output: [0mGET /media/wp-includes/wlwmanifest.xml [31m500 [0m0.751 ms - 1111[0m
+App 27159 output: [0mGET /wp2/wp-includes/wlwmanifest.xml [31m500 [0m0.763 ms - 1111[0m
+App 27159 output: [0mGET /site/wp-includes/wlwmanifest.xml [31m500 [0m0.795 ms - 1111[0m
+App 27159 output: [0mGET /cms/wp-includes/wlwmanifest.xml [31m500 [0m0.756 ms - 1111[0m
+App 27159 output: [0mGET /sito/wp-includes/wlwmanifest.xml [31m500 [0m0.473 ms - 1111[0m
+App 27159 output: [0mGET /app2/node_modules/glob-parent/ [31m500 [0m0.580 ms - 1112[0m
+App 32086 output: Agritech app Started on port 3000!
+App 32086 output: Connected!
+App 32086 output: Connected!
+App 32086 output: [0mGET /robots.txt [31m500 [0m7.452 ms - 1112[0m
+App 32086 output: [0mGET /app2/node_modules/dashdash/lib/ [31m500 [0m0.727 ms - 1112[0m
+App 32086 output: [0mGET /404.shtml [31m500 [0m0.445 ms - 1112[0m
+App 32086 output: [0mGET /app2/tmp/?C=D;O=D [31m500 [0m0.411 ms - 1112[0m
+App 32086 output: [0mGET /tecozk_muzammil/?C=N;O=D [31m500 [0m0.398 ms - 1112[0m
+App 32086 output: [0mGET /404.shtml [31m500 [0m0.603 ms - 1112[0m
+App 32086 output: [0mGET /app2/public/assets/font-awesome/css/?C=N;O=D [31m500 [0m0.448 ms - 1112[0m
+App 32086 output: [0mGET /robots.txt [31m500 [0m0.435 ms - 1112[0m
+App 32086 output: [0mGET /app2/public/indexicon/ [31m500 [0m0.413 ms - 1112[0m
+App 32086 output: [0mGET /app2/public/vendor/bootstrap/?C=M;O=A [31m500 [0m0.442 ms - 1112[0m
+App 32086 output: [0mGET /app2/node_modules/punycode/?C=N;O=D [31m500 [0m0.392 ms - 1112[0m
+App 32086 output: [0mGET /app2/node_modules/dashdash/ [31m500 [0m0.474 ms - 1112[0m
+App 19214 output: Agritech app Started on port 3000!
+App 19214 output: Connected!
+App 19214 output: Connected!
+App 19214 output: [0mGET /app2/node_modules/ipaddr.js/ [31m500 [0m7.481 ms - 1112[0m
+App 19214 output: [0mGET /404.shtml [31m500 [0m0.701 ms - 1112[0m
+App 19214 output: [0mGET /app2/node_modules/fill-range/ [31m500 [0m0.431 ms - 1112[0m
+App 13000 output: Agritech app Started on port 3000!
+App 13000 output: Connected!
+App 13000 output: Connected!
+App 13000 output: [0mGET /app2/node_modules/form-data/?C=M;O=A [31m500 [0m6.331 ms - 1112[0m
+App 13000 output: [0mGET /app2/node_modules/undefsafe/lib/ [31m500 [0m0.773 ms - 1112[0m
+App 27972 output: Agritech app Started on port 3000!
+App 27972 output: Connected!
+App 27972 output: Connected!
+App 27972 output: [0mGET /app2/node_modules/nopt/bin/?C=M;O=A [31m500 [0m7.996 ms - 1112[0m
+App 27972 output: [0mGET /app2/node_modules/json-schema/draft-03/examples/ [31m500 [0m0.834 ms - 1112[0m
+App 27972 output: [0mGET /tecozk_ms1/?C=N;O=D [31m500 [0m0.434 ms - 1112[0m
+App 27972 output: [0mGET /robots.txt [31m500 [0m0.383 ms - 1112[0m
+App 27972 output: [0mGET /app2/node_modules/nopt/bin/?C=S;O=D [31m500 [0m0.376 ms - 1112[0m
+App 27972 output: [0mGET /app2/public/vendor/ [31m500 [0m0.503 ms - 1112[0m
+App 27972 output: [0mGET /app2/node_modules/escape-goat/ [31m500 [0m3.152 ms - 1112[0m
+App 27972 output: [0mGET /app2/public/js/?C=M;O=A [31m500 [0m0.443 ms - 1112[0m
+App 27972 output: [0mGET /app2/public/assets/css/?C=N;O=D [31m500 [0m0.565 ms - 1112[0m
+App 27972 output: [0mGET /robots.txt [31m500 [0m0.523 ms - 1112[0m
+App 27972 output: [0mGET /app2/node_modules/json-schema/draft-04/ [31m500 [0m0.439 ms - 1112[0m
+App 27972 output: [0mGET /app2/public/assets/plugins/metisMenu/?C=D;O=A [31m500 [0m0.621 ms - 1112[0m
+App 5539 output: Agritech app Started on port 3000!
+App 5539 output: Connected!
+App 5539 output: Connected!
+App 5539 output: [0mGET /app2/node_modules/core-util-is/lib/ [31m500 [0m5.943 ms - 1112[0m
+App 5539 output: [0mGET /app2/node_modules/jsprim/ [31m500 [0m0.786 ms - 1112[0m
+App 5539 output: [0mGET /app2/public/vendor/jquery/ [31m500 [0m0.488 ms - 1112[0m
+App 5539 output: [0mGET /app2/bin/?C=S;O=A [31m500 [0m0.443 ms - 1112[0m
+App 5539 output: [0mGET /app2/node_modules/array-flatten/?C=S;O=A [31m500 [0m0.602 ms - 1112[0m
+App 5539 output: [0mGET /app2/node_modules/getpass/ [31m500 [0m0.385 ms - 1112[0m
+App 5539 output: [0mGET /app2/node_modules/verror/lib/?C=S;O=A [31m500 [0m0.395 ms - 1112[0m
+App 5539 output: [0mGET /app2/views/pages/images/ [31m500 [0m0.387 ms - 1112[0m
+App 5539 output: [0mGET /robots.txt [31m500 [0m0.430 ms - 1112[0m
+App 5539 output: [0mGET /app2/node_modules/dashdash/?C=D;O=A [31m500 [0m0.436 ms - 1112[0m
+App 5539 output: [0mGET /tecozk_ms1/?C=S;O=D [31m500 [0m0.510 ms - 1112[0m
+App 5539 output: [0mGET /app2/node_modules/ejs/lib/?C=M;O=A [31m500 [0m0.399 ms - 1112[0m
+App 5539 output: [0mGET /app2/node_modules/responselike/ [31m500 [0m0.438 ms - 1112[0m
+App 5539 output: [0mGET /app2/node_modules/aws4/ [31m500 [0m0.400 ms - 1112[0m
+App 5539 output: [0mGET /app2/node_modules/getpass/ [31m500 [0m0.410 ms - 1112[0m
+App 5539 output: [0mGET /robots.txt [31m500 [0m0.434 ms - 1112[0m
+App 5539 output: [0mGET /tecozk_ms1/ [31m500 [0m0.403 ms - 1112[0m
+App 5539 output: [0mGET /app2/public/assets/font-awesome/css/ [31m500 [0m0.582 ms - 1112[0m
+App 5539 output: [0mGET /app2/node_modules/readable-stream/ [31m500 [0m0.454 ms - 1112[0m
+App 5539 output: [0mGET /app2/node_modules/nopt/bin/?C=N;O=A [31m500 [0m0.505 ms - 1112[0m
+App 5539 output: [0mGET /app2/public/images/?C=D;O=A [31m500 [0m0.434 ms - 1112[0m
+App 5539 output: [0mGET /app2/node_modules/debug/ [31m500 [0m0.401 ms - 1112[0m
+App 5539 output: [0mGET /app2/routes/ [31m500 [0m0.417 ms - 1112[0m
+App 5539 output: [0mGET /app2/node_modules/array-flatten/?C=M;O=A [31m500 [0m0.894 ms - 1112[0m
+App 5539 output: [0mGET /robots.txt [31m500 [0m0.656 ms - 1112[0m
+App 5539 output: [0mGET /app2/node_modules/qs/test/ [31m500 [0m0.473 ms - 1112[0m
+App 5539 output: events.js:174
+App 5539 output:       throw er; // Unhandled 'error' event
+App 5539 output:       ^
+App 5539 output: Error: Connection lost: The server closed the connection.
+App 5539 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+App 5539 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 5539 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 5539 output:     at Socket.emit (events.js:203:15)
+App 5539 output:     at endReadableNT (_stream_readable.js:1145:12)
+App 5539 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 5539 output: Emitted 'error' event at:
+App 5539 output:     at Connection._handleProtocolError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:423:8)
+App 5539 output:     at Protocol.emit (events.js:198:13)
+App 5539 output:     at Protocol._delegateError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 5539 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+App 5539 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 5539 output:     [... lines matching original stack trace ...]
+App 5539 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 12766 output: Agritech app Started on port 3000!
+App 12766 output: Connected!
+App 12766 output: Connected!
+App 22880 output: Agritech app Started on port 3000!
+App 22880 output: Connected!
+App 22880 output: Connected!
+App 22880 output: [0mGET /app2/node_modules/is-glob/ [31m500 [0m6.337 ms - 1112[0m
+App 22880 output: [0mGET /robots.txt [31m500 [0m0.703 ms - 1112[0m
+App 9298 output: Agritech app Started on port 3000!
+App 9298 output: Connected!
+App 9298 output: Connected!
+App 9298 output: [0mGET /app2/node_modules/ansi-styles/ [31m500 [0m5.922 ms - 1112[0m
+App 9298 output: [0mGET /wp-includes/wlwmanifest.xml [31m500 [0m0.668 ms - 1111[0m
+App 9298 output: [0mGET /404.shtml [31m500 [0m0.465 ms - 1111[0m
+App 9298 output: [0mGET /blog/wp-includes/wlwmanifest.xml [31m500 [0m0.405 ms - 1111[0m
+App 9298 output: [0mGET /web/wp-includes/wlwmanifest.xml [31m500 [0m0.383 ms - 1111[0m
+App 9298 output: [0mGET /wordpress/wp-includes/wlwmanifest.xml [31m500 [0m0.383 ms - 1111[0m
+App 9298 output: [0mGET /website/wp-includes/wlwmanifest.xml [31m500 [0m0.381 ms - 1111[0m
+App 9298 output: [0mGET /wp/wp-includes/wlwmanifest.xml [31m500 [0m0.506 ms - 1111[0m
+App 9298 output: [0mGET /news/wp-includes/wlwmanifest.xml [31m500 [0m0.444 ms - 1111[0m
+App 9298 output: [0mGET /2020/wp-includes/wlwmanifest.xml [31m500 [0m0.397 ms - 1111[0m
+App 9298 output: [0mGET /2019/wp-includes/wlwmanifest.xml [31m500 [0m0.452 ms - 1111[0m
+App 9298 output: [0mGET /shop/wp-includes/wlwmanifest.xml [31m500 [0m0.496 ms - 1111[0m
+App 9298 output: [0mGET /wp1/wp-includes/wlwmanifest.xml [31m500 [0m0.425 ms - 1111[0m
+App 9298 output: [0mGET /test/wp-includes/wlwmanifest.xml [31m500 [0m0.387 ms - 1111[0m
+App 9298 output: [0mGET /wp2/wp-includes/wlwmanifest.xml [31m500 [0m0.399 ms - 1111[0m
+App 9298 output: [0mGET /site/wp-includes/wlwmanifest.xml [31m500 [0m0.402 ms - 1111[0m
+App 9298 output: [0mGET /cms/wp-includes/wlwmanifest.xml [31m500 [0m0.381 ms - 1111[0m
+App 9298 output: [0mGET /sito/wp-includes/wlwmanifest.xml [31m500 [0m0.447 ms - 1111[0m
+App 9298 output: [0mGET /robots.txt [31m500 [0m0.455 ms - 1112[0m
+App 9298 output: [0mGET /app2/node_modules/rc/ [31m500 [0m0.421 ms - 1112[0m
+App 9298 output: [0mGET /wp-includes/wlwmanifest.xml [31m500 [0m0.423 ms - 1111[0m
+App 9298 output: [0mGET /404.shtml [31m500 [0m0.385 ms - 1111[0m
+App 9298 output: [0mGET /blog/wp-includes/wlwmanifest.xml [31m500 [0m0.475 ms - 1111[0m
+App 9298 output: [0mGET /web/wp-includes/wlwmanifest.xml [31m500 [0m0.435 ms - 1111[0m
+App 9298 output: [0mGET /wordpress/wp-includes/wlwmanifest.xml [31m500 [0m0.395 ms - 1111[0m
+App 9298 output: [0mGET /website/wp-includes/wlwmanifest.xml [31m500 [0m0.590 ms - 1111[0m
+App 9298 output: [0mGET /wp/wp-includes/wlwmanifest.xml [31m500 [0m0.442 ms - 1111[0m
+App 9298 output: [0mGET /news/wp-includes/wlwmanifest.xml [31m500 [0m0.448 ms - 1111[0m
+App 9298 output: [0mGET /2018/wp-includes/wlwmanifest.xml [31m500 [0m1.568 ms - 1111[0m
+App 9298 output: [0mGET /2019/wp-includes/wlwmanifest.xml [31m500 [0m0.755 ms - 1111[0m
+App 9298 output: [0mGET /shop/wp-includes/wlwmanifest.xml [31m500 [0m0.790 ms - 1111[0m
+App 9298 output: [0mGET /wp1/wp-includes/wlwmanifest.xml [31m500 [0m0.638 ms - 1111[0m
+App 9298 output: [0mGET /test/wp-includes/wlwmanifest.xml [31m500 [0m0.453 ms - 1111[0m
+App 9298 output: [0mGET /media/wp-includes/wlwmanifest.xml [31m500 [0m0.442 ms - 1111[0m
+App 9298 output: [0mGET /wp2/wp-includes/wlwmanifest.xml [31m500 [0m0.417 ms - 1111[0m
+App 9298 output: [0mGET /site/wp-includes/wlwmanifest.xml [31m500 [0m0.786 ms - 1111[0m
+App 9298 output: [0mGET /cms/wp-includes/wlwmanifest.xml [31m500 [0m0.730 ms - 1111[0m
+App 9298 output: [0mGET /sito/wp-includes/wlwmanifest.xml [31m500 [0m0.527 ms - 1111[0m
+App 9298 output: [0mGET /app2/node_modules/mime/build/ [31m500 [0m0.510 ms - 1112[0m
+App 9298 output: [0mGET /404.shtml [31m500 [0m0.485 ms - 1112[0m
+App 9298 output: [0mGET /app2/node_modules/extsprintf/ [31m500 [0m0.462 ms - 1112[0m
+App 18838 output: Agritech app Started on port 3000!
+App 18838 output: Connected!
+App 18838 output: Connected!
+App 18838 output: [0mGET /robots.txt [31m500 [0m6.103 ms - 1112[0m
+App 15055 output: Agritech app Started on port 3000!
+App 15055 output: Connected!
+App 15055 output: Connected!
+App 15055 output: [0mGET /robots.txt [31m500 [0m5.989 ms - 1112[0m
+App 15055 output: [0mGET /app2/node_modules/responselike/ [31m500 [0m0.715 ms - 1112[0m
+App 29863 output: Agritech app Started on port 3000!
+App 29863 output: Connected!
+App 29863 output: Connected!
+App 29863 output: [0mGET /app2/node_modules/is-obj/ [31m500 [0m7.815 ms - 1112[0m
+App 29863 output: [0mGET /app2/node_modules/configstore/ [31m500 [0m0.774 ms - 1112[0m
+App 29863 output: [0mGET /js/index.php [31m500 [0m0.538 ms - 1112[0m
+App 29863 output: [0mGET /js/index.php [31m500 [0m0.398 ms - 1112[0m
+App 19772 output: Agritech app Started on port 3000!
+App 19772 output: Connected!
+App 19772 output: Connected!
+App 19772 output: [0mGET /robots.txt [31m500 [0m5.861 ms - 1112[0m
+App 19772 output: [0mGET /robots.txt [31m500 [0m0.758 ms - 1112[0m
+App 19772 output: [0mGET /app2/node_modules/verror/ [31m500 [0m0.478 ms - 1112[0m
+App 19772 output: [0mGET /robots.txt [31m500 [0m0.439 ms - 1112[0m
+App 19772 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.766 ms - 1111[0m
+App 19772 output: [0mGET /favicon.ico [31m500 [0m0.419 ms - 1111[0m
+App 19772 output: [0mGET /favicon.ico [31m500 [0m0.403 ms - 1111[0m
+App 19772 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.429 ms - 1111[0m
+App 19772 output: Harvest is ready
+App 19772 output: connected
+App 19772 output: connected
+App 19772 output: [0mGET /app2/node_modules/jsbn/ [31m500 [0m0.927 ms - 1112[0m
+App 19772 output: [0mGET /robots.txt [31m500 [0m0.687 ms - 1112[0m
+App 19772 output: [0mGET /app2/public/js/ [31m500 [0m0.505 ms - 1112[0m
+App 19772 output: [0mGET /app2/node_modules/qs/ [31m500 [0m0.447 ms - 1112[0m
+App 19772 output: [0mGET /app2/node_modules/json-schema/draft-03/ [31m500 [0m0.468 ms - 1112[0m
+App 19772 output: [0mGET /app2/node_modules/clone-response/ [31m500 [0m0.484 ms - 1112[0m
+App 19772 output: [0mGET /app2/public/img/ [31m500 [0m0.460 ms - 1112[0m
+App 19772 output: [0mGET /app2/node_modules/defer-to-connect/ [31m500 [0m1.157 ms - 1112[0m
+App 19772 output: [0mGET /app2/node_modules/mime/ [31m500 [0m0.728 ms - 1112[0m
+App 19772 output: [0mGET /app2/node_modules/util-deprecate/ [31m500 [0m0.418 ms - 1112[0m
+App 19772 output: [0mGET /app2/node_modules/util-deprecate/ [31m500 [0m0.416 ms - 1112[0m
+App 19772 output: [0mGET /app2/node_modules/bignumber.js/ [31m500 [0m0.499 ms - 1112[0m
+App 19772 output: [0mGET /app2/node_modules/range-parser/ [31m500 [0m0.436 ms - 1112[0m
+App 19772 output: events.js:174
+App 19772 output:       throw er; // Unhandled 'error' event
+App 19772 output:       ^
+App 19772 output: Error: Connection lost: The server closed the connection.
+App 19772 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+App 19772 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 19772 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 19772 output:     at Socket.emit (events.js:203:15)
+App 19772 output:     at endReadableNT (_stream_readable.js:1145:12)
+App 19772 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 19772 output: Emitted 'error' event at:
+App 19772 output:     at Connection._handleProtocolError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:423:8)
+App 19772 output:     at Protocol.emit (events.js:198:13)
+App 19772 output:     at Protocol._delegateError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 19772 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+App 19772 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 19772 output:     [... lines matching original stack trace ...]
+App 19772 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 8316 output: Agritech app Started on port 3000!
+App 8316 output: Connected!
+App 8316 output: Connected!
+App 8316 output: [0mGET /404.shtml [31m500 [0m16.163 ms - 1112[0m
+App 8316 output: [0mGET /favicon.ico [31m500 [0m0.675 ms - 1112[0m
+App 8316 output: [0mGET /favicon.ico [31m500 [0m0.481 ms - 1112[0m
+App 8316 output: [0mGET /wp-includes/wlwmanifest.xml [31m500 [0m0.497 ms - 1111[0m
+App 8316 output: [0mGET /404.shtml [31m500 [0m0.448 ms - 1111[0m
+App 8316 output: [0mGET /blog/wp-includes/wlwmanifest.xml [31m500 [0m0.407 ms - 1111[0m
+App 8316 output: [0mGET /web/wp-includes/wlwmanifest.xml [31m500 [0m0.584 ms - 1111[0m
+App 8316 output: [0mGET /wordpress/wp-includes/wlwmanifest.xml [31m500 [0m0.422 ms - 1111[0m
+App 8316 output: [0mGET /website/wp-includes/wlwmanifest.xml [31m500 [0m1.565 ms - 1111[0m
+App 8316 output: [0mGET /wp/wp-includes/wlwmanifest.xml [31m500 [0m0.577 ms - 1111[0m
+App 8316 output: [0mGET /news/wp-includes/wlwmanifest.xml [31m500 [0m0.434 ms - 1111[0m
+App 8316 output: [0mGET /2018/wp-includes/wlwmanifest.xml [31m500 [0m0.409 ms - 1111[0m
+App 8316 output: [0mGET /2019/wp-includes/wlwmanifest.xml [31m500 [0m0.641 ms - 1111[0m
+App 8316 output: [0mGET /shop/wp-includes/wlwmanifest.xml [31m500 [0m0.650 ms - 1111[0m
+App 8316 output: [0mGET /wp1/wp-includes/wlwmanifest.xml [31m500 [0m0.745 ms - 1111[0m
+App 8316 output: [0mGET /test/wp-includes/wlwmanifest.xml [31m500 [0m0.710 ms - 1111[0m
+App 8316 output: [0mGET /media/wp-includes/wlwmanifest.xml [31m500 [0m0.772 ms - 1111[0m
+App 8316 output: [0mGET /wp2/wp-includes/wlwmanifest.xml [31m500 [0m0.534 ms - 1111[0m
+App 8316 output: [0mGET /site/wp-includes/wlwmanifest.xml [31m500 [0m0.593 ms - 1111[0m
+App 8316 output: [0mGET /cms/wp-includes/wlwmanifest.xml [31m500 [0m0.708 ms - 1111[0m
+App 8316 output: [0mGET /sito/wp-includes/wlwmanifest.xml [31m500 [0m1.217 ms - 1111[0m
+App 8316 output: [0mGET /robots.txt [31m500 [0m0.590 ms - 1112[0m
+App 8316 output: [0mGET /robots.txt [31m500 [0m1.339 ms - 1112[0m
+App 8316 output: [0mGET /favicon.ico [31m500 [0m0.496 ms - 1112[0m
+App 1626 output: Agritech app Started on port 3000!
+App 1626 output: Connected!
+App 1626 output: Connected!
+App 1626 output: [0mGET /robots.txt [31m500 [0m6.362 ms - 1112[0m
+App 1626 output: [0mGET /app2/node_modules/unique-string/ [31m500 [0m0.769 ms - 1112[0m
+App 1626 output: [0mGET /favicon.ico [31m500 [0m0.455 ms - 1112[0m
+App 1626 output: [0mGET /app2/node_modules/strip-json-comments/ [31m500 [0m0.391 ms - 1112[0m
+App 26225 output: Agritech app Started on port 3000!
+App 26225 output: Connected!
+App 26225 output: Connected!
+App 26225 output: [0mGET /404.shtml [31m500 [0m7.212 ms - 1112[0m
+App 26225 output: [0mGET /404.shtml [31m500 [0m0.717 ms - 1112[0m
+App 26225 output: [0mGET /wp-includes/wlwmanifest.xml [31m500 [0m0.538 ms - 1112[0m
+App 26225 output: [0mGET /404.shtml [31m500 [0m0.495 ms - 1111[0m
+App 26225 output: [0mGET /blog/wp-includes/wlwmanifest.xml [31m500 [0m0.427 ms - 1111[0m
+App 26225 output: [0mGET /web/wp-includes/wlwmanifest.xml [31m500 [0m0.565 ms - 1111[0m
+App 26225 output: [0mGET /wordpress/wp-includes/wlwmanifest.xml [31m500 [0m0.434 ms - 1111[0m
+App 26225 output: [0mGET /website/wp-includes/wlwmanifest.xml [31m500 [0m0.391 ms - 1111[0m
+App 26225 output: [0mGET /wp/wp-includes/wlwmanifest.xml [31m500 [0m0.386 ms - 1111[0m
+App 26225 output: [0mGET /news/wp-includes/wlwmanifest.xml [31m500 [0m0.454 ms - 1111[0m
+App 26225 output: [0mGET /2018/wp-includes/wlwmanifest.xml [31m500 [0m0.431 ms - 1111[0m
+App 26225 output: [0mGET /2019/wp-includes/wlwmanifest.xml [31m500 [0m0.405 ms - 1111[0m
+App 26225 output: [0mGET /shop/wp-includes/wlwmanifest.xml [31m500 [0m0.420 ms - 1111[0m
+App 26225 output: [0mGET /wp1/wp-includes/wlwmanifest.xml [31m500 [0m0.392 ms - 1111[0m
+App 26225 output: [0mGET /test/wp-includes/wlwmanifest.xml [31m500 [0m0.385 ms - 1111[0m
+App 26225 output: [0mGET /media/wp-includes/wlwmanifest.xml [31m500 [0m0.410 ms - 1111[0m
+App 26225 output: [0mGET /wp2/wp-includes/wlwmanifest.xml [31m500 [0m0.440 ms - 1111[0m
+App 26225 output: [0mGET /site/wp-includes/wlwmanifest.xml [31m500 [0m0.392 ms - 1111[0m
+App 26225 output: [0mGET /cms/wp-includes/wlwmanifest.xml [31m500 [0m0.493 ms - 1111[0m
+App 26225 output: [0mGET /sito/wp-includes/wlwmanifest.xml [31m500 [0m0.418 ms - 1111[0m
+App 26225 output: [0mGET /robots.txt [31m500 [0m0.409 ms - 1112[0m
+App 26225 output: [0mGET /app2/node_modules/iconv-lite/encodings/ [31m500 [0m0.431 ms - 1112[0m
+App 26225 output: [0mGET /robots.txt [31m500 [0m0.415 ms - 1112[0m
+App 26225 output: [0mGET /app2/node_modules/@sindresorhus/ [31m500 [0m0.465 ms - 1112[0m
+App 26225 output: events.js:174
+App 26225 output:       throw er; // Unhandled 'error' event
+App 26225 output:       ^
+App 26225 output: Error: Connection lost: The server closed the connection.
+App 26225 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+App 26225 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 26225 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 26225 output:     at Socket.emit (events.js:203:15)
+App 26225 output:     at endReadableNT (_stream_readable.js:1145:12)
+App 26225 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 26225 output: Emitted 'error' event at:
+App 26225 output:     at Connection._handleProtocolError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:423:8)
+App 26225 output:     at Protocol.emit (events.js:198:13)
+App 26225 output:     at Protocol._delegateError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 26225 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+App 26225 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 26225 output:     [... lines matching original stack trace ...]
+App 26225 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 14572 output: Agritech app Started on port 3000!
+App 14572 output: Connected!
+App 14572 output: Connected!
+App 14572 output: [0mGET /404.shtml [31m500 [0m1.546 ms - 1112[0m
+App 14572 output: [0mGET /robots.txt [31m500 [0m0.651 ms - 1112[0m
+App 14572 output: [0mGET /robots.txt [31m500 [0m0.515 ms - 1112[0m
+App 14572 output: [0mHEAD /app2/ [31m500 [0m0.609 ms - 1112[0m
+App 14572 output: [0mGET /app2/ [31m500 [0m0.413 ms - 1112[0m
+App 14572 output: [0mGET /app2/ [31m500 [0m0.410 ms - 1112[0m
+App 14572 output: [0mGET /app2/ [31m500 [0m0.397 ms - 1112[0m
+App 14572 output: [0mGET /app2/ [31m500 [0m0.456 ms - 1112[0m
+App 14572 output: [0mGET /app2/ [31m500 [0m0.447 ms - 1112[0m
+App 14572 output: [0mGET /wp-content/ [31m500 [0m0.392 ms - 1112[0m
+App 14572 output: events.js:174
+App 14572 output:       throw er; // Unhandled 'error' event
+App 14572 output:       ^
+App 14572 output: Error: Connection lost: The server closed the connection.
+App 14572 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+App 14572 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 14572 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 14572 output:     at Socket.emit (events.js:203:15)
+App 14572 output:     at endReadableNT (_stream_readable.js:1145:12)
+App 14572 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 14572 output: Emitted 'error' event at:
+App 14572 output:     at Connection._handleProtocolError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:423:8)
+App 14572 output:     at Protocol.emit (events.js:198:13)
+App 14572 output:     at Protocol._delegateError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 14572 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+App 14572 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 14572 output:     [... lines matching original stack trace ...]
+App 14572 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 22689 output: Agritech app Started on port 3000!
+App 22689 output: Connected!
+App 22689 output: Connected!
+App 22689 output: [0mGET /robots.txt [31m500 [0m6.036 ms - 1112[0m
+App 22689 output: [0mGET /app2/node_modules/process-nextick-args/ [31m500 [0m0.756 ms - 1112[0m
+App 22689 output: [0mGET /favicon.ico [31m500 [0m0.475 ms - 1112[0m
+App 22689 output: [0mGET /robots.txt [31m500 [0m0.394 ms - 1112[0m
+App 22689 output: [0mGET /tecozk_ms1/ [31m500 [0m0.566 ms - 1112[0m
+App 22689 output: [0mGET /robots.txt [31m500 [0m0.426 ms - 1112[0m
+App 22689 output: [0mGET /app2/node_modules/import-lazy/ [31m500 [0m0.378 ms - 1112[0m
+App 22689 output: [0mGET /tecozk_muzammil/ [31m500 [0m0.400 ms - 1112[0m
+App 22689 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.512 ms - 1111[0m
+App 22689 output: Harvest is ready
+App 22689 output: connected
+App 22689 output: connected
+App 22689 output: [0mGET /404.shtml [31m500 [0m0.916 ms - 1112[0m
+App 22689 output: events.js:174
+App 22689 output:       throw er; // Unhandled 'error' event
+App 22689 output:       ^
+App 22689 output: Error: Connection lost: The server closed the connection.
+App 22689 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+App 22689 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 22689 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 22689 output:     at Socket.emit (events.js:203:15)
+App 22689 output:     at endReadableNT (_stream_readable.js:1145:12)
+App 22689 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 22689 output: Emitted 'error' event at:
+App 22689 output:     at Connection._handleProtocolError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:423:8)
+App 22689 output:     at Protocol.emit (events.js:198:13)
+App 22689 output:     at Protocol._delegateError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 22689 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+App 22689 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 22689 output:     [... lines matching original stack trace ...]
+App 22689 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 16315 output: Agritech app Started on port 3000!
+App 16315 output: Connected!
+App 16315 output: Connected!
+App 1361 output: Agritech app Started on port 3000!
+App 1361 output: Connected!
+App 1361 output: Connected!
+App 1361 output: [0mGET /robots.txt [31m500 [0m21.608 ms - 1112[0m
+App 1361 output: [0mGET /app2/node_modules/nopt/examples/ [31m500 [0m0.939 ms - 1112[0m
+App 1361 output: [0mGET /app2/node_modules/cacheable-request/ [31m500 [0m0.615 ms - 1112[0m
+App 1361 output: [0mGET /app2/node_modules/chalk/ [31m500 [0m0.499 ms - 1112[0m
+App 1361 output: [0mGET /app2/node_modules/once/ [31m500 [0m0.468 ms - 1112[0m
+App 1361 output: [0mGET /app2/node_modules/ipaddr.js/ [31m500 [0m0.437 ms - 1112[0m
+App 1361 output: [0mGET /app2/public/assets/plugins/ [31m500 [0m0.406 ms - 1112[0m
+App 1361 output: [0mGET /app2/node_modules/uri-js/ [31m500 [0m0.474 ms - 1112[0m
+App 1361 output: [0mGET /app2/public/vendor/chart.js/ [31m500 [0m0.392 ms - 1112[0m
+App 1361 output: [0mGET /app2/node_modules/http-signature/ [31m500 [0m0.426 ms - 1112[0m
+App 1361 output: [0mGET /app2/node_modules/string_decoder/ [31m500 [0m0.486 ms - 1112[0m
+App 1361 output: [0mGET /app2/node_modules/safer-buffer/ [31m500 [0m0.675 ms - 1112[0m
+App 1361 output: [0mGET /app2/node_modules/ [31m500 [0m0.435 ms - 1112[0m
+App 1361 output: [0mGET /app2/node_modules/iconv-lite/ [31m500 [0m0.468 ms - 1112[0m
+App 1361 output: [0mGET /robots.txt [31m500 [0m4.616 ms - 1112[0m
+App 1361 output: events.js:174
+App 1361 output:       throw er; // Unhandled 'error' event
+App 1361 output:       ^
+App 1361 output: Error: Connection lost: The server closed the connection.
+App 1361 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+App 1361 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 1361 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 1361 output:     at Socket.emit (events.js:203:15)
+App 1361 output:     at endReadableNT (_stream_readable.js:1145:12)
+App 1361 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 1361 output: Emitted 'error' event at:
+App 1361 output:     at Connection._handleProtocolError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:423:8)
+App 1361 output:     at Protocol.emit (events.js:198:13)
+App 1361 output:     at Protocol._delegateError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 1361 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+App 1361 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 1361 output:     [... lines matching original stack trace ...]
+App 1361 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 23075 output: Agritech app Started on port 3000!
+App 23075 output: Connected!
+App 23075 output: Connected!
+App 23075 output: [0mGET /robots.txt [31m500 [0m7.792 ms - 1112[0m
+App 23075 output: [0mGET /app2/node_modules/array-flatten/ [31m500 [0m0.718 ms - 1112[0m
+App 23075 output: [0mGET /app2/ [31m500 [0m0.431 ms - 1112[0m
+App 23075 output: [0mGET /robots.txt [31m500 [0m0.385 ms - 1112[0m
+App 23075 output: [0mGET /humans.txt [31m500 [0m0.386 ms - 1112[0m
+App 23075 output: [0mGET /ads.txt [31m500 [0m0.437 ms - 1112[0m
+App 23075 output: [0mGET /favicon.ico [31m500 [0m0.538 ms - 1112[0m
+App 23075 output: [0mGET /favicon.ico [31m500 [0m0.595 ms - 1112[0m
+App 23075 output: [0mGET /404.shtml [31m500 [0m0.422 ms - 1112[0m
+App 23075 output: [0mGET /404.shtml [31m500 [0m0.433 ms - 1112[0m
+App 23075 output: events.js:174
+App 23075 output:       throw er; // Unhandled 'error' event
+App 23075 output:       ^
+App 23075 output: Error: Connection lost: The server closed the connection.
+App 23075 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+App 23075 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 23075 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 23075 output:     at Socket.emit (events.js:203:15)
+App 23075 output:     at endReadableNT (_stream_readable.js:1145:12)
+App 23075 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 23075 output: Emitted 'error' event at:
+App 23075 output:     at Connection._handleProtocolError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:423:8)
+App 23075 output:     at Protocol.emit (events.js:198:13)
+App 23075 output:     at Protocol._delegateError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 23075 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+App 23075 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 23075 output:     [... lines matching original stack trace ...]
+App 23075 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 3074 output: Agritech app Started on port 3000!
+App 3074 output: Connected!
+App 3074 output: Connected!
+App 3074 output: [0mGET /robots.txt [31m500 [0m6.165 ms - 1112[0m
+App 3074 output: [0mGET /app2/node_modules/end-of-stream/ [31m500 [0m0.705 ms - 1112[0m
+App 3074 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.516 ms - 1111[0m
+App 3074 output: Harvest is ready
+App 3074 output: connected
+App 3074 output: connected
+App 3074 output: [0mGET /app2/node_modules/utils-merge/ [31m500 [0m0.909 ms - 1112[0m
+App 3074 output: [0mGET /app2/node_modules/write-file-atomic/ [31m500 [0m0.690 ms - 1112[0m
+App 3074 output: [0mGET /robots.txt [31m500 [0m0.527 ms - 1112[0m
+App 3074 output: [0mGET /robots.txt [31m500 [0m0.540 ms - 1112[0m
+App 3074 output: [0mGET /app2/node_modules/fast-json-stable-stringify/ [31m500 [0m0.417 ms - 1112[0m
+App 3074 output: [0mGET /app2/node_modules/string_decoder/ [31m500 [0m0.432 ms - 1112[0m
+App 3074 output: [0mGET /app2/node_modules/to-regex-range/ [31m500 [0m0.442 ms - 1112[0m
+App 9887 output: Agritech app Started on port 3000!
+App 9887 output: Connected!
+App 9887 output: Connected!
+App 9887 output: [0mGET /robots.txt [31m500 [0m541.007 ms - 1112[0m
+App 9887 output: [0mGET /app2/public/vendor/jquery/ [31m500 [0m1.121 ms - 1112[0m
+App 9887 output: [0mGET /app2/node_modules/array-flatten/ [31m500 [0m0.386 ms - 1112[0m
+App 9887 output: [0mGET /app2/node_modules/undefsafe/ [31m500 [0m0.436 ms - 1112[0m
+App 9887 output: [0mGET /app2/node_modules/semver/ [31m500 [0m0.444 ms - 1112[0m
+App 9887 output: [0mGET /app2/node_modules/ejs/ [31m500 [0m0.411 ms - 1112[0m
+App 9887 output: [0mGET /app2/node_modules/jsprim/lib/ [31m500 [0m0.397 ms - 1112[0m
+App 9887 output: [0mGET /app2/node_modules/dashdash/ [31m500 [0m0.449 ms - 1112[0m
+App 9887 output: [0mGET /app2/node_modules/core-util-is/ [31m500 [0m0.399 ms - 1112[0m
+App 9887 output: [0mGET /wp-content/themes/workreap/style.css [31m500 [0m0.386 ms - 1112[0m
+App 9887 output: [0mGET /wp-includes/wlwmanifest.xml [31m500 [0m0.751 ms - 1111[0m
+App 9887 output: [0mGET /404.shtml [31m500 [0m0.414 ms - 1111[0m
+App 9887 output: [0mGET /blog/wp-includes/wlwmanifest.xml [31m500 [0m0.400 ms - 1111[0m
+App 9887 output: [0mGET /web/wp-includes/wlwmanifest.xml [31m500 [0m0.404 ms - 1111[0m
+App 9887 output: [0mGET /wordpress/wp-includes/wlwmanifest.xml [31m500 [0m0.451 ms - 1111[0m
+App 9887 output: [0mGET /website/wp-includes/wlwmanifest.xml [31m500 [0m0.617 ms - 1111[0m
+App 9887 output: [0mGET /wp/wp-includes/wlwmanifest.xml [31m500 [0m0.687 ms - 1111[0m
+App 9887 output: [0mGET /news/wp-includes/wlwmanifest.xml [31m500 [0m0.441 ms - 1111[0m
+App 9887 output: [0mGET /2018/wp-includes/wlwmanifest.xml [31m500 [0m0.380 ms - 1111[0m
+App 9887 output: [0mGET /2019/wp-includes/wlwmanifest.xml [31m500 [0m0.430 ms - 1111[0m
+App 9887 output: [0mGET /shop/wp-includes/wlwmanifest.xml [31m500 [0m0.398 ms - 1111[0m
+App 9887 output: [0mGET /wp1/wp-includes/wlwmanifest.xml [31m500 [0m0.398 ms - 1111[0m
+App 9887 output: [0mGET /test/wp-includes/wlwmanifest.xml [31m500 [0m0.425 ms - 1111[0m
+App 9887 output: [0mGET /media/wp-includes/wlwmanifest.xml [31m500 [0m0.563 ms - 1111[0m
+App 9887 output: [0mGET /wp2/wp-includes/wlwmanifest.xml [31m500 [0m0.400 ms - 1111[0m
+App 9887 output: [0mGET /site/wp-includes/wlwmanifest.xml [31m500 [0m0.462 ms - 1111[0m
+App 9887 output: [0mGET /cms/wp-includes/wlwmanifest.xml [31m500 [0m0.530 ms - 1111[0m
+App 9887 output: [0mGET /sito/wp-includes/wlwmanifest.xml [31m500 [0m0.538 ms - 1111[0m
+App 9887 output: [0mGET /wp-includes/wlwmanifest.xml [31m500 [0m0.706 ms - 1111[0m
+App 9887 output: [0mGET /404.shtml [31m500 [0m0.632 ms - 1111[0m
+App 9887 output: [0mGET /blog/wp-includes/wlwmanifest.xml [31m500 [0m0.499 ms - 1111[0m
+App 9887 output: [0mGET /web/wp-includes/wlwmanifest.xml [31m500 [0m0.454 ms - 1111[0m
+App 9887 output: [0mGET /wordpress/wp-includes/wlwmanifest.xml [31m500 [0m0.727 ms - 1111[0m
+App 9887 output: [0mGET /website/wp-includes/wlwmanifest.xml [31m500 [0m0.437 ms - 1111[0m
+App 9887 output: [0mGET /wp/wp-includes/wlwmanifest.xml [31m500 [0m1.087 ms - 1111[0m
+App 9887 output: [0mGET /news/wp-includes/wlwmanifest.xml [31m500 [0m0.432 ms - 1111[0m
+App 9887 output: [0mGET /2020/wp-includes/wlwmanifest.xml [31m500 [0m0.680 ms - 1111[0m
+App 9887 output: [0mGET /2019/wp-includes/wlwmanifest.xml [31m500 [0m0.658 ms - 1111[0m
+App 9887 output: [0mGET /shop/wp-includes/wlwmanifest.xml [31m500 [0m0.456 ms - 1111[0m
+App 9887 output: [0mGET /wp1/wp-includes/wlwmanifest.xml [31m500 [0m0.700 ms - 1111[0m
+App 9887 output: [0mGET /test/wp-includes/wlwmanifest.xml [31m500 [0m0.434 ms - 1111[0m
+App 9887 output: [0mGET /wp2/wp-includes/wlwmanifest.xml [31m500 [0m0.460 ms - 1111[0m
+App 9887 output: [0mGET /site/wp-includes/wlwmanifest.xml [31m500 [0m0.440 ms - 1111[0m
+App 9887 output: [0mGET /cms/wp-includes/wlwmanifest.xml [31m500 [0m0.495 ms - 1111[0m
+App 9887 output: [0mGET /sito/wp-includes/wlwmanifest.xml [31m500 [0m0.461 ms - 1111[0m
+App 9197 output: Agritech app Started on port 3000!
+App 9197 output: Connected!
+App 9197 output: Connected!
+App 9197 output: [0mGET /404.shtml [31m500 [0m5.956 ms - 1112[0m
+App 9197 output: [0mGET /robots.txt [31m500 [0m0.969 ms - 1112[0m
+App 9197 output: [0mGET /robots.txt [31m500 [0m0.667 ms - 1112[0m
+App 9197 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.506 ms - 1111[0m
+App 9197 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.534 ms - 1111[0m
+App 9197 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.406 ms - 1111[0m
+App 9197 output: [0mGET /robots.txt [31m500 [0m0.683 ms - 1112[0m
+App 9197 output: [0mGET /app2/node_modules/normalize-path/ [31m500 [0m0.434 ms - 1112[0m
+App 9197 output: [0mGET /robots.txt [31m500 [0m0.599 ms - 1112[0m
+App 9197 output: [0mGET /robots.txt [31m500 [0m0.521 ms - 1112[0m
+App 9197 output: [0mGET /robots.txt [31m500 [0m0.440 ms - 1112[0m
+App 9197 output: [0mGET /app2/node_modules/is-installed-globally/ [31m500 [0m0.628 ms - 1112[0m
+App 9197 output: [0mGET /app2/node_modules/bcrypt-pbkdf/ [31m500 [0m0.467 ms - 1112[0m
+App 9197 output: events.js:174
+App 9197 output:       throw er; // Unhandled 'error' event
+App 9197 output:       ^
+App 9197 output: Error: Connection lost: The server closed the connection.
+App 9197 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+App 9197 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 9197 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:526:10)
+App 9197 output:     at Socket.emit (events.js:203:15)
+App 9197 output:     at endReadableNT (_stream_readable.js:1145:12)
+App 9197 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 9197 output: Emitted 'error' event at:
+App 9197 output:     at Connection._handleProtocolError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:423:8)
+App 9197 output:     at Protocol.emit (events.js:198:13)
+App 9197 output:     at Protocol._delegateError (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+App 9197 output:     at Protocol.end (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+App 9197 output:     at Socket.<anonymous> (/home/tecozk/public_html/19-10-2021/node_modules/mysql/lib/Connection.js:94:28)
+App 9197 output:     [... lines matching original stack trace ...]
+App 9197 output:     at process._tickCallback (internal/process/next_tick.js:63:19)
+App 20791 output: Agritech app Started on port 3000!
+App 20791 output: Connected!
+App 20791 output: Connected!
+App 29752 output: Agritech app Started on port 3000!
+App 29752 output: Connected!
+App 29752 output: Connected!
+App 29752 output: [0mGET /robots.txt [31m500 [0m5.807 ms - 1112[0m
+App 29752 output: [0mGET /app2/node_modules/supports-color/ [31m500 [0m0.677 ms - 1112[0m
+App 29752 output: [0mGET /favicon.ico [31m500 [0m0.467 ms - 1112[0m
+App 29752 output: [0mGET /favicon.ico [31m500 [0m0.439 ms - 1112[0m
+App 29752 output: [0mGET /app2 [31m500 [0m0.430 ms - 1112[0m
+App 29752 output: [0mGET /app2/public/assets/plugins/bootstrap/ [31m500 [0m0.385 ms - 1112[0m
+App 29752 output: [0mGET /app2/node_modules/term-size/ [31m500 [0m0.450 ms - 1112[0m
+App 29752 output: [0mGET /robots.txt [31m500 [0m0.494 ms - 1112[0m
+App 29752 output: [0mGET /app2/node_modules/proxy-addr/ [31m500 [0m0.496 ms - 1112[0m
+App 29752 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.789 ms - 1111[0m
+App 29752 output: [0mGET /robots.txt [31m500 [0m0.459 ms - 1112[0m
+App 29752 output: [0mGET /app2/node_modules/picomatch/ [31m500 [0m0.414 ms - 1112[0m
+App 29752 output: [0mGET /app2/node_modules/random-bytes/ [31m500 [0m0.436 ms - 1112[0m
+App 29752 output: [0mGET /app2/node_modules/finalhandler/ [31m500 [0m1.816 ms - 1112[0m
+App 22305 output: Agritech app Started on port 3000!
+App 22305 output: Connected!
+App 22305 output: Connected!
+App 22305 output: [0mGET /404.shtml [31m500 [0m2.146 ms - 1112[0m
+App 22305 output: [0mGET /404.shtml [31m500 [0m0.649 ms - 1112[0m
+App 22305 output: [0mGET /robots.txt [31m500 [0m0.507 ms - 1112[0m
+App 22305 output: [0mGET /robots.txt [31m500 [0m0.404 ms - 1112[0m
+App 22305 output: [0mGET /app2/public/vendor/ [31m500 [0m0.594 ms - 1112[0m
+App 22305 output: [0mGET /app2/tmp/ [31m500 [0m0.422 ms - 1112[0m
+App 22305 output: [0mGET /app2/views/errors/ [31m500 [0m0.448 ms - 1112[0m
+App 22305 output: [0mGET /app2/?C=S;O=A [31m500 [0m0.393 ms - 1112[0m
+App 22305 output: [0mGET /app2/public/icons-reference/ [31m500 [0m0.452 ms - 1112[0m
+App 22305 output: [0mGET /app2/node_modules/debug/ [31m500 [0m0.390 ms - 1112[0m
+App 22305 output: [0mGET /app2/node_modules/core-util-is/lib/ [31m500 [0m0.433 ms - 1112[0m
+App 22305 output: [0mGET /app2/node_modules/readable-stream/doc/ [31m500 [0m0.644 ms - 1112[0m
+App 22305 output: [0mGET /app2/node_modules/readable-stream/doc/ [31m500 [0m0.587 ms - 1112[0m
+App 22305 output: [0mGET /app2/node_modules/inherits/ [31m500 [0m0.433 ms - 1112[0m
+App 22305 output: [0mGET /app2/node_modules/mime/build/ [31m500 [0m0.432 ms - 1112[0m
+App 22305 output: [0mGET /app2/node_modules/is-binary-path/ [31m500 [0m0.411 ms - 1112[0m
+App 22305 output: [0mGET /app2/node_modules/p-cancelable/ [31m500 [0m0.408 ms - 1112[0m
+App 22305 output: [0mGET /robots.txt [31m500 [0m0.452 ms - 1112[0m
+App 22305 output: [0mGET /tecozk_ms1/ [31m500 [0m0.458 ms - 1112[0m
+App 22305 output: [0mGET /robots.txt [31m500 [0m0.407 ms - 1112[0m
+App 22305 output: [0mGET /robots.txt [31m500 [0m0.406 ms - 1112[0m
+App 22305 output: [0mGET /app2/node_modules/make-dir/ [31m500 [0m0.415 ms - 1112[0m
+App 22305 output: [0mGET /app2/node_modules/destroy/ [31m500 [0m0.460 ms - 1112[0m
+App 22305 output: [0mGET /app2/node_modules/type-is/ [31m500 [0m0.388 ms - 1112[0m
+App 22305 output: [0mGET /robots.txt [31m500 [0m0.432 ms - 1112[0m
+App 22305 output: [0mGET /app2/node_modules/once/ [31m500 [0m0.418 ms - 1112[0m
+App 29564 output: Agritech app Started on port 3000!
+App 29564 output: Connected!
+App 29564 output: Connected!
+App 29564 output: [0mGET /app2/node_modules/mime-types/ [31m500 [0m7.491 ms - 1112[0m
+App 29564 output: [0mGET /app2/node_modules/decompress-response/ [31m500 [0m0.675 ms - 1112[0m
+App 29564 output: [0mGET /wp-admin/css/ [31m500 [0m0.475 ms - 1112[0m
+App 29564 output: [0mGET /robots.txt [31m500 [0m0.411 ms - 1112[0m
+App 29564 output: [0mGET /app2/node_modules/normalize-url/ [31m500 [0m0.402 ms - 1112[0m
+App 29564 output: [0mGET /app2/node_modules/uuid/ [31m500 [0m0.400 ms - 1112[0m
+App 29564 output: [0mGET /404.shtml [31m500 [0m0.392 ms - 1112[0m
+App 29564 output: [0mGET /wp-includes/wlwmanifest.xml [31m500 [0m0.551 ms - 1111[0m
+App 29564 output: [0mGET /404.shtml [31m500 [0m0.481 ms - 1111[0m
+App 29564 output: [0mGET /blog/wp-includes/wlwmanifest.xml [31m500 [0m0.713 ms - 1111[0m
+App 29564 output: [0mGET /web/wp-includes/wlwmanifest.xml [31m500 [0m0.583 ms - 1111[0m
+App 29564 output: [0mGET /wordpress/wp-includes/wlwmanifest.xml [31m500 [0m0.403 ms - 1111[0m
+App 29564 output: [0mGET /website/wp-includes/wlwmanifest.xml [31m500 [0m0.407 ms - 1111[0m
+App 29564 output: [0mGET /wp/wp-includes/wlwmanifest.xml [31m500 [0m0.426 ms - 1111[0m
+App 29564 output: [0mGET /news/wp-includes/wlwmanifest.xml [31m500 [0m0.414 ms - 1111[0m
+App 29564 output: [0mGET /2020/wp-includes/wlwmanifest.xml [31m500 [0m0.382 ms - 1111[0m
+App 29564 output: [0mGET /2019/wp-includes/wlwmanifest.xml [31m500 [0m0.426 ms - 1111[0m
+App 29564 output: [0mGET /shop/wp-includes/wlwmanifest.xml [31m500 [0m0.459 ms - 1111[0m
+App 29564 output: [0mGET /wp1/wp-includes/wlwmanifest.xml [31m500 [0m0.395 ms - 1111[0m
+App 29564 output: [0mGET /test/wp-includes/wlwmanifest.xml [31m500 [0m0.386 ms - 1111[0m
+App 29564 output: [0mGET /wp2/wp-includes/wlwmanifest.xml [31m500 [0m0.398 ms - 1111[0m
+App 29564 output: [0mGET /site/wp-includes/wlwmanifest.xml [31m500 [0m0.378 ms - 1111[0m
+App 29564 output: [0mGET /cms/wp-includes/wlwmanifest.xml [31m500 [0m0.438 ms - 1111[0m
+App 29564 output: [0mGET /sito/wp-includes/wlwmanifest.xml [31m500 [0m0.446 ms - 1111[0m
+App 31782 output: Agritech app Started on port 3000!
+App 31782 output: Connected!
+App 31782 output: Connected!
+App 31782 output: [0mGET /favicon.ico [31m500 [0m1.390 ms - 1112[0m
+App 31782 output: [0mGET /robots.txt [31m500 [0m0.653 ms - 1112[0m
+App 31782 output: [0mGET /app2/node_modules/readable-stream/doc/ [31m500 [0m0.682 ms - 1112[0m
+App 31782 output: [0mGET /app2/node_modules/http-signature/ [31m500 [0m0.429 ms - 1112[0m
+App 31782 output: [0mGET /app2/node_modules/semver-diff/ [31m500 [0m0.615 ms - 1112[0m
+App 10513 output: Agritech app Started on port 3000!
+App 10513 output: Connected!
+App 10513 output: Connected!
+App 10513 output: [0mGET /robots.txt [31m500 [0m5.803 ms - 1112[0m
+App 10513 output: [0mGET /app2/node_modules/tunnel-agent/ [31m500 [0m0.732 ms - 1112[0m
+App 7082 output: Agritech app Started on port 3000!
+App 7082 output: Connected!
+App 7082 output: Connected!
+App 7082 output: [0mGET /robots.txt [31m500 [0m5.837 ms - 1112[0m
+App 3287 output: Agritech app Started on port 3000!
+App 3287 output: Connected!
+App 3287 output: Connected!
+App 3287 output: [0mGET /robots.txt [31m500 [0m8.013 ms - 1112[0m
+App 3287 output: [0mGET /app2/node_modules/string-width/ [31m500 [0m0.693 ms - 1112[0m
+App 3287 output: [0mGET /app2/node_modules/ipaddr.js/lib/ [31m500 [0m0.452 ms - 1112[0m
+App 3287 output: [0mGET /app2/node_modules/form-data/lib/?C=S;O=A [31m500 [0m0.372 ms - 1112[0m
+App 3287 output: [0mGET /app2/views/pages/ [31m500 [0m0.408 ms - 1112[0m
+App 3287 output: [0mGET /app2/node_modules/combined-stream/ [31m500 [0m0.406 ms - 1112[0m
+App 3287 output: [0mGET /app2/node_modules/dashdash/?C=S;O=A [31m500 [0m0.388 ms - 1112[0m
+App 3287 output: [0mGET /app2/node_modules/iconv-lite/?C=S;O=A [31m500 [0m0.420 ms - 1112[0m
+App 3287 output: [0mGET /app2/node_modules/json-stringify-safe/ [31m500 [0m0.401 ms - 1112[0m
+App 3287 output: [0mGET /app2/node_modules/har-validator/ [31m500 [0m0.399 ms - 1112[0m
+App 3287 output: [0mGET /app2/public/data/?C=S;O=A [31m500 [0m0.479 ms - 1112[0m
+App 3287 output: [0mGET /app2/node_modules/chalk/node_modules/?C=N;O=D [31m500 [0m0.466 ms - 1112[0m
+App 3287 output: [0mGET /app2/node_modules/har-schema/?C=N;O=D [31m500 [0m0.374 ms - 1112[0m
+App 3287 output: [0mGET /robots.txt [31m500 [0m0.510 ms - 1112[0m
+App 1039 output: Agritech app Started on port 3000!
+App 1039 output: Connected!
+App 1039 output: Connected!
+App 1039 output: [0mGET /robots.txt [31m500 [0m6.046 ms - 1112[0m
+App 1039 output: [0mGET /app2/node_modules/is-typedarray/ [31m500 [0m0.692 ms - 1112[0m
+App 1039 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.569 ms - 1111[0m
+App 1039 output: [0mGET /indeximages/poster3.jpg [31m500 [0m0.584 ms - 1111[0m
+App 1039 output: [0mGET /robots.txt [31m500 [0m0.439 ms - 1111[0m
+App 1039 output: [0mGET /asset-manifest.json [31m500 [0m0.417 ms - 1111[0m
+App 10378 output: Agritech app Started on port 3000!
+App 10378 output: Connected!
+App 10378 output: Connected!
+App 10378 output: [0mGET /app2/node_modules/registry-url/ [31m500 [0m7.432 ms - 1112[0m
+App 10378 output: [0mGET /robots.txt [31m500 [0m0.650 ms - 1112[0m
+App 10378 output: [0mGET /app2/node_modules/typedarray-to-buffer/ [31m500 [0m0.533 ms - 1112[0m
+App 10378 output: [0mGET /robots.txt [31m500 [0m0.438 ms - 1112[0m
+App 29288 output: Agritech app Started on port 3000!
+App 29288 output: Connected!
+App 29288 output: Connected!
+App 29288 output: [0mGET /app2/node_modules/concat-map/ [31m500 [0m6.006 ms - 1112[0m
+App 29288 output: [0mGET /robots.txt [31m500 [0m1.027 ms - 1112[0m
